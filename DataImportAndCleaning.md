@@ -27,3 +27,26 @@ df <- left_join(df, df4, by = "drill_id")
 
 remove(df2,df3,df4,df5,df6)
 ```
+
+The dataframe is next trimmed to omit extraneous columns Then, names and data types are corrected. Last, the dataset is filtered to only include runs from motorized teams in 2016.
+
+``` r
+df2 <- data.frame(df$id, df$team_name, df$event_name, df$name, df$start_date.y, df$rank,df$performance,    
+                  df$division)
+colnames(df2) <- c("WebsiteID","TeamName","Contest","TournName","TournDate","Rank","Time","Division")
+
+df2$TournDate <- mdy_hm(df2$TournDate)
+df2$Time <- as.numeric(levels(df2$Time))[df2$Time]
+
+df2 <- df2 %>% filter((Division %in% c("Exhbition","Motorized")) & (TournDate > ymd("2016/01/01"))) 
+df2 <- df2 %>% filter((TournName != "Nassau County Old-Fashioned") & 
+                      (TournName != "Long Island Championship (OF)") & 
+                      (TournName != "New York State Old Fashioned Drill")& 
+                      (TournName != "Mike Esposito Memorial Drill"))
+df2 <- df2 %>% filter((Contest != " *********** LINEUP ***********") & 
+                      (Contest != "B Hose - CANCELED (RAIN)") & 
+                      (Contest != "Individual Ladder - SCHEDULED"))
+
+df2 <- separate(df2, Contest, c("Contest","discard"), sep = " - ")
+df2$discard <- NULL
+```
