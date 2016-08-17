@@ -1,18 +1,11 @@
----
-title: "DataImportAndCleaning"
-author: "Dan Murphy"
-date: "August 16, 2016"
-output: html_document
----
+DataImportAndCleaning
+================
+Dan Murphy
+August 16, 2016
 
-The normalized data was exported from [NYSDrillTeams](http://www.nysdrillteams.com).  The code below loads the CSV files, updates certain column names in order to complete the joins, and executes the joins.   
+The normalized data was exported from [NYSDrillTeams](http://www.nysdrillteams.com). The code below loads the CSV files, updates certain column names in order to complete the joins, and executes the joins.
 
-```{r, echo=FALSE, message=FALSE, warning=FALSE}
-library(dplyr)
-library(tidyr)
-```
-
-```{r, eval=FALSE}
+``` r
 df  <- read.csv("C:/Users/murph/Desktop/R/2016FDRacingPrediction/RawData/nysdt_events_results.csv")
 df2 <- read.csv("C:/Users/murph/Desktop/R/2016FDRacingPrediction/RawData/nysdt_teams.csv")
 df3 <- read.csv("C:/Users/murph/Desktop/R/2016FDRacingPrediction/RawData/nysdt_eventtypes.csv")
@@ -31,4 +24,6 @@ df <- left_join(df, df6, by = "event_id")
 df <- left_join(df, df5, by = "seasondrill_id")
 df <- left_join(df, df3, by = "type")
 df <- left_join(df, df4, by = "drill_id")
+
+remove(df2,df3,df4,df5,df6)
 ```

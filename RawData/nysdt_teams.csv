@@ -1,0 +1,516 @@
+id,team_name,division,alias,nickname,hometown,user_id,picture,picture_small,address,postcode,city,state,description,checked_out,checked_out_time
+1,East Norwich Spooks,Motorized,motorized-east-norwich-spooks,,East Norwich Fire Company #1,0,team_slug_1331813741.jpg,,900 Oyster Bay Road,11732,East Norwich,NY,"<p> </p>
+<p style=""margin: 0.0px 0.0px 12.0px 0.0px; line-height: 15.0px; font: 12.0px Helvetica; color: #333333;""><em>(Login to edit your profile)</em></p>
+<p> </p>",0,0000-00-00 00:00:00
+2,East Rockaway Cold Ducks,Motorized,motorized-east-rockaway-cold-ducks,,East Rockaway Fire Department,63,team_slug_1331813741.jpg,cold-ducks_1332283801.jpg,PO Box 203 • 473 Atlantic Avenue ,11518-0203,East Rockaway,NY,"<p> </p>
+<p style=""margin: 0.0px 0.0px 12.0px 0.0px; line-height: 15.0px; font: 12.0px Helvetica; color: #333333;""><em>(Login to edit your profile)</em></p>
+<p> </p>",0,0000-00-00 00:00:00
+3,Central Islip Hoboes,Motorized,motorized-central-islip-hoboes,,Central Islip Fire  Department,62,team_slug_1331813741.jpg,,97 Carleton Avenue,11722,Central Islip,NY,"<p> </p>
+<p style=""margin: 0.0px 0.0px 12.0px 0.0px; line-height: 15.0px; font: 12.0px Helvetica; color: #333333;""><em>(Login to edit your profile)</em></p>
+<p> </p>",0,0000-00-00 00:00:00
+5,Bellmore Ballbreakers,Motorized,motorized-bellmore-ballbreakers,,,64,team_slug_1331813741.jpg,,,,,,<p><em>(Login to edit your profile)</em></p>,0,0000-00-00 00:00:00
+6,Carle Place Frogs,Motorized,motorized-carle-place-frogs,,,62,team_slug_1331813741.jpg,,,,,,"<p> </p>
+<p style=""margin: 0.0px 0.0px 12.0px 0.0px; line-height: 15.0px; font: 12.0px Helvetica; color: #333333;""><em>(Login to edit your profile)</em></p>
+<p> </p>",0,0000-00-00 00:00:00
+7,Bellmore Ballbreakers,Old-Fashioned,old-fashioned-bellmore-ballbreakers,,,64,team_slug_1331813741.jpg,,,,,,"<p> </p>
+<p style=""margin: 0.0px 0.0px 12.0px 0.0px; line-height: 15.0px; font: 12.0px Helvetica; color: #333333;""><em>(Login to edit your profile)</em></p>
+<p> </p>",0,0000-00-00 00:00:00
+8,Bellmore Ballbreakers,Parade,#NAME?,,,64,team_slug_1331813741.jpg,,,,,,"<p> </p>
+<p style=""margin: 0.0px 0.0px 12.0px 0.0px; line-height: 15.0px; font: 12.0px Helvetica; color: #333333;""><em>(Login to edit your profile)</em></p>
+<p> </p>",0,0000-00-00 00:00:00
+9,Albion Fireflies,Motorized,motorized-albion-fireflies,,,75,team_slug_1331813741.jpg,,,,,,"<p> </p>
+<p style=""margin: 0.0px 0.0px 12.0px 0.0px; line-height: 15.0px; font: 12.0px Helvetica; color: #333333;""><em>(Login to edit your profile)</em></p>
+<p> </p>",0,0000-00-00 00:00:00
+10,Babylon Scroungers,Motorized,motorized-babylon-scroungers,,,69,team_slug_1331813741.jpg,,,,,,"<p> </p>
+<p style=""margin: 0.0px 0.0px 12.0px 0.0px; line-height: 15.0px; font: 12.0px Helvetica; color: #333333;""><em>(Login to edit your profile)</em></p>
+<p> </p>",0,0000-00-00 00:00:00
+11,Bay Shore Jr. Redskins,Junior,junior-bay-shore-jr-redskins,,,80,team_slug_1331813741.jpg,,,,,,"<p> </p>
+<p style=""margin: 0.0px 0.0px 12.0px 0.0px; line-height: 15.0px; font: 12.0px Helvetica; color: #333333;""><em>(Login to edit your profile)</em></p>
+<p> </p>",0,0000-00-00 00:00:00
+12,Bay Shore Redskins,Motorized,junior-bay-shore-redskins,,,80,team_slug_1331813741.jpg,,,,,,"<p>
+	&nbsp;</p>
+<p>
+	&nbsp;</p>
+<table border=""1"" cellpadding=""0"" cellspacing=""0"">
+	<tbody>
+		<tr>
+			<td colspan=""4"" style=""width:638px;"">
+				<p align=""center"">
+					Team Records</p>
+			</td>
+		</tr>
+		<tr>
+			<td style=""width:159px;"">
+				<p style=""text-align: center; "">
+					Event</p>
+			</td>
+			<td style=""width:159px;"">
+				<p style=""text-align: center; "">
+					Time</p>
+			</td>
+			<td style=""width:159px;"">
+				<p style=""text-align: center; "">
+					Track</p>
+			</td>
+			<td style=""width:159px;"">
+				<p style=""text-align: center; "">
+					Date</p>
+			</td>
+		</tr>
+		<tr>
+			<td style=""width:159px;"">
+				<p>
+					&nbsp;</p>
+			</td>
+			<td style=""width:159px;"">
+				<p>
+					&nbsp;</p>
+			</td>
+			<td style=""width:159px;"">
+				<p>
+					&nbsp;</p>
+			</td>
+			<td style=""width:159px;"">
+				<p>
+					&nbsp;</p>
+			</td>
+		</tr>
+		<tr>
+			<td style=""width:159px;"">
+				<p>
+					&nbsp;</p>
+			</td>
+			<td style=""width:159px;"">
+				<p>
+					&nbsp;</p>
+			</td>
+			<td style=""width:159px;"">
+				<p>
+					&nbsp;</p>
+			</td>
+			<td style=""width:159px;"">
+				<p>
+					&nbsp;</p>
+			</td>
+		</tr>
+		<tr>
+			<td style=""width:159px;"">
+				<p>
+					&nbsp;</p>
+			</td>
+			<td style=""width:159px;"">
+				<p>
+					&nbsp;</p>
+			</td>
+			<td style=""width:159px;"">
+				<p>
+					&nbsp;</p>
+			</td>
+			<td style=""width:159px;"">
+				<p>
+					&nbsp;</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+<p>
+	&nbsp;</p>
+<br />
+<p>
+	&nbsp;</p>",0,0000-00-00 00:00:00
+13,Brentwood Tigers,Motorized,motorized-brentwood-tigers,,,70,team_slug_1331813741.jpg,,,,,,"<p> </p>
+<p style=""margin: 0.0px 0.0px 12.0px 0.0px; line-height: 15.0px; font: 12.0px Helvetica; color: #333333;""><em>(Login to edit your profile)</em></p>
+<p> </p>",0,0000-00-00 00:00:00
+14,Central Islip Jr. Hoboes,Junior,junior-central-islip-jr-hoboes,,,81,team_slug_1331813741.jpg,,,,,,"<p> </p>
+<p style=""margin: 0.0px 0.0px 12.0px 0.0px; line-height: 15.0px; font: 12.0px Helvetica; color: #333333;""><em>(Login to edit your profile)</em></p>
+<p> </p>",0,0000-00-00 00:00:00
+15,Clayton Calumets,Motorized,motorized-clayton-calumets,,,71,team_slug_1331813741.jpg,,,,,,"<p> </p>
+<p style=""margin: 0.0px 0.0px 12.0px 0.0px; line-height: 15.0px; font: 12.0px Helvetica; color: #333333;""><em>(Login to edit your profile)</em></p>
+<p> </p>",0,0000-00-00 00:00:00
+16,Clayton Calumets,Parade,parade-clayton-calumets,,,71,team_slug_1331813741.jpg,,,,,,"<p> </p>
+<p style=""margin: 0.0px 0.0px 12.0px 0.0px; line-height: 15.0px; font: 12.0px Helvetica; color: #333333;""><em>(Login to edit your profile)</em></p>
+<p> </p>",0,0000-00-00 00:00:00
+17,Deerfield Hosebusters,Motorized,motorized-deerfield-hosebusters,,,73,team_slug_1331813741.jpg,,,,,,"<p> </p>
+<p style=""margin: 0.0px 0.0px 12.0px 0.0px; line-height: 15.0px; font: 12.0px Helvetica; color: #333333;""><em>(Login to edit your profile)</em></p>
+<p> </p>",0,0000-00-00 00:00:00
+18,Delmar Boosters,Motorized,motorized-delmar-boosters,,,72,team_slug_1331813741.jpg,,,,,,"<p> </p>
+<p style=""margin: 0.0px 0.0px 12.0px 0.0px; line-height: 15.0px; font: 12.0px Helvetica; color: #333333;""><em>(Login to edit your profile)</em></p>
+<p> </p>",0,0000-00-00 00:00:00
+19,Islip Jr. Wolves,Junior,junior-islip-jr-wolves,,,82,team_slug_1331813741.jpg,,,,,,"<p> </p>
+<p style=""margin: 0.0px 0.0px 12.0px 0.0px; line-height: 15.0px; font: 12.0px Helvetica; color: #333333;""><em>(Login to edit your profile)</em></p>
+<p> </p>",0,0000-00-00 00:00:00
+20,Islip Wolves,Motorized,motorized-islip-wolves,,,83,team_slug_1331813741.jpg,,,,,,"<p> </p>
+<p style=""margin: 0.0px 0.0px 12.0px 0.0px; line-height: 15.0px; font: 12.0px Helvetica; color: #333333;""><em>(Login to edit your profile)</em></p>
+<p> </p>",0,0000-00-00 00:00:00
+32,Louisville Turtles,Motorized,motorized-louisville-turtles,,,84,team_slug_1331813741.jpg,,,,,,"<p> </p>
+<p style=""margin: 0.0px 0.0px 12.0px 0.0px; line-height: 15.0px; font: 12.0px Helvetica; color: #333333;""><em>(Login to edit your profile)</em></p>
+<p> </p>",0,0000-00-00 00:00:00
+22,Main-Transit,Parade,#NAME?,,Main-Transit Fire Department,79,mtfd-parade_1331882294.jpg,mtfd-flag_1331882318.png,6777 Main Street,14221,Williamsville,NY,<p><em><br /></em></p>,0,0000-00-00 00:00:00
+23,Main-Transit Fast-Pokes,Junior,junior-main-transit-fast-pokes,,Main-Transit Fire Department,79,fastpokes_team_1331882352.jpg,fastpokes_1331882375.png,6777 Main Street,14221,Williamsville,NY,"<p><span style=""font-family: arial, sans-serif; font-size: small;""><span style=""font-size: 13px; line-height: normal; -webkit-border-horizontal-spacing: 2px; -webkit-border-vertical-spacing: 2px;""><br /></span></span></p>",0,0000-00-00 00:00:00
+24,Main-Transit Slo Pokes,Motorized,motorized-main-transit-slo-pokes,,Main-Transit Fire Department,78,slopokes_team_1331798068.jpg,mtfdslopokes_1331879626,6777 Main Street,14221,Williamsville,NY,,0,0000-00-00 00:00:00
+113,Merrick,Parade,#NAME?,,,62,,,,,,,,0,0000-00-00 00:00:00
+25,North Greece Lil Squirts,Motorized,motorized-north-greece-lil-squirts,,,76,team_slug_1331813741.jpg,,,,,,"<p> </p>
+<p style=""margin: 0.0px 0.0px 12.0px 0.0px; line-height: 15.0px; font: 12.0px Helvetica; color: #333333;""><em>(Login to edit your profile)</em></p>
+<p> </p>",0,0000-00-00 00:00:00
+26,Sea Breeze Indians,Motorized,motorized-sea-breeze-indians,,,77,team_slug_1331813741.jpg,,,,,,"<p> </p>
+<p style=""margin: 0.0px 0.0px 12.0px 0.0px; line-height: 15.0px; font: 12.0px Helvetica; color: #333333;""><em>(Login to edit your profile)</em></p>
+<p> </p>",0,0000-00-00 00:00:00
+27,Westbury Turtles,Old-Fashioned,old-fashioned-westbury-turtles,,,74,team_slug_1331813741.jpg,,,,,,"<p> </p>
+<p style=""margin: 0.0px 0.0px 12.0px 0.0px; line-height: 15.0px; font: 12.0px Helvetica; color: #333333;""><em>(Login to edit your profile)</em></p>
+<p> </p>",0,0000-00-00 00:00:00
+28,Westbury Turtles,Motorized,motorized-westbury-turtles,,,74,team_slug_1331813741.jpg,,,,,,"<p> </p>
+<p style=""margin: 0.0px 0.0px 12.0px 0.0px; line-height: 15.0px; font: 12.0px Helvetica; color: #333333;""><em>(Login to edit your profile)</em></p>
+<p> </p>",0,0000-00-00 00:00:00
+49,West Sayville Flying Dutchmen,Motorized,motorized-west-sayville-flying-dutchmen,,,106,team_slug_1331813741.jpg,,,,,,"<p> </p>
+<p style=""margin: 0.0px 0.0px 12.0px 0.0px; line-height: 15.0px; font: 12.0px Helvetica; color: #333333;""><em>(Login to edit your profile)</em></p>
+<p> </p>",0,0000-00-00 00:00:00
+30,Islip Terrace Schlagers,Motorized,motorized-schlagers,,,153,team_slug_1331813741.jpg,,,,,,"<p> </p>
+<p style=""margin: 0.0px 0.0px 12.0px 0.0px; line-height: 15.0px; font: 12.0px Helvetica; color: #333333;""><em>(Login to edit your profile)</em></p>
+<p> </p>",0,0000-00-00 00:00:00
+31,Islip Terrace Jr. Schlagers,Junior,junior-islip-terrace-jr-schlagers,,,89,team_slug_1331813741.jpg,,,,,,"<p> </p>
+<p style=""margin: 0.0px 0.0px 12.0px 0.0px; line-height: 15.0px; font: 12.0px Helvetica; color: #333333;""><em>(Login to edit your profile)</em></p>
+<p> </p>",0,0000-00-00 00:00:00
+33,Hagerman Gamblers,Motorized,motorized-hagerman-gamblers,,,154,team_slug_1331813741.jpg,,,,,,"<p> </p>
+<p style=""margin: 0.0px 0.0px 12.0px 0.0px; line-height: 15.0px; font: 12.0px Helvetica; color: #333333;""><em>(Login to edit your profile)</em></p>
+<p> </p>",0,0000-00-00 00:00:00
+34,Hagerman Jr. Gamblers,Junior,junior-hagerman-jr-gamblers,,,88,team_slug_1331813741.jpg,,,,,,"<p> </p>
+<p style=""margin: 0.0px 0.0px 12.0px 0.0px; line-height: 15.0px; font: 12.0px Helvetica; color: #333333;""><em>(Login to edit your profile)</em></p>
+<p> </p>",0,0000-00-00 00:00:00
+35,Blue Point Jr. Mighty Midgets,Junior,junior-blue-point-jr-mighty-midgets,,,85,team_slug_1331813741.jpg,,,,,,"<p> </p>
+<p style=""margin: 0.0px 0.0px 12.0px 0.0px; line-height: 15.0px; font: 12.0px Helvetica; color: #333333;""><em>(Login to edit your profile)</em></p>
+<p> </p>",0,0000-00-00 00:00:00
+36,East Islip Jr. Guzzlers,Junior,junior-east-islip-jr-guzzlers,,,86,team_slug_1331813741.jpg,,,,,,"<p> </p>
+<p style=""margin: 0.0px 0.0px 12.0px 0.0px; line-height: 15.0px; font: 12.0px Helvetica; color: #333333;""><em>(Login to edit your profile)</em></p>
+<p> </p>",0,0000-00-00 00:00:00
+37,East Islip Guzzlers,Motorized,motorized-east-islip-guzzlers,,,156,team_slug_1331813741.jpg,,,,,,"<p> </p>
+<p style=""margin: 0.0px 0.0px 12.0px 0.0px; line-height: 15.0px; font: 12.0px Helvetica; color: #333333;""><em>(Login to edit your profile)</em></p>
+<p> </p>",0,0000-00-00 00:00:00
+38,East Farmingdale Jr. Hares,Junior,junior-east-farmingdale-jr-hares,,,87,team_slug_1331813741.jpg,,,,,,"<p> </p>
+<p style=""margin: 0.0px 0.0px 12.0px 0.0px; line-height: 15.0px; font: 12.0px Helvetica; color: #333333;""><em>(Login to edit your profile)</em></p>
+<p> </p>",0,0000-00-00 00:00:00
+39,East Farmingdale Hares,Motorized,motorized-east-farmingdale-hares,,,157,team_slug_1331813741.jpg,,,,,,"<p> </p>
+<p style=""margin: 0.0px 0.0px 12.0px 0.0px; line-height: 15.0px; font: 12.0px Helvetica; color: #333333;""><em>(Login to edit your profile)</em></p>
+<p> </p>",0,0000-00-00 00:00:00
+40,Lindenhurst Jr. Snails,Junior,junior-lindenhurst-jr-snails,,,90,team_slug_1331813741.jpg,,,,,,"<p> </p>
+<p style=""margin: 0.0px 0.0px 12.0px 0.0px; line-height: 15.0px; font: 12.0px Helvetica; color: #333333;""><em>(Login to edit your profile)</em></p>
+<p> </p>",0,0000-00-00 00:00:00
+41,Lindenhurst Snails,Motorized,motorized-lindenhurst-snails,,,96,team_slug_1331813741.jpg,,,,,,"<p> </p>
+<p style=""margin: 0.0px 0.0px 12.0px 0.0px; line-height: 15.0px; font: 12.0px Helvetica; color: #333333;""><em>(Login to edit your profile)</em></p>
+<p> </p>",0,0000-00-00 00:00:00
+42,Medford Jr. Mavericks,Junior,junior-medford-jr-mavericks,,,91,team_slug_1331813741.jpg,,,,,,"<p> </p>
+<p style=""margin: 0.0px 0.0px 12.0px 0.0px; line-height: 15.0px; font: 12.0px Helvetica; color: #333333;""><em>(Login to edit your profile)</em></p>
+<p> </p>",0,0000-00-00 00:00:00
+43,Medford Stump Jumpers,Motorized,motorized-medford-stump-jumpers,,,152,team_slug_1331813741.jpg,,,,,,"<p> </p>
+<p style=""margin: 0.0px 0.0px 12.0px 0.0px; line-height: 15.0px; font: 12.0px Helvetica; color: #333333;""><em>(Login to edit your profile)</em></p>
+<p> </p>",0,0000-00-00 00:00:00
+44,North Babylon Jr. Tail Draggers,Junior,junior-north-babylon-jr-tail-draggers,,,92,team_slug_1331813741.jpg,,,,,,"<p> </p>
+<p style=""margin: 0.0px 0.0px 12.0px 0.0px; line-height: 15.0px; font: 12.0px Helvetica; color: #333333;""><em>(Login to edit your profile)</em></p>
+<p> </p>",0,0000-00-00 00:00:00
+45,North Babylon Tail Draggers,Motorized,motorized-north-babylon-tail-draggers,,,150,team_slug_1331813741.jpg,,,,,,"<p> </p>
+<p style=""margin: 0.0px 0.0px 12.0px 0.0px; line-height: 15.0px; font: 12.0px Helvetica; color: #333333;""><em>(Login to edit your profile)</em></p>
+<p> </p>",0,0000-00-00 00:00:00
+46,Selden Jr. Slow Pokes,Junior,junior-selden-jr-slow-pokes,,,93,team_slug_1331813741.jpg,,,,,,"<p> </p>
+<p style=""margin: 0.0px 0.0px 12.0px 0.0px; line-height: 15.0px; font: 12.0px Helvetica; color: #333333;""><em>(Login to edit your profile)</em></p>
+<p> </p>",0,0000-00-00 00:00:00
+47,Selden Slowpokes,Motorized,motorized-selden-slowpokes,,,108,team_slug_1331813741.jpg,,,,,,"<p> </p>
+<p style=""margin: 0.0px 0.0px 12.0px 0.0px; line-height: 15.0px; font: 12.0px Helvetica; color: #333333;""><em>(Login to edit your profile)</em></p>
+<p> </p>",0,0000-00-00 00:00:00
+50,West Sayville Jr. Flying Dutchmen,Junior,junior-west-sayville-jr-flying-dutchmen,,,94,team_slug_1331813741.jpg,,,,,,"<p> </p>
+<p style=""margin: 0.0px 0.0px 12.0px 0.0px; line-height: 15.0px; font: 12.0px Helvetica; color: #333333;""><em>(Login to edit your profile)</em></p>
+<p> </p>",0,0000-00-00 00:00:00
+52,Copenhagen Cubs,Motorized,motorized-copenhagen-cubs,,,100,team_slug_1331813741.jpg,,,,,,"<p> </p>
+<p style=""margin: 0.0px 0.0px 12.0px 0.0px; line-height: 15.0px; font: 12.0px Helvetica; color: #333333;""><em>(Login to edit your profile)</em></p>
+<p> </p>",0,0000-00-00 00:00:00
+53,Elsmere Wanderers,Motorized,motorized-elsmere-wanderers,,,99,team_slug_1331813741.jpg,,,,,,"<p> </p>
+<p style=""margin: 0.0px 0.0px 12.0px 0.0px; line-height: 15.0px; font: 12.0px Helvetica; color: #333333;""><em>(Login to edit your profile)</em></p>
+<p> </p>",0,0000-00-00 00:00:00
+55,Great Bend Cobras,Motorized,motorized-great-bend-cobras,,,98,team_slug_1331813741.jpg,,,,,,"<p> </p>
+<p style=""margin: 0.0px 0.0px 12.0px 0.0px; line-height: 15.0px; font: 12.0px Helvetica; color: #333333;""><em>(Login to edit your profile)</em></p>
+<p> </p>",0,0000-00-00 00:00:00
+56,Lake Placid Panthers,Motorized,motorized-lake-placid-panthers,,,97,team_slug_1331813741.jpg,,,,,,"<p> </p>
+<p style=""margin: 0.0px 0.0px 12.0px 0.0px; line-height: 15.0px; font: 12.0px Helvetica; color: #333333;""><em>(Login to edit your profile)</em></p>
+<p> </p>",0,0000-00-00 00:00:00
+57,Norfolk Snails,Motorized,motorized-norfolk-snails,,,96,team_slug_1331813741.jpg,,,,,,"<p> </p>
+<p style=""margin: 0.0px 0.0px 12.0px 0.0px; line-height: 15.0px; font: 12.0px Helvetica; color: #333333;""><em>(Login to edit your profile)</em></p>
+<p> </p>",0,0000-00-00 00:00:00
+58,West Carthage Hornets,Motorized,motorized-west-carthage-hornets,,,95,team_slug_1331813741.jpg,,,,,,"<p> </p>
+<p style=""margin: 0.0px 0.0px 12.0px 0.0px; line-height: 15.0px; font: 12.0px Helvetica; color: #333333;""><em>(Login to edit your profile)</em></p>
+<p> </p>",0,0000-00-00 00:00:00
+59,Henrietta Ol' Henries,Motorized,motorized-henrietta-ol-henries,,,104,team_slug_1331813741.jpg,,,,,,"<p> </p>
+<p style=""margin: 0.0px 0.0px 12.0px 0.0px; line-height: 15.0px; font: 12.0px Helvetica; color: #333333;""><em>(Login to edit your profile)</em></p>
+<p> </p>",0,0000-00-00 00:00:00
+60,Point Pleasant Pea Pickers,Motorized,motorized-point-pleasant-pea-pickers,,,103,team_slug_1331813741.jpg,,,,,,"<p> </p>
+<p style=""margin: 0.0px 0.0px 12.0px 0.0px; line-height: 15.0px; font: 12.0px Helvetica; color: #333333;""><em>(Login to edit your profile)</em></p>
+<p> </p>",0,0000-00-00 00:00:00
+61,Sheridan Park All Thumbs,Motorized,motorized-sheridan-park-all-thumbs,,,102,team_slug_1331813741.jpg,,,,,,"<p> </p>
+<p style=""margin: 0.0px 0.0px 12.0px 0.0px; line-height: 15.0px; font: 12.0px Helvetica; color: #333333;""><em>(Login to edit your profile)</em></p>
+<p> </p>",0,0000-00-00 00:00:00
+62,Spencerport Red Onions,Motorized,motorized-spencerport-red-onions,,,101,team_slug_1331813741.jpg,,,,,,"<p> </p>
+<p style=""margin: 0.0px 0.0px 12.0px 0.0px; line-height: 15.0px; font: 12.0px Helvetica; color: #333333;""><em>(Login to edit your profile)</em></p>
+<p> </p>",0,0000-00-00 00:00:00
+63,Baldwin Tomcats,Motorized,motorized-baldwin-tomcats,,,144,team_slug_1331813741.jpg,,,,,,"<p> </p>
+<p style=""margin: 0.0px 0.0px 12.0px 0.0px; line-height: 15.0px; font: 12.0px Helvetica; color: #333333;""><em>(Login to edit your profile)</em></p>
+<p> </p>",0,0000-00-00 00:00:00
+64,East Meadow Meadowlarks,Motorized,motorized-east-meadow-meadowlarks,,,143,team_slug_1331813741.jpg,,,,,,"<p> </p>
+<p style=""margin: 0.0px 0.0px 12.0px 0.0px; line-height: 15.0px; font: 12.0px Helvetica; color: #333333;""><em>(Login to edit your profile)</em></p>
+<p> </p>",0,0000-00-00 00:00:00
+65,Elmont Bangtails,Motorized,motorized-elmont-bangtails,,,142,team_slug_1331813741.jpg,,,,,,"<p> </p>
+<p style=""margin: 0.0px 0.0px 12.0px 0.0px; line-height: 15.0px; font: 12.0px Helvetica; color: #333333;""><em>(Login to edit your profile)</em></p>
+<p> </p>",0,0000-00-00 00:00:00
+66,Floral Park Doodlebugs,Motorized,motorized-floral-park-doodlebugs,,,141,team_slug_1331813741.jpg,,,,,,"<p> </p>
+<p style=""margin: 0.0px 0.0px 12.0px 0.0px; line-height: 15.0px; font: 12.0px Helvetica; color: #333333;""><em>(Login to edit your profile)</em></p>
+<p> </p>",0,0000-00-00 00:00:00
+67,Franklin Square Square Shooters,Motorized,motorized-franklin-square-square-shooters,,,140,team_slug_1331813741.jpg,,,,,,"<p> </p>
+<p style=""margin: 0.0px 0.0px 12.0px 0.0px; line-height: 15.0px; font: 12.0px Helvetica; color: #333333;""><em>(Login to edit your profile)</em></p>
+<p> </p>",0,0000-00-00 00:00:00
+68,Freeport Clamdiggers,Motorized,motorized-freeport-clamdiggers,,,139,team_slug_1331813741.jpg,,,,,,"<p> </p>
+<p style=""margin: 0.0px 0.0px 12.0px 0.0px; line-height: 15.0px; font: 12.0px Helvetica; color: #333333;""><em>(Login to edit your profile)</em></p>
+<p> </p>",0,0000-00-00 00:00:00
+69,Freeport Dead End Kids,Motorized,motorized-freeport-dead-end-kids,,,138,team_slug_1331813741.jpg,,,,,,"<p> </p>
+<p style=""margin: 0.0px 0.0px 12.0px 0.0px; line-height: 15.0px; font: 12.0px Helvetica; color: #333333;""><em>(Login to edit your profile)</em></p>
+<p> </p>",0,0000-00-00 00:00:00
+70,Freeport Nighthawks,Motorized,motorized-freeport-nighthawks,,,138,team_slug_1331813741.jpg,,,,,,"<p> </p>
+<p style=""margin: 0.0px 0.0px 12.0px 0.0px; line-height: 15.0px; font: 12.0px Helvetica; color: #333333;""><em>(Login to edit your profile)</em></p>
+<p> </p>",0,0000-00-00 00:00:00
+71,Garden City Park Mustangs,Motorized,motorized-garden-city-park-mustangs,,,136,team_slug_1331813741.jpg,,,,,,"<p> </p>
+<p style=""margin: 0.0px 0.0px 12.0px 0.0px; line-height: 15.0px; font: 12.0px Helvetica; color: #333333;""><em>(Login to edit your profile)</em></p>
+<p> </p>",0,0000-00-00 00:00:00
+72,Glen Cove Wet Ears,Motorized,motorized-glen-cove-wet-ears,,,135,team_slug_1331813741.jpg,,,,,,"<p> </p>
+<p style=""margin: 0.0px 0.0px 12.0px 0.0px; line-height: 15.0px; font: 12.0px Helvetica; color: #333333;""><em>(Login to edit your profile)</em></p>
+<p> </p>",0,0000-00-00 00:00:00
+73,Glenwood Greenhorns,Motorized,motorized-glenwood-greenhorns,,,134,team_slug_1331813741.jpg,,,,,,"<p> </p>
+<p style=""margin: 0.0px 0.0px 12.0px 0.0px; line-height: 15.0px; font: 12.0px Helvetica; color: #333333;""><em>(Login to edit your profile)</em></p>
+<p> </p>",0,0000-00-00 00:00:00
+74,Hempstead Yellow Hornets,Motorized,motorized-hempstead-yellow-hornets,,,133,team_slug_1331813741.jpg,,,,,,"<p> </p>
+<p style=""margin: 0.0px 0.0px 12.0px 0.0px; line-height: 15.0px; font: 12.0px Helvetica; color: #333333;""><em>(Login to edit your profile)</em></p>
+<p> </p>",0,0000-00-00 00:00:00
+75,Hicksville Hicks,Motorized,motorized-hicksville-hicks,,,132,team_slug_1331813741.jpg,,,,,,"<p> </p>
+<p style=""margin: 0.0px 0.0px 12.0px 0.0px; line-height: 15.0px; font: 12.0px Helvetica; color: #333333;""><em>(Login to edit your profile)</em></p>
+<p> </p>",0,0000-00-00 00:00:00
+76,Inwood Mud Ducks,Motorized,motorized-inwood-mud-ducks,,,131,team_slug_1331813741.jpg,,,,,,"<p> </p>
+<p style=""margin: 0.0px 0.0px 12.0px 0.0px; line-height: 15.0px; font: 12.0px Helvetica; color: #333333;""><em>(Login to edit your profile)</em></p>
+<p> </p>",0,0000-00-00 00:00:00
+77,Lakeview Sparks,Motorized,motorized-lakeview-sparks,,,130,team_slug_1331813741.jpg,,,,,,"<p> </p>
+<p style=""margin: 0.0px 0.0px 12.0px 0.0px; line-height: 15.0px; font: 12.0px Helvetica; color: #333333;""><em>(Login to edit your profile)</em></p>
+<p> </p>",0,0000-00-00 00:00:00
+78,Levittown Rebels,Motorized,motorized-levittown-rebels,,,129,team_slug_1331813741.jpg,,,,,,"<p> </p>
+<p style=""margin: 0.0px 0.0px 12.0px 0.0px; line-height: 15.0px; font: 12.0px Helvetica; color: #333333;""><em>(Login to edit your profile)</em></p>
+<p> </p>",0,0000-00-00 00:00:00
+79,Long Beach Apaches,Motorized,motorized-long-beach-apaches,,,128,team_slug_1331813741.jpg,,,,,,"<p> </p>
+<p style=""margin: 0.0px 0.0px 12.0px 0.0px; line-height: 15.0px; font: 12.0px Helvetica; color: #333333;""><em>(Login to edit your profile)</em></p>
+<p> </p>",0,0000-00-00 00:00:00
+80,Lynbrook Tumblers,Motorized,motorized-lynbrook-tumblers,,,127,team_slug_1331813741.jpg,,,,,,"<p> </p>
+<p style=""margin: 0.0px 0.0px 12.0px 0.0px; line-height: 15.0px; font: 12.0px Helvetica; color: #333333;""><em>(Login to edit your profile)</em></p>
+<p> </p>",0,0000-00-00 00:00:00
+81,Malverne Chipmunks,Motorized,motorized-malverne-chipmunks,,,126,team_slug_1331813741.jpg,,,,,,"<p> </p>
+<p style=""margin: 0.0px 0.0px 12.0px 0.0px; line-height: 15.0px; font: 12.0px Helvetica; color: #333333;""><em>(Login to edit your profile)</em></p>
+<p> </p>",0,0000-00-00 00:00:00
+82,Manhasset-Lakeville Minute Men,Motorized,motorized-manhasset-lakeville-minute-men,,,125,team_slug_1331813741.jpg,,,,,,"<p> </p>
+<p style=""margin: 0.0px 0.0px 12.0px 0.0px; line-height: 15.0px; font: 12.0px Helvetica; color: #333333;""><em>(Login to edit your profile)</em></p>
+<p> </p>",0,0000-00-00 00:00:00
+83,Meadowmere Park High Tides,Motorized,motorized-meadowmere-park-high-tides,,,124,team_slug_1331813741.jpg,,,,,,"<p> </p>
+<p style=""margin: 0.0px 0.0px 12.0px 0.0px; line-height: 15.0px; font: 12.0px Helvetica; color: #333333;""><em>(Login to edit your profile)</em></p>
+<p> </p>",0,0000-00-00 00:00:00
+84,Merrick Buckeyes,Motorized,motorized-merrick-buckeyes,,,123,team_slug_1331813741.jpg,,,,,,"<p> </p>
+<p style=""margin: 0.0px 0.0px 12.0px 0.0px; line-height: 15.0px; font: 12.0px Helvetica; color: #333333;""><em>(Login to edit your profile)</em></p>
+<p> </p>",0,0000-00-00 00:00:00
+85,North Bellmore Rinky Dinks,Motorized,motorized-north-bellmore-rinky-dinks,,,121,team_slug_1331813741.jpg,,,,,,"<p> </p>
+<p style=""margin: 0.0px 0.0px 12.0px 0.0px; line-height: 15.0px; font: 12.0px Helvetica; color: #333333;""><em>(Login to edit your profile)</em></p>
+<p> </p>",0,0000-00-00 00:00:00
+86,Oyster Bay Teddy's Boys,Motorized,motorized-oyster-bay-teddys-boys,,,120,team_slug_1331813741.jpg,,,,,,"<p> </p>
+<p style=""margin: 0.0px 0.0px 12.0px 0.0px; line-height: 15.0px; font: 12.0px Helvetica; color: #333333;""><em>(Login to edit your profile)</em></p>
+<p> </p>",0,0000-00-00 00:00:00
+87,Plainview Plainsmen,Motorized,motorized-plainview-plainsmen,,,119,team_slug_1331813741.jpg,,,,,,"<p> </p>
+<p style=""margin: 0.0px 0.0px 12.0px 0.0px; line-height: 15.0px; font: 12.0px Helvetica; color: #333333;""><em>(Login to edit your profile)</em></p>
+<p> </p>",0,0000-00-00 00:00:00
+88,Point Lookout Smokin Seagulls,Motorized,motorized-point-lookout-smokin-seagulls,,,118,team_slug_1331813741.jpg,,,,,,"<p> </p>
+<p style=""margin: 0.0px 0.0px 12.0px 0.0px; line-height: 15.0px; font: 12.0px Helvetica; color: #333333;""><em>(Login to edit your profile)</em></p>
+<p> </p>",0,0000-00-00 00:00:00
+89,Port Washington Road Runners,Motorized,motorized-port-washington-road-runners,,,117,team_slug_1331813741.jpg,,,,,,"<p> </p>
+<p style=""margin: 0.0px 0.0px 12.0px 0.0px; line-height: 15.0px; font: 12.0px Helvetica; color: #333333;""><em>(Login to edit your profile)</em></p>
+<p> </p>",0,0000-00-00 00:00:00
+90,Rockville Centre Woodlanders,Motorized,motorized-rockville-centre-woodlanders,,,116,team_slug_1331813741.jpg,,,,,,"<p> </p>
+<p style=""margin: 0.0px 0.0px 12.0px 0.0px; line-height: 15.0px; font: 12.0px Helvetica; color: #333333;""><em>(Login to edit your profile)</em></p>
+<p> </p>",0,0000-00-00 00:00:00
+91,Roslyn Highlanders,Motorized,motorized-roslyn-highlanders,,,115,team_slug_1331813741.jpg,,,,,,"<p> </p>
+<p style=""margin: 0.0px 0.0px 12.0px 0.0px; line-height: 15.0px; font: 12.0px Helvetica; color: #333333;""><em>(Login to edit your profile)</em></p>
+<p> </p>",0,0000-00-00 00:00:00
+92,Seaford Inmates,Motorized,motorized-seaford-inmates,,,114,team_slug_1331813741.jpg,,,,,,"<p> </p>
+<p style=""margin: 0.0px 0.0px 12.0px 0.0px; line-height: 15.0px; font: 12.0px Helvetica; color: #333333;""><em>(Login to edit your profile)</em></p>
+<p> </p>",0,0000-00-00 00:00:00
+93,South Hempstead Rascals,Motorized,motorized-south-hempstead-rascals,,,113,team_slug_1331813741.jpg,,,,,,"<p> </p>
+<p style=""margin: 0.0px 0.0px 12.0px 0.0px; line-height: 15.0px; font: 12.0px Helvetica; color: #333333;""><em>(Login to edit your profile)</em></p>
+<p> </p>",0,0000-00-00 00:00:00
+94,Valley Stream Misfits,Old-Fashioned,motorized-valley-stream-misfits,,,112,team_slug_1331813741.jpg,,,,,,"<p> </p>
+<p style=""margin: 0.0px 0.0px 12.0px 0.0px; line-height: 15.0px; font: 12.0px Helvetica; color: #333333;""><em>(Login to edit your profile)</em></p>
+<p> </p>",0,0000-00-00 00:00:00
+95,Wantagh Knuckleheads,Motorized,motorized-wantagh-knuckleheads,,,111,team_slug_1331813741.jpg,,,,,,"<p> </p>
+<p style=""margin: 0.0px 0.0px 12.0px 0.0px; line-height: 15.0px; font: 12.0px Helvetica; color: #333333;""><em>(Login to edit your profile)</em></p>
+<p> </p>",0,0000-00-00 00:00:00
+97,West Hempstead Westerners,Motorized,motorized-west-hempstead-westerners,,,109,team_slug_1331813741.jpg,,,,,,"<p> </p>
+<p style=""margin: 0.0px 0.0px 12.0px 0.0px; line-height: 15.0px; font: 12.0px Helvetica; color: #333333;""><em>(Login to edit your profile)</em></p>
+<p> </p>",0,0000-00-00 00:00:00
+98,Wyandanch Indians,Motorized,motorized-wyandanch-indians,,,105,team_slug_1331813741.jpg,,,,,,"<p> </p>
+<p style=""margin: 0.0px 0.0px 12.0px 0.0px; line-height: 15.0px; font: 12.0px Helvetica; color: #333333;""><em>(Login to edit your profile)</em></p>
+<p> </p>",0,0000-00-00 00:00:00
+99,West Islip Raiders,Motorized,motorized-west-islip-raiders,,,107,team_slug_1331813741.jpg,,,,,,"<p> </p>
+<p style=""margin: 0.0px 0.0px 12.0px 0.0px; line-height: 15.0px; font: 12.0px Helvetica; color: #333333;""><em>(Login to edit your profile)</em></p>
+<p> </p>",0,0000-00-00 00:00:00
+100,Sayville Blue Jays,Motorized,motorized-sayville-blue-jays,,,145,team_slug_1331813741.jpg,,,,,,"<p> </p>
+<p style=""margin: 0.0px 0.0px 12.0px 0.0px; line-height: 15.0px; font: 12.0px Helvetica; color: #333333;""><em>(Login to edit your profile)</em></p>
+<p> </p>",0,0000-00-00 00:00:00
+101,Saint James Wildcats,Motorized,motorized-saint-james-wildcats,,,146,team_slug_1331813741.jpg,,,,,,"<p> </p>
+<p style=""margin: 0.0px 0.0px 12.0px 0.0px; line-height: 15.0px; font: 12.0px Helvetica; color: #333333;""><em>(Login to edit your profile)</em></p>
+<p> </p>",0,0000-00-00 00:00:00
+102,Riverhead Ironmen,Motorized,motorized-riverhead-ironmen,,,147,team_slug_1331813741.jpg,,,,,,"<p> </p>
+<p style=""margin: 0.0px 0.0px 12.0px 0.0px; line-height: 15.0px; font: 12.0px Helvetica; color: #333333;""><em>(Login to edit your profile)</em></p>
+<p> </p>",0,0000-00-00 00:00:00
+103,Patchogue Replacements,Motorized,motorized-patchogue-replacements,,,148,team_slug_1331813741.jpg,,,,,,"<p> </p>
+<p style=""margin: 0.0px 0.0px 12.0px 0.0px; line-height: 15.0px; font: 12.0px Helvetica; color: #333333;""><em>(Login to edit your profile)</em></p>
+<p> </p>",0,0000-00-00 00:00:00
+104,North Lindenhurst Piston Knockers,Motorized,motorized-north-lindenhurst-piston-knockers,,,149,team_slug_1331813741.jpg,,,,,,"<p> </p>
+<p style=""margin: 0.0px 0.0px 12.0px 0.0px; line-height: 15.0px; font: 12.0px Helvetica; color: #333333;""><em>(Login to edit your profile)</em></p>
+<p> </p>",0,0000-00-00 00:00:00
+105,Miller Place Extinguishers,Motorized,motorized-miller-place-extinguishers,,,151,team_slug_1331813741.jpg,,,,,,"<p> </p>
+<p style=""margin: 0.0px 0.0px 12.0px 0.0px; line-height: 15.0px; font: 12.0px Helvetica; color: #333333;""><em>(Login to edit your profile)</em></p>
+<p> </p>",0,0000-00-00 00:00:00
+106,Farmingville Bandits,Motorized,motorized-farmingville-bandits,,,155,team_slug_1331813741.jpg,,,,,,"<p> </p>
+<p style=""margin: 0.0px 0.0px 12.0px 0.0px; line-height: 15.0px; font: 12.0px Helvetica; color: #333333;""><em>(Login to edit your profile)</em></p>
+<p> </p>",0,0000-00-00 00:00:00
+107,Deer Park Bucks,Motorized,motorized-deer-park-bucks,,,158,team_slug_1331813741.jpg,,,,,,"<p> </p>
+<p style=""margin: 0.0px 0.0px 12.0px 0.0px; line-height: 15.0px; font: 12.0px Helvetica; color: #333333;""><em>(Login to edit your profile)</em></p>
+<p> </p>",0,0000-00-00 00:00:00
+108,Cutchogue Panthers,Motorized,motorized-cutchogue-panthers,,,97,team_slug_1331813741.jpg,,,,,,"<p> </p>
+<p style=""margin: 0.0px 0.0px 12.0px 0.0px; line-height: 15.0px; font: 12.0px Helvetica; color: #333333;""><em>(Login to edit your profile)</em></p>
+<p> </p>",0,0000-00-00 00:00:00
+109,Coram Hellraisers,Motorized,motorized-coram-hellraisers,,,159,team_slug_1331813741.jpg,,,,,,"<p> </p>
+<p style=""margin: 0.0px 0.0px 12.0px 0.0px; line-height: 15.0px; font: 12.0px Helvetica; color: #333333;""><em>(Login to edit your profile)</em></p>
+<p> </p>",0,0000-00-00 00:00:00
+110,Copiague Yellowbirds,Motorized,motorized-copiague-yellowbirds,,,160,team_slug_1331813741.jpg,,,,,,"<p> </p>
+<p style=""margin: 0.0px 0.0px 12.0px 0.0px; line-height: 15.0px; font: 12.0px Helvetica; color: #333333;""><em>(Login to edit your profile)</em></p>
+<p> </p>",0,0000-00-00 00:00:00
+111,Amityville Villains,Motorized,motorized-amityville-villains,,,161,team_slug_1331813741.jpg,,,,,,"<p> </p>
+<p style=""margin: 0.0px 0.0px 12.0px 0.0px; line-height: 15.0px; font: 12.0px Helvetica; color: #333333;""><em>(Login to edit your profile)</em></p>
+<p> </p>",0,0000-00-00 00:00:00
+112,North Massapequa,Parade,parade-north-massapequa,,,62,,,,,,,,0,0000-00-00 00:00:00
+117,Malverne Chipmunks,Old-Fashioned,old-fashioned-malverne-chipmunks,,,126,,,,,,,,0,3/20/2012 17:38
+118,Franklin Square Square Shooters,Old-Fashioned,old-fashioned-franklin-square-square-shooters,,,0,,,,,,,,0,3/20/2012 21:28
+120,West Sayville,Parade,parade-west-sayville,,,0,,,,,,,,0,0000-00-00 00:00:00
+204,Farmingville Bandits,Junior,junior-farmingville-bandits,,,0,,,,,,,,0,8/30/2012 14:01
+128,Say,West,west-say,,NULL,0,NULL,NULL,NULL,NULL,NULL,NULL,NULL,0,7/13/2012 23:01
+129,New Hyde Park Termites,Motorized,motorized-new-hyde-park-termites,,,0,,,,,,,,0,7/14/2012 13:01
+130,Miller Place Extinguishers,Old-Fashioned,old-fashioned-miller-place-extinguishers,,,0,,,,,,,,0,7/14/2012 19:32
+131,Oyster Bay Teddy's Boys,Old-Fashioned,old-fashioned-oyster-bay-teddys-boys,,,0,,,,,,,,0,7/14/2012 19:33
+132,Lynbrook Tumblers,Old-Fashioned,old-fashioned-lynbrook-tumblers,,,0,,,,,,,,0,7/14/2012 19:34
+133,Glen Cove Wet Ears,Old-Fashioned,old-fashioned-glen-cove-wet-ears,,,0,,,,,,,,0,7/14/2012 19:35
+134,Freeport Nighthawks,Old-Fashioned,old-fashioned-freeport-nighthawks,,,0,,,,,,,,0,7/14/2012 19:36
+135,Freeport Clamdiggers,Old-Fashioned,old-fashioned-freeport-clamdiggers,,,0,,,,,,,,0,7/14/2012 19:37
+136,Medford Stump Jumpers,Old-Fashioned,old-fashioned-medford-stump-jumpers,,,0,,,,,,,,0,0000-00-00 00:00:00
+137,Amityville Villains,Old-Fashioned,old-fashioned-amityville-villains,,,0,,,,,,,,0,0000-00-00 00:00:00
+138,Rockville Centre Woodlanders,Old-Fashioned,old-fashioned-rockville-centre-woodlanders,,,0,,,,,,,,0,0000-00-00 00:00:00
+139,Rocky Point Rum Runners,Old-Fashioned,old-fashioned-rocky-point-rum-runners,,,0,,,,,,,,0,7/14/2012 20:02
+140,Bayville Oak Neckers,Old-Fashioned,old-fashioned-bayville-oak-neckers,,,0,,,,,,,,0,7/15/2012 4:47
+141,Rockv,Old-Fashioned,old-fashioned-rockv,,NULL,0,NULL,NULL,NULL,NULL,NULL,NULL,NULL,0,7/15/2012 23:58
+142,Copenhagen Cubs,Exhibition,exhibition-copenhagen-cubs,,,0,,,,,,,,0,7/17/2012 19:24
+143,Deerfield Hosebusters,Exhibition,exhibition-deerfield-hosebusters,,,0,,,,,,,,0,7/17/2012 19:26
+144,Great Bend Cobras,Exhibition,exhibition-great-bend-cobras,,,0,,,,,,,,0,7/17/2012 19:28
+145,Lake Placid Panthers,Exhibition,exhibition-lake-placid-panthers,,,0,,,,,,,,0,7/17/2012 19:31
+146,Elsmere Wanderers,Exhibition,exhibition-elsmere-wanderers,,,0,,,,,,,,0,7/17/2012 19:34
+147,Norfolk Snails,Exhibition,exhibition-norfolk-snails,,,0,,,,,,,,0,7/17/2012 19:37
+148,West Carthage Hornets,Exhibition,exhibition-west-carthage-hornets,,,0,,,,,,,,0,7/17/2012 19:39
+149,Clayton Calumets,Exhibition,exhibition-clayton-calumets,,,0,,,,,,,,0,7/17/2012 19:41
+150,Louisville Turtles,Exhibition,exhibition-louisville-turtles,,,0,,,,,,,,0,7/17/2012 19:44
+151,Manhasset-Lakeville Minute Men,Exhibition,exhibition-manhasset-lakeville-minute-men,,,0,,,,,,,,0,7/18/2012 5:13
+152,Roslyn Highlanders,Exhibition,exhibition-roslyn-highlanders,,,0,,,,,,,,0,7/18/2012 5:13
+153,Port Washington Road Runners,Exhibition,exhibition-port-washington-road-runners,,,0,,,,,,,,0,7/18/2012 5:14
+154,West Hempstead Westerners,Exhibition,exhibition-west-hempstead-westerners,,,0,,,,,,,,0,7/18/2012 6:03
+155,North Greece Lil Squirts,Exhibition,exhibition-north-greece-lil-squirts,,,0,,,,,,,,0,7/23/2012 22:59
+156,Main-Transit Slo-Pokes,Exhibition,exhibition-main-transit-slo-pokes,,,0,,,,,,,,0,7/23/2012 23:00
+157,Sheridan Park All Thumbs,Exhibition,exhibition-sheridan-park-all-thumbs,,,0,,,,,,,,0,7/23/2012 23:01
+158,Point Pleasant Pea Pickers,Exhibition,exhibition-point-pleasant-pea-pickers,,,0,,,,,,,,0,7/23/2012 23:01
+159,Spencerport Red Onions,Exhibition,exhibition-spencerport-red-onions,,,0,,,,,,,,0,7/23/2012 23:02
+160,Henrietta Ol' Henries,Exhibition,exhibition-henrietta-ol-henries,,,0,,,,,,,,0,7/23/2012 23:02
+161,Riverhead Ironmen,Exhibition,exhibition-riverhead-ironmen,,,0,,,,,,,,0,8/5/2012 14:35
+162,West Sayville Flying Dutchmen,Exhibition,exhibition-west-sayville-flying-dutchmen,,,0,,,,,,,,0,8/5/2012 14:49
+163,Central Islip Hoboes,Exhibition,exhibition-central-islip-hoboes,,,0,,,,,,,,0,8/5/2012 14:49
+164,Saint James Wildcats,Exhibition,exhibition-saint-james-wildcats,,,0,,,,,,,,0,8/5/2012 14:49
+165,Levittown Rebels,Exhibition,exhibition-levittown-rebels,,,0,,,,,,,,0,8/5/2012 14:50
+166,Brentwood Tigers,Exhibition,exhibition-brentwood-tigers,,,0,,,,,,,,0,8/5/2012 14:50
+167,Bay Shore Redskins,Exhibition,exhibition-bay-shore-redskins,,,0,,,,,,,,0,8/5/2012 14:51
+168,North Lindenhurst Piston Knockers,Exhibition,exhibition-north-lindenhurst-piston-knockers,,,0,,,,,,,,0,8/5/2012 14:51
+169,Islip Wolves,Exhibition,exhibition-islip-wolves,,,0,,,,,,,,0,8/5/2012 14:52
+170,Baldwin Tomcats,Old-Fashioned,old-fashioned-baldwin-tomcats,,,0,,,,,,,,0,8/6/2012 4:16
+171,Farmingville Bandits,Old-Fashioned,old-fashioned-farmingville-bandits,,,0,,,,,,,,0,8/6/2012 4:22
+172,East Rockaway Cold Ducks,Old-Fashioned,old-fashioned-east-rockaway-cold-ducks,,,0,,,,,,,,0,8/6/2012 4:24
+173,Plainview Plainsmen,Old-Fashioned,old-fashioned-plainview-plainsmen,,,0,,,,,,,,0,8/6/2012 4:27
+174,Point Lookout Smokin Seagulls,Old-Fashioned,old-fashioned-point-lookout-smokin-seagulls,,,0,,,,,,,,0,8/6/2012 4:27
+175,Baldwin Tomcats,Exhibition,exhibition-baldwin-tomcats,,,0,,,,,,,,0,8/18/2012 2:51
+176,Hicksville Hicks,Exhibition,exhibition-hicksville-hicks,,,0,,,,,,,,0,8/18/2012 2:56
+177,Oyster Bay Teddy's Boys,Exhibition,exhibition-oyster-bay-teddys-boys,,,0,,,,,,,,0,8/18/2012 2:58
+178,North Bellmore Rinky Dinks,Exhibition,exhibition-north-bellmore-rinky-dinks,,,0,,,,,,,,0,8/18/2012 3:00
+179,New Hyde Park Termites,Exhibition,exhibition-new-hyde-park-termites,,,0,,,,,,,,0,8/18/2012 3:01
+180,Westbury Turtles,Exhibition,exhibition-westbury-turtles,,,0,,,,,,,,0,8/18/2012 3:03
+181,Copiague Yellowbirds,Exhibition,exhibition-copiague-yellowbirds,,,0,,,,,,,,0,8/26/2012 9:01
+182,Deer Park Bucks,Exhibition,exhibition-deer-park-bucks,,,0,,,,,,,,0,8/26/2012 9:02
+183,East Farmingdale Hares,Exhibition,exhibition-east-farmingdale-hares,,,0,,,,,,,,0,8/26/2012 9:03
+184,East Islip Guzzlers,Exhibition,exhibition-east-islip-guzzlers,,,0,,,,,,,,0,8/26/2012 9:03
+185,Lindenhurst Snails,Exhibition,exhibition-lindenhurst-snails,,,0,,,,,,,,0,8/26/2012 9:13
+186,Hicksville,Parade,parade-hicksville,,,0,,,,,,,,0,8/30/2012 4:37
+187,Lindenhurst,Parade,parade-lindenhurst,,,0,,,,,,,,0,0000-00-00 00:00:00
+188,North Babylon,Parade,parade-north-babylon,,,0,,,,,,,,0,8/30/2012 4:38
+189,West Islip,Parade,parade-west-islip,,,0,,,,,,,,0,8/30/2012 4:39
+190,Bayshore,Parade,parade-bayshore,,,0,,,,,,,,0,8/30/2012 4:39
+191,Elmont,Parade,parade-elmont,,,0,,,,,,,,0,8/30/2012 4:47
+192,Bellmore,Parade,parade-bellmore,,,0,,,,,,,,0,8/30/2012 4:47
+193,Sayville,Parade,parade-sayville,,,0,,,,,,,,0,8/30/2012 4:51
+194,Manhasset Lakeview,Parade,parade-manhasset-lakeview,,,0,,,,,,,,0,8/30/2012 4:51
+195,Brentwood,Parade,parade-brentwood,,,0,,,,,,,,0,8/30/2012 4:55
+196,Wyandanch,Parade,parade-wyandanch,,,0,,,,,,,,0,8/30/2012 5:01
+197,Central Islip,Parade,parade-central-islip,,,0,,,,,,,,0,8/30/2012 5:01
+198,Copiague,Parade,parade-copiague,,,0,,,,,,,,0,8/30/2012 5:04
+200,Selden,Parade,parade-selden,,,0,,,,,,,,0,8/30/2012 5:17
+201,Freeport,Parade,parade-freeport,,,0,,,,,,,,0,8/30/2012 5:20
+202,Baldwin,Parade,parade-baldwin,,,0,,,,,,,,0,8/30/2012 5:22
+203,Saint James,Parade,parade-saint-james,,,0,,,,,,,,0,8/30/2012 5:25
+205,Coram Hellraisers,Exhibition,exhibition-coram-hellraisers,,,0,,,,,,,,0,9/14/2012 21:59
+206,Selden Slowpokes,Old-Fashioned,old-fashioned-selden-slowpokes,,,0,,,,,,,,0,6/8/2013 20:59
+207,Blue Point Mighty Midgets,Old-Fashioned,old-fashioned-blue-point-mighty-midgets,,,0,,,,,,,,0,6/8/2013 21:00
+208,North Bellmore,Parade,parade-north-bellmore,,,0,,,,,,,,0,6/10/2013 1:45
+209,Locust Valley,Parade,parade-locust-valley,,,0,,,,,,,,0,6/19/2013 1:32
+210,East Norwich,Parade,parade-east-norwich,,,0,,,,,,,,0,6/19/2013 1:33
+211,Great Bend Cobras,Parade,parade-great-bend-cobras,,,0,,,,,,,,0,6/19/2013 1:42
+212,Rocky Point Rum Runners,Motorized,motorized-rocky-point-rum-runners,,,0,,,,,,,,0,6/22/2013 12:12
+213,Merrick Buckeyes,Old-Fashioned,old-fashioned-merrick-buckeyes,,,0,,,,,,,,0,7/9/2013 9:48
+214,Lakeview Sparks,Old-Fashioned,old-fashioned-lakeview-sparks,,,0,,,,,,,,0,7/9/2013 9:49
+215,North Massapequa,Old-Fashioned,old-fashioned-north-massapequa,,,0,,,,,,,,0,7/9/2013 9:50
+216,West Islip Raiders,Exhibition,exhibition-west-islip-raiders,,West Islip Fire Department,0,,,309 Union Blvd,11795,West Islip,New York,,0,0000-00-00 00:00:00
+217,Sea Cliff Indians,Old-Fashioned,old-fashioned-sea-cliff-indians,,,0,,,,,,,,0,7/29/2013 16:20
+218,Seaford Inmates,Old-Fashioned,old-fashioned-seaford-inmates,,,0,,,,,,,,0,7/29/2013 16:21
+219,Copiague Yellowbirds,Old-Fashioned,old-fashioned-copiague-yellowbirds,,,0,,,,,,,,0,7/29/2013 16:39
+220,Main-Transit Slo-Pokes,Old-Fashioned,old-fashioned-main-transit-slo-pokes,,,0,,,,,,,,0,8/8/2013 22:04
+221,Sheridan Park All Thumbs,Old-Fashioned,old-fashioned-sheridan-park-all-thumbs,,,0,,,,,,,,0,8/8/2013 22:04
+222,Henrietta Ol' Henries,Old-Fashioned,old-fashioned-henrietta-ol-henries,,,0,,,,,,,,0,8/8/2013 22:04
+223,Spencerport Red Onions,Old-Fashioned,old-fashioned-spencerport-red-onions,,,0,,,,,,,,0,8/8/2013 22:04
+224,Elsmere Wanderers,Old-Fashioned,old-fashioned-elsmere-wanderers,,,0,,,,,,,,0,8/8/2013 22:05
+225,Point Pleasant Pea Pickers,Old-Fashioned,old-fashioned-point-pleasant-pea-pickers,,,0,,,,,,,,0,8/8/2013 22:05
+226,Glenwood Greenhorns,Old-Fashioned,old-fashioned-glenwood-greenhorns,,,0,,,,,,,,0,8/27/2013 15:59
+227,West Hempstead Westerners,Old-Fashioned,old-fashioned-west-hempstead-westerners,,,0,,,,,,,,0,9/25/2013 0:24
+228,Hicksville Hicks,Old-Fashioned,old-fashioned-hicksville-hicks,,,0,,,,,,,,0,9/25/2013 0:25
+229,Jericho Bachelors,Old-Fashioned,old-fashioned-jericho-bachelors,,,0,,,,,,,,0,5/31/2014 3:25
+230,Babylon Scroungers,Old-Fashioned,old-fashioned-babylon-scroungers,,,0,,,,,,,,0,5/31/2014 3:26
+231,Carthage Nighthawks,Motorized,motorized-carthage-nighthawks,,,0,,,,,,,,0,6/7/2014 12:20
+232,Atlantic Steamers,Old-Fashioned,old-fashioned-atlantic-steamers,,,0,,,,,,,,0,6/20/2014 16:15
+233,Roslyn Highlanders,Old-Fashioned,old-fashioned-roslyn-highlanders,,,0,,,,,,,,0,6/20/2014 16:21
+234,Syosset Night Raiders,Old-Fashioned,old-fashioned-syosset-night-raiders,,,0,,,,,,,,0,6/20/2014 16:23
+235,Locust Valley,Old-Fashioned,old-fashioned-locust-valley,,,0,,,,,,,,0,6/20/2014 16:25
+236,East Norwich Spooks,Old-Fashioned,old-fashioned-east-norwich-spooks,,,0,,,,,,,,0,6/20/2014 16:26
+237,Roslyn Rescue,Old-Fashioned,old-fashioned-roslyn-rescue,,,0,,,,,,,,0,6/20/2014 16:27
+238,Freeport Wide Awakes,Old-Fashioned,old-fashioned-freeport-wide-awakes,,,0,,,,,,,,0,7/8/2014 0:06
+239,Elsmere Jr Wanderes,Junior,junior-elsmere-jr-wanderes,,,0,,,,,,,,0,7/13/2014 14:19
+240,West Islip Jr. Raiders,Junior,junior-west-islip-jr-raiders,,,0,,,,,,,,0,5/29/2015 18:57
+241,Wyandanch Jr. Indians,Junior,junior-wyandanch-jr-indians,,,0,,,,,,,,0,5/29/2015 18:58
+242,Huntington Manor Jr. Bulldogs,Junior,junior-huntington-manor-jr-bulldogs,,,0,,,,,,,,0,5/29/2015 19:49
+243,Massapequa,Old-Fashioned,old-fashioned-massapequa,,,0,,,,,,,,0,8/19/2015 17:16
+244,Oyster Bay Rough Riders,Old-Fashioned,old-fashioned-oyster-bay-rough-riders,,,0,,,,,,,,0,6/9/2016 14:23
+245,North Patchogue Nite Caps,Old-Fashioned,North Patchogue Nite Caps,,,191,,,,,,,,0,6/17/2016 19:36
+246,North Merrick,Motorized,motorized-north-merrick,,,0,,,,,,,,0,7/14/2016 15:32

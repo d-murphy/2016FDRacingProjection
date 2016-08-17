@@ -1,0 +1,688 @@
+"id","name","alias","description","ordering","checked_out","checked_out_time","published"
+"1","Lindenhurst Invitational Drill","Lindenhurst Invitational Drill","<p>Catch the islands top firematic racing teams compete to get the head start on the points race. Parade steps off 9:30AM on Wellwood ave in Lindenhurst, Drill starts 30 minutes after parade...</p>
+<p><!--                                --> <span class=""noprint""> <span style=""position: relative; left: 0px; top: -11px;""> <img src=""images/stopwatch_green.png"" border=""0"" /> <span style=""position: relative; left: 3px; top: -4px;""> <a href=""#total""> <span style=""color:green;"">Total Points</span> </a> |      <span style=""position: relative; left: 0px; top: 4px;""><img src=""images/print_btn_gs.jpg"" border=""0"" /> </span><a href=""javascript:void(0)"" onclick=""printSection('eventsplusscorecard');""> <span style=""color: #1a6b97; position: relative; top: 1px;"">Print All</span> </a> |     <span style=""position: relative; left: 0px; top: 4px;""><img src=""images/trackIcon.gif"" border=""0"" /> </span><a href=""index.php?option=com_phocamaps&amp;view=map&amp;id=3&amp;Itemid=133""><span style=""color: #1a6b97; position: relative; top: 1px;"">Track</span> </a> |      <span style=""position: relative; left: 0px; top: 4px;""> </span></span></span></span></p>","0","0","0000-00-00 00:00:00","1"
+"2","6th Battalion Parade","6th-battalion-parade","<p>
+<!--                                --> 
+
+<span class=""noprint"">
+
+<span style=""position: relative; left: 0px; top: -11px;"">
+<img src=""images/stopwatch.png"" border=""0"" />
+
+<span style=""position: relative; left: 3px; top: -4px;""><a href=""#total""> Overall Winners' Scorecard</a>
+        |         
+
+
+<span style=""position: relative; left: 0px; top: 4px;""><img src=""images/print_btn_gs.jpg"" border=""0"" /> </span><a href=""javascript:void(0)"" onclick=""printSection('eventsplusscorecard');"">
+
+
+<span style=""color: grey; position: relative; top: 1px;"">Print All</span></a>         |         
+
+
+<span style=""position: relative; left: 0px; top: 4px;""><img src=""images/trackIcon.gif"" border=""0"" /> </span><a href=""#""><span style=""color: grey; position: relative; top: 1px;"">Track</span></a>         |          
+
+<span style=""position: relative; left: 0px; top: 4px;""> <img src=""images/stopwatch_gs.jpg"" onClick='alert(""Sorry! The Classic scorecard for this event is currently unavailable."")' border=""0"" /> </span> 
+
+<!--  ************ EDIT HREF LINK TO OLD-STYLE SCORECARD HERE ************ --><!--                                -->
+
+<a href=""#"" onClick='alert(""Sorry! The Classic scorecard for this event is currently unavailable."")' ""> <!--                                --><!--                                --><span style=""color: grey; position: relative; top: 1px;""> Classic Scorecard</span></a> 
+
+</span></span>
+
+</span>
+</p><span class=""attention"">This Tournament's ranked results and Overall Winner's Scorecard will not be reported in real-time. For live results, please try the <strong>Classic Scorecard</strong> above, provided by <i>Drill Team Radio</i>.</span>","0","0","0000-00-00 00:00:00","1"
+"3","2nd Battalion Parade","2nd-battalion-parade","<p>
+<!--                                --> 
+
+<span class=""noprint"">
+
+<span style=""position: relative; left: 0px; top: -11px;"">
+<img src=""images/stopwatch.png"" border=""0"" />
+
+<span style=""position: relative; left: 3px; top: -4px;""><a href=""#total""> Overall Winners' Scorecard</a>
+ &nbsp; &nbsp;&nbsp;   |    &nbsp; &nbsp;&nbsp; 
+
+
+<span style=""position: relative; left: 0px; top: 4px;""><img src=""images/print_btn_gs.jpg"" border=""0"" /> </span><a href=""javascript:void(0)"" onclick=""printSection('eventsplusscorecard');"">
+
+
+<span style=""color: grey; position: relative; top: 1px;"">Print All</span></a>    &nbsp;&nbsp; &nbsp;&nbsp;|    &nbsp; &nbsp;&nbsp; 
+
+
+<span style=""position: relative; left: 0px; top: 4px;""><img src=""images/trackIcon.gif"" border=""0"" /> </span><a href=""#""><span style=""color: grey; position: relative; top: 1px;"">Track</span></a>&nbsp; &nbsp;&nbsp;     | &nbsp; &nbsp;&nbsp;     
+
+<span style=""position: relative; left: 0px; top: 4px;""> <img src=""images/stopwatch_gs.jpg"" onClick='alert(""Sorry! The Classic scorecard for this event is currently unavailable."")' border=""0"" /> </span> 
+
+<!--  ************ EDIT HREF LINK TO OLD-STYLE SCORECARD HERE ************ --><!--                                -->
+
+<a href=""#"" onClick='alert(""Sorry! The Classic scorecard for this event is currently unavailable."")' ""> <!--                                --><!--                                --><span style=""color: grey; position: relative; top: 1px;""> Classic Scorecard</span></a> 
+
+</span></span>
+
+</span>
+</p>","0","0","0000-00-00 00:00:00","1"
+"4","North Greece Tournament","north-greece-tournament","<p><!--                                --> <span class=""noprint""><span style=""position: relative; left: 0px; top: -11px;""><img src=""images/stopwatch.png"" border=""0"" /><span style=""position: relative; left: 3px; top: -4px;""><a href=""#total""> Overall Winners' Scorecard</a>&nbsp;&nbsp;&nbsp;&nbsp; |  &nbsp;&nbsp;&nbsp;&nbsp;<span style=""position: relative; left: 0px; top: 4px;""><img src=""images/print_btn_gs.jpg"" border=""0"" /> </span><a href=""javascript:void(0)"" onclick=""printSection('eventsplusscorecard');""><span style=""color: grey; position: relative; top: 1px;"">Print All</span></a>&nbsp;&nbsp;&nbsp;&nbsp; |  &nbsp;&nbsp;&nbsp;&nbsp;<span style=""position: relative; left: 0px; top: 4px;""> <img src=""images/stopwatch_gs.jpg"" onClick='alert(""Sorry! The Old-Style scorecard for this event is currently unavailable."")' border=""0"" /> </span> <!--  ************ EDIT HREF LINK TO OLD-STYLE SCORECARD HERE ************ --><!--                                --><a href=""#"" onClick='alert(""Sorry! The Old-Style scorecard for this event is currently unavailable."")' ""> <!--                                --><!--                                --><span style=""color: grey; position: relative; top: 1px;""> Old-Style Scorecard</span></a> </span></span></span></p>","0","0","0000-00-00 00:00:00","0"
+"5","Spencerport","spencerport","<p><!--                                --> <span class=""noprint""><span style=""position: relative; left: 0px; top: -11px;""><img src=""images/stopwatch.png"" border=""0"" /><span style=""position: relative; left: 3px; top: -4px;""><a href=""#total""> Overall Winners' Scorecard</a>&nbsp;&nbsp;&nbsp;&nbsp; |  &nbsp;&nbsp;&nbsp;&nbsp;<span style=""position: relative; left: 0px; top: 4px;""><img src=""images/print_btn_gs.jpg"" border=""0"" /> </span><a href=""javascript:void(0)"" onclick=""printSection('eventsplusscorecard');""><span style=""color: grey; position: relative; top: 1px;"">Print All</span></a>&nbsp;&nbsp;&nbsp;&nbsp; |  &nbsp;&nbsp;&nbsp;&nbsp;<span style=""position: relative; left: 0px; top: 4px;""> <img src=""images/stopwatch_gs.jpg"" onClick='alert(""Sorry! The Old-Style scorecard for this event is currently unavailable."")' border=""0"" /> </span> <!--  ************ EDIT HREF LINK TO OLD-STYLE SCORECARD HERE ************ --><!--                                --><a href=""#"" onClick='alert(""Sorry! The Old-Style scorecard for this event is currently unavailable."")' ""> <!--                                --><!--                                --><span style=""color: grey; position: relative; top: 1px;""> Old-Style Scorecard</span></a> </span></span></span></p>","0","0","0000-00-00 00:00:00","1"
+"6","Oyster Bay / North Hempstead","oyster-bay--north-hempstead","<p><!--                                --> <span class=""noprint""><span style=""position: relative; left: 0px; top: -11px;""><img src=""images/stopwatch.png"" border=""0"" /><span style=""position: relative; left: 3px; top: -4px;""><a href=""#total""> Overall Winners' Scorecard</a>&nbsp;&nbsp;&nbsp;&nbsp; |  &nbsp;&nbsp;&nbsp;&nbsp;<span style=""position: relative; left: 0px; top: 4px;""><img src=""images/print_btn_gs.jpg"" border=""0"" /> </span><a href=""javascript:void(0)"" onclick=""printSection('eventsplusscorecard');""><span style=""color: grey; position: relative; top: 1px;"">Print All</span></a>&nbsp;&nbsp;&nbsp;&nbsp; |  &nbsp;&nbsp;&nbsp;&nbsp;<span style=""position: relative; left: 0px; top: 4px;""> <img src=""images/stopwatch_gs.jpg"" onClick='alert(""Sorry! The Old-Style scorecard for this event is currently unavailable."")' border=""0"" /> </span> <!--  ************ EDIT HREF LINK TO OLD-STYLE SCORECARD HERE ************ --><!--                                --><a href=""#"" onClick='alert(""Sorry! The Old-Style scorecard for this event is currently unavailable."")' ""> <!--                                --><!--                                --><span style=""color: grey; position: relative; top: 1px;""> Old-Style Scorecard</span></a> </span></span></span></p>","0","0","0000-00-00 00:00:00","0"
+"7","Town of Brookhaven","town-of-brookhaven","<p><!--                                --> <span class=""noprint""><span style=""position: relative; left: 0px; top: -11px;""><img src=""images/stopwatch.png"" border=""0"" /><span style=""position: relative; left: 3px; top: -4px;""><a href=""#total""> Overall Winners' Scorecard</a> |      <span style=""position: relative; left: 0px; top: 4px;""><img src=""images/print_btn_gs.jpg"" border=""0"" /> </span><a href=""javascript:void(0)"" onclick=""printSection('eventsplusscorecard');""><span style=""color: grey; position: relative; top: 1px;"">Print All</span></a> |      <span style=""position: relative; left: 0px; top: 4px;""> <img src=""images/stopwatch_gs.jpg"" border=""0"" /> </span> <!--  ************ EDIT HREF LINK TO OLD-STYLE SCORECARD HERE ************ --><!--                                --><a href=""#"" onclick=""alert(&quot;Sorry! The Old-Style scorecard for this event is currently unavailable.&quot;)""> <!--                                --><!--                                --><span style=""color: grey; position: relative; top: 1px;""> Old-Style Scorecard</span></a></span></span></span></p>
+<p><span class=""noprint""><span style=""position: relative; left: 0px; top: -11px;""><span style=""position: relative; left: 3px; top: -4px;""><span style=""color: grey; position: relative; top: 1px;"">Water: 4.66</span></span></span></span></p>","0","0","0000-00-00 00:00:00","0"
+"8","Selden Invitational","selden-invitational","<p><!--                                --> <span class=""noprint""><span style=""position: relative; left: 0px; top: -11px;""><img src=""images/stopwatch.png"" border=""0"" /><span style=""position: relative; left: 3px; top: -4px;""><a href=""#total""> Overall Winners' Scorecard</a>&nbsp;&nbsp;&nbsp;&nbsp; |  &nbsp;&nbsp;&nbsp;&nbsp;<span style=""position: relative; left: 0px; top: 4px;""><img src=""images/print_btn_gs.jpg"" border=""0"" /> </span><a href=""javascript:void(0)"" onclick=""printSection('eventsplusscorecard');""><span style=""color: grey; position: relative; top: 1px;"">Print All</span></a>&nbsp;&nbsp;&nbsp;&nbsp; |  &nbsp;&nbsp;&nbsp;&nbsp;<span style=""position: relative; left: 0px; top: 4px;""> <img src=""images/stopwatch_gs.jpg"" onClick='alert(""Sorry! The Old-Style scorecard for this event is currently unavailable."")' border=""0"" /> </span> <!--  ************ EDIT HREF LINK TO OLD-STYLE SCORECARD HERE ************ --><!--                                --><a href=""#"" onClick='alert(""Sorry! The Old-Style scorecard for this event is currently unavailable."")' ""> <!--                                --><!--                                --><span style=""color: grey; position: relative; top: 1px;""> Old-Style Scorecard</span></a> </span></span></span></p>","0","0","0000-00-00 00:00:00","0"
+"9","Wm. St. George Memorial Drill","wm-st-george-memorial-drill","<p><!--                                --> <span class=""noprint""><span style=""position: relative; left: 0px; top: -11px;""><img src=""images/stopwatch.png"" border=""0"" /><span style=""position: relative; left: 3px; top: -4px;""><a href=""#total""> Overall Winners' Scorecard</a>&nbsp;&nbsp;&nbsp;&nbsp; |  &nbsp;&nbsp;&nbsp;&nbsp;<span style=""position: relative; left: 0px; top: 4px;""><img src=""images/print_btn_gs.jpg"" border=""0"" /> </span><a href=""javascript:void(0)"" onclick=""printSection('eventsplusscorecard');""><span style=""color: grey; position: relative; top: 1px;"">Print All</span></a>&nbsp;&nbsp;&nbsp;&nbsp; |  &nbsp;&nbsp;&nbsp;&nbsp;<span style=""position: relative; left: 0px; top: 4px;""> <img src=""images/stopwatch_gs.jpg"" onClick='alert(""Sorry! The Old-Style scorecard for this event is currently unavailable."")' border=""0"" /> </span> <!--  ************ EDIT HREF LINK TO OLD-STYLE SCORECARD HERE ************ --><!--                                --><a href=""#"" onClick='alert(""Sorry! The Old-Style scorecard for this event is currently unavailable."")' ""> <!--                                --><!--                                --><span style=""color: grey; position: relative; top: 1px;""> Old-Style Scorecard</span></a> </span></span></span></p>","0","0","0000-00-00 00:00:00","0"
+"10","Joe Hunter Memorial Drill ","joe-hunter-memorial-drill-","<p>Thursday, July 3rd, Joe Hunter Memorial Drill at Hempstead, Drill Time 6:00pm.<br /><br /></p>
+<p>Help honor one of New York's Bravest.  Joe Hunter was a member of the South Hempstead Rascals and FDNY who was killed in the Sept. 11th attacks. The drill was started in 2003 with the top ten finishers of the previous year's state drill invited to attend.</p>
+<p><!--                                --> <span class=""noprint""><span style=""position: relative; left: 0px; top: -11px;""><img src=""images/stopwatch.png"" border=""0"" /><span style=""position: relative; left: 3px; top: -4px;""><a href=""#total""> Overall Winners' Scorecard</a> |      <span style=""position: relative; left: 0px; top: 4px;""><img src=""images/print_btn_gs.jpg"" border=""0"" /> </span><a href=""javascript:void(0)"" onclick=""printSection('eventsplusscorecard');""><span style=""color: grey; position: relative; top: 1px;"">Print All</span></a> |      <span style=""position: relative; left: 0px; top: 4px;""> <img src=""images/stopwatch_gs.jpg"" border=""0"" /> </span> <!--  ************ EDIT HREF LINK TO OLD-STYLE SCORECARD HERE ************ --><!--                                --><a href=""#"" onclick=""alert(""> <!--                                --><!--                                --><span style=""color: grey; position: relative; top: 1px;""> Old-Style Scorecard</span></a> </span></span></span></p>","0","0","0000-00-00 00:00:00","1"
+"11","Nassau County Motorized Drill","nassau-county-motorized-drill","<br /><br /><p><!--                                --> <span class=""noprint""><span style=""position: relative; left: 0px; top: -11px;""><img src=""images/stopwatch.png"" border=""0"" /><span style=""position: relative; left: 3px; top: -4px;""><a href=""#total""> Overall Winners' Scorecard</a>     |      <span style=""position: relative; left: 0px; top: 4px;""><img src=""images/print_btn_gs.jpg"" border=""0"" /> </span><a href=""javascript:void(0)"" onclick=""printSection('eventsplusscorecard');""><span style=""color: grey; position: relative; top: 1px;"">Print All</span></a>     |      <span style=""position: relative; left: 0px; top: 4px;""> <img src=""images/stopwatch_gs.jpg"" onClick='alert(""Sorry! The Old-Style scorecard for this event is currently unavailable."")' border=""0"" /> </span> <!--  ************ EDIT HREF LINK TO OLD-STYLE SCORECARD HERE ************ --><!--                                --><a href=""#"" onClick='alert(""Sorry! The Old-Style scorecard for this event is currently unavailable."")' ""> <!--                                --><!--                                --><span style=""color: grey; position: relative; top: 1px;""> Old-Style Scorecard</span></a> </span></span></span></p>","0","0","0000-00-00 00:00:00","0"
+"12","Suffolk County Drill","suffolk-county-drill","<br /><br /><p><!--                                --> <span class=""noprint""><span style=""position: relative; left: 0px; top: -11px;""><img src=""images/stopwatch.png"" border=""0"" /><span style=""position: relative; left: 3px; top: -4px;""><a href=""#total""> Overall Winners' Scorecard</a>     |      <span style=""position: relative; left: 0px; top: 4px;""><img src=""images/print_btn_gs.jpg"" border=""0"" /> </span><a href=""javascript:void(0)"" onclick=""printSection('eventsplusscorecard');""><span style=""color: grey; position: relative; top: 1px;"">Print All</span></a>     |      <span style=""position: relative; left: 0px; top: 4px;""> <img src=""images/stopwatch_gs.jpg"" onClick='alert(""Sorry! The Old-Style scorecard for this event is currently unavailable."")' border=""0"" /> </span> <!--  ************ EDIT HREF LINK TO OLD-STYLE SCORECARD HERE ************ --><!--                                --><a href=""#"" onClick='alert(""Sorry! The Old-Style scorecard for this event is currently unavailable."")' ""> <!--                                --><!--                                --><span style=""color: grey; position: relative; top: 1px;""> Old-Style Scorecard</span></a> </span></span></span></p>","0","0","0000-00-00 00:00:00","0"
+"13","Riverhead Invitational","riverhead-invitational","Saturday, July 20th, Riverhead Invitational Drill (Rain Date 7/21), Drill Time 12:00pm.<br /><br /><p><!--                                --> <span class=""noprint""><span style=""position: relative; left: 0px; top: -11px;""><img src=""images/stopwatch.png"" border=""0"" /><span style=""position: relative; left: 3px; top: -4px;""><a href=""#total""> Overall Winners' Scorecard</a>     |      <span style=""position: relative; left: 0px; top: 4px;""><img src=""images/print_btn_gs.jpg"" border=""0"" /> </span><a href=""javascript:void(0)"" onclick=""printSection('eventsplusscorecard');""><span style=""color: grey; position: relative; top: 1px;"">Print All</span></a>     |      <span style=""position: relative; left: 0px; top: 4px;""> <img src=""images/stopwatch_gs.jpg"" onClick='alert(""Sorry! The Old-Style scorecard for this event is currently unavailable."")' border=""0"" /> </span> <!--  ************ EDIT HREF LINK TO OLD-STYLE SCORECARD HERE ************ --><!--                                --><a href=""#"" onClick='alert(""Sorry! The Old-Style scorecard for this event is currently unavailable."")' ""> <!--                                --><!--                                --><span style=""color: grey; position: relative; top: 1px;""> Old-Style Scorecard</span></a> </span></span></span></p>","0","0","0000-00-00 00:00:00","0"
+"14","Central Islip Invitational","central-islip-invitational","<p>
+	The 50th Annual Central Islip Invitational Drill starts at 1PM at their track on Wheeler Road. This drill counts for both Nassau & Suffolk County Points. Over 30 teams will be competing in this Inter-County Drill.</p>
+<p>
+<!--                                --> 
+
+<span class=""noprint"">
+
+<span style=""position: relative; left: 0px; top: -11px;"">
+<img src=""images/stopwatch.png"" border=""0"" />
+
+<span style=""position: relative; left: 3px; top: -4px;""><a href=""#total""> Overall Winners' Scorecard</a>
+ &nbsp; &nbsp;&nbsp;   |    &nbsp; &nbsp;&nbsp; 
+
+
+<span style=""position: relative; left: 0px; top: 4px;""><img src=""images/print_btn_gs.jpg"" border=""0"" /> </span><a href=""javascript:void(0)"" onclick=""printSection('eventsplusscorecard');"">
+
+
+<span style=""color: grey; position: relative; top: 1px;"">Print All</span></a>    &nbsp;&nbsp; &nbsp;&nbsp;|    &nbsp; &nbsp;&nbsp; 
+
+
+<span style=""position: relative; left: 0px; top: 4px;""><img src=""images/trackIcon.gif"" border=""0"" /> </span><a href=""#""><span style=""color: grey; position: relative; top: 1px;"">Track</span></a>&nbsp; &nbsp;&nbsp;     | &nbsp; &nbsp;&nbsp;     
+
+<span style=""position: relative; left: 0px; top: 4px;""> <img src=""images/stopwatch_gs.jpg"" onClick='alert(""Sorry! The Classic scorecard for this event is currently unavailable."")' border=""0"" /> </span> 
+
+<!--  ************ EDIT HREF LINK TO OLD-STYLE SCORECARD HERE ************ --><!--                                -->
+
+<a href=""#"" onClick='alert(""Sorry! The Classic scorecard for this event is currently unavailable."")' ""> <!--                                --><!--                                --><span style=""color: grey; position: relative; top: 1px;""> Classic Scorecard</span></a> 
+
+</span></span>
+
+</span>
+</p>","0","0","0000-00-00 00:00:00","1"
+"15","Hempstead Invitational Drill","hempstead-invitational-drill","<div style=""height: 21px; padding: 10px; background-color: #f1f1f1;""><span style=""color:red; font-weight: bold; font-size:14px;"">Saturday, August 2nd • Drill Time: 12pm</span></div>
+<p><br /> The 63rd Annual Hempstead Invitational Drill kicks off at 12:00PM at their track on Weir Street. This drill counts for Nassau County Points. Exit 20N off The Southern State Parkway will lead you to a day of Firematic Drilling.<br /><br /></p>
+<p><!--                                --> <span class=""noprint""> <span style=""position: relative; left: 0px; top: -11px;""> <img src=""images/stopwatch.png"" border=""0"" /> <span style=""position: relative; left: 3px; top: -4px;""><a href=""#total""> Overall Winners' Scorecard</a> |            <span style=""position: relative; left: 0px; top: 4px;""><img src=""images/print_btn_gs.jpg"" border=""0"" /> </span><a href=""javascript:void(0)"" onclick=""printSection('eventsplusscorecard');""> <span style=""color: grey; position: relative; top: 1px;"">Print All</span></a> |            <span style=""position: relative; left: 0px; top: 4px;""><img src=""images/trackIcon.gif"" border=""0"" /> </span><a href=""#""><span style=""color: grey; position: relative; top: 1px;"">Track</span></a> |            <span style=""position: relative; left: 0px; top: 4px;""> <img src=""images/stopwatch_gs.jpg"" border=""0"" /> </span> <!--  ************ EDIT HREF LINK TO OLD-STYLE SCORECARD HERE ************ --><!--  https://docs.google.com/spreadsheet/ccc?key=0AkEOYxGY8F9TdFZkbUROX0E3dGpNb1RuNHczdUpDRGc                           --> <a href=""#""> <!--                                --><!--                                --><span style=""color: grey; position: relative; top: 1px;""> Classic Scorecard</span></a> </span></span> </span></p>","0","0","0000-00-00 00:00:00","1"
+"17","North Bellmore Invitational Drill","north-bellmore-invitational-drill","<div style=""height: 21px; padding: 10px; background-color: #f1f1f1;""><span style=""color:red; font-weight: bold; font-size:14px;"">Saturday</span></div>
+<p> </p>
+<p><!--                                --> <span class=""noprint""><span style=""position: relative; left: 0px; top: -11px;""><img src=""images/stopwatch.png"" border=""0"" /><span style=""position: relative; left: 3px; top: -4px;""><a href=""#total""> Overall Winners' Scorecard</a> |      <span style=""position: relative; left: 0px; top: 4px;""><img src=""images/print_btn_gs.jpg"" border=""0"" /> </span><a href=""javascript:void(0)"" onclick=""printSection('eventsplusscorecard');""><span style=""color: grey; position: relative; top: 1px;"">Print All</span></a> |      <span style=""position: relative; left: 0px; top: 4px;""> <img src=""images/stopwatch_gs.jpg"" border=""0"" /> </span> <!--  ************ EDIT HREF LINK TO OLD-STYLE SCORECARD HERE ************ --><!--   https://docs.google.com/spreadsheet/ccc?key=0AkEOYxGY8F9TdEZYNEh5dktGR2psTHk4MWdfc1JZeUE#gid=0                             --><a href=""#""> <!--                                --><!--                                --><span style=""color: grey; position: relative; top: 1px;""> Old-Style Scorecard</span></a> </span></span></span></p>","0","0","0000-00-00 00:00:00","1"
+"18","New York State Motorized Drill","new-york-state-motorized-drill","<p>Come watch Firefighters from all over New York State compete for the title of New York State Motorized Champions. It's one of the most exciting tournaments of the year and it all begins Saturday, August 15th starting at 9:00am at Ridge.</p>
+<p> </p>
+<p><!--                                --> <span class=""noprint""><span style=""position: relative; left: 0px; top: -11px;""><img src=""images/stopwatch.png"" border=""0"" /><span style=""position: relative; left: 3px; top: -4px;""><a href=""#total""> Overall Winners' Scorecard</a> |     <span style=""position: relative; left: 0px; top: 4px;""><img src=""images/print_btn_gs.jpg"" border=""0"" /> </span><a href=""javascript:void(0)"" onclick=""printSection('eventsplusscorecard');""><span style=""color: grey; position: relative; top: 1px;"">Print All</span></a> |     <span style=""position: relative; left: 0px; top: 4px;""><img src=""images/trackIcon.gif"" border=""0"" /> </span><a href=""index.php?option=com_phocamaps&amp;view=map&amp;id=17&amp;Itemid=198""><span style=""color: grey; position: relative; top: 1px;"">Track</span></a> |     <span style=""position: relative; left: 0px; top: 4px;""> <img src=""images/stopwatch_gs.jpg"" border=""0"" /> </span> <!--  ************ EDIT HREF LINK TO OLD-STYLE SCORECARD HERE ************ --><!--                                --><a href=""https://docs.google.com/spreadsheet/ccc?key=0AkEOYxGY8F9TdFRFZ1M2aTdfc0JQT2lLellsaXNpYmc&amp;pli=1#gid=0"" target=""blank""> <!--                                --><!--                                --><span style=""color: grey; position: relative; top: 1px;""> Classic Scorecard</span></a> </span></span></span></p>","0","0","0000-00-00 00:00:00","1"
+"19","Town of Islip Drill","town-of-islip-drill","<div style=""height:21px; padding:10px; background-color:#F1F1F1;""><span style=""color:red; font-weight: bold; font-size:14px;"">Friday, August 23rd • Drill Time: 5:30pm (Rain Date 8/24)</span></div><br /><!--                                --> <span class=""noprint""><span style=""position: relative; left: 0px; top: -11px;""><img src=""images/stopwatch.png"" border=""0"" /><span style=""position: relative; left: 3px; top: -4px;""><a href=""#total""> Overall Winners' Scorecard</a>        |        <span style=""position: relative; left: 0px; top: 4px;""><img src=""images/print_btn_gs.jpg"" border=""0"" /> </span><a href=""javascript:void(0)"" onclick=""printSection('eventsplusscorecard');""><span style=""color: grey; position: relative; top: 1px;"">Print All</span></a>        |        <span style=""position: relative; left: 0px; top: 4px;""><img src=""images/trackIcon.gif"" border=""0"" /> </span><a href=""index.php?option=com_phocamaps&view=map&id=11&Itemid=192""><span style=""color: grey; position: relative; top: 1px;"">Track</span></a>        |        <span style=""position: relative; left: 0px; top: 4px;""> <img src=""images/stopwatch_gs.jpg"" border=""0"" /> </span> <!--  ************ EDIT HREF LINK TO OLD-STYLE SCORECARD HERE ************ --><!--    https://docs.google.com/spreadsheet/ccc?key=0AkEOYxGY8F9TdFlnWnVsR0ZnNDhWVVFHbHVYZ2p0ckE#gid=0                            --><a href=""#""> <!--                                --><!--                                --><span style=""color: grey; position: relative; top: 1px;""> Classic Scorecard</span></a> </span></span></span></p>","0","0","0000-00-00 00:00:00","0"
+"20","Labor Day Invitational Drill ","labor-day-invitational-drill-","<p><!--                                --> <span class=""noprint""><span style=""position: relative; left: 0px; top: -11px;""><img src=""images/stopwatch.png"" border=""0"" /><span style=""position: relative; left: 3px; top: -4px;""><a href=""#total""> Overall Winners' Scorecard</a> |      <span style=""position: relative; left: 0px; top: 4px;""><img src=""images/print_btn_gs.jpg"" border=""0"" /> </span><a href=""javascript:void(0)"" onclick=""printSection('eventsplusscorecard');""><span style=""color: grey; position: relative; top: 1px;"">Print All</span></a> |      <span style=""position: relative; left: 0px; top: 4px;""> <img src=""images/stopwatch_gs.jpg"" border=""0"" /> </span> <!--  ************ EDIT HREF LINK TO OLD-STYLE SCORECARD HERE ************ --><!--                                --><a href=""https://docs.google.com/spreadsheet/ccc?key=0AkEOYxGY8F9TdG13UFpjZDd6QjdKWGJxR2dadE1FckE#gid=0"" target=""blank""> <!--                                --><!--                                --><span style=""color: grey; position: relative; top: 1px;""> ClassicScorecard</span></a> </span></span></span></p>","0","0","0000-00-00 00:00:00","0"
+"21","West Hempstead Labor Day Drill","west-hempstead-labor-day-drill","<div style=""height: 21px; padding: 10px; background-color: #f1f1f1;""><span style=""color:red; font-weight: bold; font-size:14px;"">Monday, September 7th • Drill Time: 10am / (Rain Date 9/12)</span></div>
+<p><br /><br /></p>
+<!--                                -->
+<p><span class=""noprint""><span style=""position: relative; left: 0px; top: -11px;""><img src=""images/stopwatch.png"" border=""0"" /><span style=""position: relative; left: 3px; top: -4px;""><a href=""#total""> Overall Winners' Scorecard</a> |   <span style=""position: relative; left: 0px; top: 4px;""><img src=""images/print_btn_gs.jpg"" border=""0"" /> </span><a href=""javascript:void(0)"" onclick=""printSection('eventsplusscorecard');""> <span style=""color: #3b758d; position: relative; top: 1px;"">Print All</span></a> |    <span style=""position: relative; left: 0px; top: 4px;""><img src=""images/trackIcon.gif"" border=""0"" /> </span><a href=""index.php?option=com_phocamaps&amp;view=map&amp;id=4&amp;Itemid=134""><span style=""color: #3b758d; position: relative; top: 1px;"">Track Location</span></a></span></span></span></p>","0","0","0000-00-00 00:00:00","1"
+"22","Town of Babylon Drill","town-of-babylon-drill","<div style=""padding: 10px; height: 21px; background-color: #f1f1f1;""><span style=""color:red; font-weight: bold; font-size:14px;"">Friday, August 28, 2015 • Drill Time: 5:30pm</span></div>
+<p><br /><br /></p>
+<!--                                -->
+<p><span class=""noprint""><span style=""left: 0px; top: -11px; position: relative;""><img src=""images/stopwatch.png"" border=""0"" /><span style=""left: 3px; top: -4px; position: relative;""><a href=""#total""> Overall Winners' Scorecard</a> |   <span style=""left: 0px; top: 4px; position: relative;""><img src=""images/print_btn_gs.jpg"" border=""0"" /> </span><a href=""javascript:void(0)"" onclick=""printSection('eventsplusscorecard');""> <span style=""top: 1px; color: #3b758d; position: relative;"">Print All</span></a> |    <span style=""left: 0px; top: 4px; position: relative;""><img src=""images/trackIcon.gif"" border=""0"" /> </span><a href=""index.php?option=com_phocamaps&amp;view=map&amp;id=3&amp;Itemid=133""><span style=""top: 1px; color: #3b758d; position: relative;"">Track Location</span></a></span></span></span></p>","0","0","0000-00-00 00:00:00","1"
+"23","5th Battalion Drill","5th-battalion-drill","<p>
+<!--                                --> 
+
+<span class=""noprint"">
+
+<span style=""position: relative; left: 0px; top: -11px;"">
+<img src=""images/stopwatch.png"" border=""0"" />
+
+<span style=""position: relative; left: 3px; top: -4px;""><a href=""#total""> Overall Winners' Scorecard</a>
+ &nbsp; &nbsp;&nbsp;   |    &nbsp; &nbsp;&nbsp; 
+
+
+<span style=""position: relative; left: 0px; top: 4px;""><img src=""images/print_btn_gs.jpg"" border=""0"" /> </span><a href=""javascript:void(0)"" onclick=""printSection('eventsplusscorecard');"">
+
+
+<span style=""color: grey; position: relative; top: 1px;"">Print All</span></a>    &nbsp;&nbsp; &nbsp;&nbsp;|    &nbsp; &nbsp;&nbsp; 
+
+
+<span style=""position: relative; left: 0px; top: 4px;""><img src=""images/trackIcon.gif"" border=""0"" /> </span><a href=""#""><span style=""color: grey; position: relative; top: 1px;"">Track</span></a>&nbsp; &nbsp;&nbsp;     | &nbsp; &nbsp;&nbsp;     
+
+<span style=""position: relative; left: 0px; top: 4px;""> <img src=""images/stopwatch_gs.jpg"" onClick='alert(""Sorry! The Classic scorecard for this event is currently unavailable."")' border=""0"" /> </span> 
+
+<!--  ************ EDIT HREF LINK TO OLD-STYLE SCORECARD HERE ************ --><!--                                -->
+
+<a href=""#"" onClick='alert(""Sorry! The Classic scorecard for this event is currently unavailable."")' ""> <!--                                --><!--                                --><span style=""color: grey; position: relative; top: 1px;""> Classic Scorecard</span></a> 
+
+</span></span>
+
+</span>
+</p>","0","0","0000-00-00 00:00:00","0"
+"24","2,3,4,Battalion Drill","234battalion-drill","<p>
+<!--                                --> 
+
+<span class=""noprint"">
+
+<span style=""position: relative; left: 0px; top: -11px;"">
+<img src=""images/stopwatch.png"" border=""0"" />
+
+<span style=""position: relative; left: 3px; top: -4px;""><a href=""#total""> Overall Winners' Scorecard</a>
+ &nbsp; &nbsp;&nbsp;   |    &nbsp; &nbsp;&nbsp; 
+
+
+<span style=""position: relative; left: 0px; top: 4px;""><img src=""images/print_btn_gs.jpg"" border=""0"" /> </span><a href=""javascript:void(0)"" onclick=""printSection('eventsplusscorecard');"">
+
+
+<span style=""color: grey; position: relative; top: 1px;"">Print All</span></a>    &nbsp;&nbsp; &nbsp;&nbsp;|    &nbsp; &nbsp;&nbsp; 
+
+
+<span style=""position: relative; left: 0px; top: 4px;""><img src=""images/trackIcon.gif"" border=""0"" /> </span><a href=""#""><span style=""color: grey; position: relative; top: 1px;"">Track</span></a>&nbsp; &nbsp;&nbsp;     | &nbsp; &nbsp;&nbsp;     
+
+<span style=""position: relative; left: 0px; top: 4px;""> <img src=""images/stopwatch_gs.jpg"" onClick='alert(""Sorry! The Classic scorecard for this event is currently unavailable."")' border=""0"" /> </span> 
+
+<!--  ************ EDIT HREF LINK TO OLD-STYLE SCORECARD HERE ************ --><!--                                -->
+
+<a href=""#"" onClick='alert(""Sorry! The Classic scorecard for this event is currently unavailable."")' ""> <!--                                --><!--                                --><span style=""color: grey; position: relative; top: 1px;""> Classic Scorecard</span></a> 
+
+</span></span>
+
+</span>
+</p>","0","0","0000-00-00 00:00:00","0"
+"25","Nassau County Old-Fashioned","nassau-county-old-fashioned","<p>Friday, July 11th, Nassau County Old Fashioned Drill                              Water: 4.75<br /><br /></p>
+<p><!--                                --> <span class=""noprint""><span style=""position: relative; left: 0px; top: -11px;""><img src=""images/stopwatch.png"" border=""0"" /><span style=""position: relative; left: 3px; top: -4px;""><a href=""#total""> Overall Winners' Scorecard</a> |      <span style=""position: relative; left: 0px; top: 4px;""><img src=""images/print_btn_gs.jpg"" border=""0"" /> </span><a href=""javascript:void(0)"" onclick=""printSection('eventsplusscorecard');""><span style=""color: grey; position: relative; top: 1px;"">Print All</span></a> |      <span style=""position: relative; left: 0px; top: 4px;""> <img src=""images/stopwatch_gs.jpg"" border=""0"" /> </span> <!--  ************ EDIT HREF LINK TO OLD-STYLE SCORECARD HERE ************ --><!--                                --><a href=""#"" onclick=""alert(&quot;Sorry! The Old-Style scorecard for this event is currently unavailable.&quot;)""> <!--                                --><!--                                --><span style=""color: grey; position: relative; top: 1px;""> Old-Style Scorecard</span></a> </span></span></span></p>","0","0","0000-00-00 00:00:00","0"
+"26","New York State Old Fashioned Drill","ny-state-old-fashioned-drill","<div style=""height: 21px; padding: 10px; background-color: #f1f1f1;""></div>
+<p> </p>
+<!--                                -->
+<p>Come watch New Yorks Old Fashioned Drill teams prove they are the fastest as they compete for the title of New York State Old Fashioned Champions.</p>
+<p> </p>
+<p><!--                                --> <span class=""noprint""><span style=""position: relative; left: 0px; top: -11px;""><img src=""images/stopwatch.png"" border=""0"" /><span style=""position: relative; left: 3px; top: -4px;""><a href=""#total""> Overall Winners' Scorecard</a> |     <span style=""position: relative; left: 0px; top: 4px;""><img src=""images/print_btn_gs.jpg"" border=""0"" /> </span><a href=""javascript:void(0)"" onclick=""printSection('eventsplusscorecard');""><span style=""color: grey; position: relative; top: 1px;"">Print All</span></a> |     <span style=""position: relative; left: 0px; top: 4px;""> <img src=""images/stopwatch_gs.jpg"" border=""0"" /> </span> <!--  ************ EDIT HREF LINK TO OLD-STYLE SCORECARD HERE ************ --><!--                                --><a href=""https://docs.google.com/spreadsheet/ccc?key=0AkEOYxGY8F9TdFpaMlNjMWEwMEZmNFpRRmtTVnVWdlE#gid=0"" target=""blank""> <!--                                --><!--                                --><span style=""color: grey; position: relative; top: 1px;""> Old-Style Scorecard</span></a> </span></span></span></p>","0","0","0000-00-00 00:00:00","1"
+"27","Bayville Old Fashioned Charity Drill","bayville-old-fashioned-charity-drill","<p><!--                                --> <span class=""noprint""> <span style=""position: relative; left: 0px; top: -11px;""> <img src=""images/stopwatch.png"" border=""0"" /> <span style=""position: relative; left: 3px; top: -4px;""><a href=""#total""> Overall Winners' Scorecard</a> |            <span style=""position: relative; left: 0px; top: 4px;""><img src=""images/print_btn_gs.jpg"" border=""0"" /> </span><a href=""javascript:void(0)"" onclick=""printSection('eventsplusscorecard');""> <span style=""color: grey; position: relative; top: 1px;"">Print All</span></a> |            <span style=""position: relative; left: 0px; top: 4px;""><img src=""images/trackIcon.gif"" border=""0"" /> </span><a href=""#""><span style=""color: grey; position: relative; top: 1px;"">Track</span></a> |            <span style=""position: relative; left: 0px; top: 4px;""> <img src=""images/stopwatch_gs.jpg"" border=""0"" /> </span> <!--  ************ EDIT HREF LINK TO OLD-STYLE SCORECARD HERE ************ --><!--                                --> <a href=""https://docs.google.com/spreadsheet/ccc?key=0AkEOYxGY8F9TdEFnS21TcXJtYm9SQ1NvaU5IdnV0bGc""> <!--                                --><!--                                --><span style=""color: grey; position: relative; top: 1px;""> Classic Scorecard</span></a> </span></span> </span></p>
+<p><span class=""attention"">This Tournament's ranked results and Overall Winner's Scorecard will not be reported in real-time. For live results, please try the <strong>Classic Scorecard</strong> above, provided by <em>Drill Team Radio</em>.</span></p>","0","0","0000-00-00 00:00:00","0"
+"28","6th Battalion Drill","6th-battalion-drill","<div style=""height:21px; padding:10px; background-color:#F1F1F1;""><span style=""color:red; font-weight: bold; font-size:14px;"">Friday, September 20th • Drill Time: 7pm @North Bellmore at Merrick 4-Towns</div>
+
+<br /><br />
+
+<!--                                --> 
+<span class=""noprint""><span style=""position: relative; left: 0px; top: -11px;""><img src=""images/stopwatch.png"" border=""0"" /><span style=""position: relative; left: 3px; top: -4px;""><a href=""#total""> Overall Winners' Scorecard</a>
+
+    |   <span style=""position: relative; left: 0px; top: 4px;""><img src=""images/print_btn_gs.jpg"" border=""0"" /> </span><a href=""javascript:void(0)"" onclick=""printSection('eventsplusscorecard');"">
+<span style=""color: #3B758D; position: relative; top: 1px;"">Print All</span></a>  
+
+   |    <span style=""position: relative; left: 0px; top: 4px;""><img src=""images/trackIcon.gif"" border=""0"" /> </span><a href=""index.php?option=com_phocamaps&view=map&id=1&Itemid=32""><span style=""color: #3B758D; position: relative; top: 1px;"">Track Location</span></a>","0","0","0000-00-00 00:00:00","0"
+"29","Sea Breeze Invitational Drill","sea-breeze-invitational-drill","<p><!--                                --> <span class=""noprint""><span style=""position: relative; left: 0px; top: -11px;""><img src=""images/stopwatch.png"" border=""0"" /><span style=""position: relative; left: 3px; top: -4px;""><a href=""#total""> Overall Winners' Scorecard</a>&nbsp;&nbsp;&nbsp;&nbsp; |  &nbsp;&nbsp;&nbsp;&nbsp;<span style=""position: relative; left: 0px; top: 4px;""><img src=""images/print_btn_gs.jpg"" border=""0"" /> </span><a href=""javascript:void(0)"" onclick=""printSection('eventsplusscorecard');""><span style=""color: grey; position: relative; top: 1px;"">Print All</span></a>&nbsp;&nbsp;&nbsp;&nbsp; |  &nbsp;&nbsp;&nbsp;&nbsp;<span style=""position: relative; left: 0px; top: 4px;""> <img src=""images/stopwatch_gs.jpg"" onClick='alert(""Sorry! The Old-Style scorecard for this event is currently unavailable."")' border=""0"" /> </span> <!--  ************ EDIT HREF LINK TO OLD-STYLE SCORECARD HERE ************ --><!--                                --><a href=""#"" onClick='alert(""Sorry! The Old-Style scorecard for this event is currently unavailable."")' ""> <!--                                --><!--                                --><span style=""color: grey; position: relative; top: 1px;""> Old-Style Scorecard</span></a> </span></span></span></p>","0","0","0000-00-00 00:00:00","0"
+"30","North Greece Invitational Drill","north-greece-invitational-drill","<p><br /><br /></p>
+<p><!--                                --> <span class=""noprint""><span style=""position: relative; left: 0px; top: -11px;""><img src=""images/stopwatch.png"" border=""0"" /><span style=""position: relative; left: 3px; top: -4px;""><a href=""#total""> Overall Winners' Scorecard</a> |      <span style=""position: relative; left: 0px; top: 4px;""><img src=""images/print_btn_gs.jpg"" border=""0"" /> </span><a href=""javascript:void(0)"" onclick=""printSection('eventsplusscorecard');""><span style=""color: grey; position: relative; top: 1px;"">Print All</span></a> |      <span style=""position: relative; left: 0px; top: 4px;""> <img src=""images/stopwatch_gs.jpg"" border=""0"" /> </span> <!--  ************ EDIT HREF LINK TO OLD-STYLE SCORECARD HERE ************ --><!--                                --><a href=""#"" onclick=""alert(&quot;Sorry! The Old-Style scorecard for this event is currently unavailable.&quot;)""> <!--                                --><!--                                --><span style=""color: grey; position: relative; top: 1px;""> Old-Style Scorecard</span></a> </span></span></span></p>","0","0","0000-00-00 00:00:00","0"
+"31","Henrietta Invitational Drill","henrietta-invitational-drill","<p>
+<!--                                --> 
+
+<span class=""noprint"">
+
+<span style=""position: relative; left: 0px; top: -11px;"">
+<img src=""images/stopwatch.png"" border=""0"" />
+
+<span style=""position: relative; left: 3px; top: -4px;""><a href=""#total""> Overall Winners' Scorecard</a>
+ &nbsp; &nbsp;&nbsp;   |    &nbsp; &nbsp;&nbsp; 
+
+
+<span style=""position: relative; left: 0px; top: 4px;""><img src=""images/print_btn_gs.jpg"" border=""0"" /> </span><a href=""javascript:void(0)"" onclick=""printSection('eventsplusscorecard');"">
+
+
+<span style=""color: grey; position: relative; top: 1px;"">Print All</span></a>    &nbsp;&nbsp; &nbsp;&nbsp;|    &nbsp; &nbsp;&nbsp; 
+
+
+<span style=""position: relative; left: 0px; top: 4px;""><img src=""images/trackIcon.gif"" border=""0"" /> </span><a href=""#""><span style=""color: grey; position: relative; top: 1px;"">Track</span></a>&nbsp; &nbsp;&nbsp;     | &nbsp; &nbsp;&nbsp;     
+
+<span style=""position: relative; left: 0px; top: 4px;""> <img src=""images/stopwatch_gs.jpg"" onClick='alert(""Sorry! The Classic scorecard for this event is currently unavailable."")' border=""0"" /> </span> 
+
+<!--  ************ EDIT HREF LINK TO OLD-STYLE SCORECARD HERE ************ --><!--                                -->
+
+<a href=""#"" onClick='alert(""Sorry! The Classic scorecard for this event is currently unavailable."")' ""> <!--                                --><!--                                --><span style=""color: grey; position: relative; top: 1px;""> Classic Scorecard</span></a> 
+
+</span></span>
+
+</span>
+</p>","0","0","0000-00-00 00:00:00","0"
+"32","Main-Transit Invitational Drill (RP)","main-transit-invitational-drill","<p><!--                                --> <span class=""noprint""><span style=""position: relative; left: 0px; top: -11px;""><img src=""images/stopwatch.png"" border=""0"" /><span style=""position: relative; left: 3px; top: -4px;""><a href=""#total""> Overall Winners' Scorecard</a>&nbsp;&nbsp;&nbsp;&nbsp; |  &nbsp;&nbsp;&nbsp;&nbsp;<span style=""position: relative; left: 0px; top: 4px;""><img src=""images/print_btn_gs.jpg"" border=""0"" /> </span><a href=""javascript:void(0)"" onclick=""printSection('eventsplusscorecard');""><span style=""color: grey; position: relative; top: 1px;"">Print All</span></a>&nbsp;&nbsp;&nbsp;&nbsp; |  &nbsp;&nbsp;&nbsp;&nbsp;<span style=""position: relative; left: 0px; top: 4px;""> <img src=""images/stopwatch_gs.jpg"" onClick='alert(""Sorry! The Old-Style scorecard for this event is currently unavailable."")' border=""0"" /> </span> <!--  ************ EDIT HREF LINK TO OLD-STYLE SCORECARD HERE ************ --><!--                                --><a href=""#"" onClick='alert(""Sorry! The Old-Style scorecard for this event is currently unavailable."")' ""> <!--                                --><!--                                --><span style=""color: grey; position: relative; top: 1px;""> Old-Style Scorecard</span></a> </span></span></span></p>","0","0","0000-00-00 00:00:00","0"
+"33","Joe & Kathy Bennett Memorial Drill","joe-a-kathy-bennett-memorial-drill","<p>
+	Come and support the Dansville Fire Department and help them honor Past Area Rep Joe Bennett and wife Kathy Bennett.</p>
+<p>
+<!--                                --> 
+
+<span class=""noprint"">
+
+<span style=""position: relative; left: 0px; top: -11px;"">
+<img src=""images/stopwatch.png"" border=""0"" />
+
+<span style=""position: relative; left: 3px; top: -4px;""><a href=""#total""> Overall Winners' Scorecard</a>
+ &nbsp; &nbsp;&nbsp;   |    &nbsp; &nbsp;&nbsp; 
+
+
+<span style=""position: relative; left: 0px; top: 4px;""><img src=""images/print_btn_gs.jpg"" border=""0"" /> </span><a href=""javascript:void(0)"" onclick=""printSection('eventsplusscorecard');"">
+
+
+<span style=""color: grey; position: relative; top: 1px;"">Print All</span></a>    &nbsp;&nbsp; &nbsp;&nbsp;|    &nbsp; &nbsp;&nbsp; 
+
+
+<span style=""position: relative; left: 0px; top: 4px;""><img src=""images/trackIcon.gif"" border=""0"" /> </span><a href=""#""><span style=""color: grey; position: relative; top: 1px;"">Track</span></a>&nbsp; &nbsp;&nbsp;     | &nbsp; &nbsp;&nbsp;     
+
+<span style=""position: relative; left: 0px; top: 4px;""> <img src=""images/stopwatch_gs.jpg""  border=""0"" /> </span> 
+
+<!--  ************ EDIT HREF LINK TO OLD-STYLE SCORECARD HERE ************ --><!--                                -->
+
+<a href=""#"" onClick='alert(""Sorry! The Classic scorecard for this event is currently unavailable."")' ""> <!--                                --><!--                                --><span style=""color: grey; position: relative; top: 1px;""> Classic Scorecard</span></a> 
+
+</span></span>
+
+</span>
+</p>","0","0","0000-00-00 00:00:00","1"
+"34","Spencerport Invitational Drill","spencerport-invitational-drill","<div style=""height: 24px; padding: 10px; background-color: #f1f1f1;""><span style=""color:red; font-weight: bold; font-size:14px;"">Saturday, August 1st • Drill Time: 11am</span></div>
+<p><br /><br /></p>
+<p><!--                                --> <span class=""noprint""><span style=""position: relative; left: 0px; top: -11px;""><img src=""images/stopwatch.png"" border=""0"" /><span style=""position: relative; left: 3px; top: -4px;""><a href=""#total""> Overall Winners' Scorecard</a> |     <span style=""position: relative; left: 0px; top: 4px;""><img src=""images/print_btn_gs.jpg"" border=""0"" /> </span><a href=""javascript:void(0)"" onclick=""printSection('eventsplusscorecard');""><span style=""color: grey; position: relative; top: 1px;"">Print All</span></a> |      <span style=""position: relative; left: 0px; top: 4px;""> <img src=""images/stopwatch_gs.jpg"" border=""0"" /> </span> <!--  ************ EDIT HREF LINK TO OLD-STYLE SCORECARD HERE ************ --><!--  https://docs.google.com/spreadsheet/ccc?key=0AkEOYxGY8F9TdG1MVTlNVXhsRVJtazFRV2FFNGdjLVE                              --><a href=""#""> <!--                                --><!--                                --><span style=""color: grey; position: relative; top: 1px;""> Old-Style Scorecard</span></a> </span></span></span></p>","0","0","0000-00-00 00:00:00","1"
+"35","Point Pleasant Invitational Drill","point-pleasant-invitational-drill","<p><!--                                --> <span class=""noprint""><span style=""position: relative; left: 0px; top: -11px;""><img src=""images/stopwatch.png"" border=""0"" /><span style=""position: relative; left: 3px; top: -4px;""><a href=""#total""> Overall Winners' Scorecard</a>    |      <span style=""position: relative; left: 0px; top: 4px;""><img src=""images/print_btn_gs.jpg"" border=""0"" /> </span><a href=""javascript:void(0)"" onclick=""printSection('eventsplusscorecard');""><span style=""color: grey; position: relative; top: 1px;"">Print All</span></a>
+      |        <span style=""position: relative; left: 0px; top: 4px;""><img src=""images/trackIcon.gif"" border=""0"" /> </span><a href=""index.php?option=com_phocamaps&view=map&id=26&Itemid=206""><span style=""color: grey; position: relative; top: 1px;"">Track</span></a>
+
+    |      <span style=""position: relative; left: 0px; top: 4px;""> <img src=""images/stopwatch_gs.jpg"" border=""0"" /> </span> <!--  ************ EDIT HREF LINK TO OLD-STYLE SCORECARD HERE ************ --><!--                                --><a href=""https://docs.google.com/spreadsheet/ccc?key=0AkEOYxGY8F9TdGRGUVloZ25NcTJFZFhNN1pOMlIzSlE#gid=0"" target=""blank""> <!--                                --><!--                                --><span style=""color: grey; position: relative; top: 1px;""> Classic Scorecard</span></a> </span></span></span></p>","0","0","0000-00-00 00:00:00","0"
+"36","Northern New York Convention ","northern-new-york-convention-","<p><!--                                --> <span class=""noprint""><span style=""position: relative; left: 0px; top: -11px;""><img src=""images/stopwatch.png"" border=""0"" /><span style=""position: relative; left: 3px; top: -4px;""><a href=""#total""> Overall Winners' Scorecard</a>     |      <span style=""position: relative; left: 0px; top: 4px;""><img src=""images/print_btn_gs.jpg"" border=""0"" /> </span><a href=""javascript:void(0)"" onclick=""printSection('eventsplusscorecard');""><span style=""color: grey; position: relative; top: 1px;"">Print All</span></a>     |      <span style=""position: relative; left: 0px; top: 4px;""> <img src=""images/stopwatch_gs.jpg"" onClick='alert(""Sorry! The Old-Style scorecard for this event is currently unavailable."")' border=""0"" /> </span> <!--  ************ EDIT HREF LINK TO OLD-STYLE SCORECARD HERE ************ --><!--                                --><a href=""https://docs.google.com/spreadsheet/ccc?key=0AqkLbiTorCWsdExnSzBRNUJSTWhRb2NFSWNmV25vRmc&usp=sharing""> <!--                                --><!--                                --><span style=""color: grey; position: relative; top: 1px;""> Old-Style Scorecard</span></a> </span></span></span></p>","0","0","0000-00-00 00:00:00","1"
+"37","Deerfield Invitational Drill","deerfield-invitational-drill","<p>
+<!--                                --> 
+
+<span class=""noprint"">
+
+<span style=""position: relative; left: 0px; top: -11px;"">
+<img src=""images/stopwatch.png"" border=""0"" />
+
+<span style=""position: relative; left: 3px; top: -4px;""><a href=""#total""> Overall Winners' Scorecard</a>
+ &nbsp; &nbsp;&nbsp;   |    &nbsp; &nbsp;&nbsp; 
+
+
+<span style=""position: relative; left: 0px; top: 4px;""><img src=""images/print_btn_gs.jpg"" border=""0"" /> </span><a href=""javascript:void(0)"" onclick=""printSection('eventsplusscorecard');"">
+
+
+<span style=""color: grey; position: relative; top: 1px;"">Print All</span></a>    &nbsp;&nbsp; &nbsp;&nbsp;|    &nbsp; &nbsp;&nbsp; 
+
+
+<span style=""position: relative; left: 0px; top: 4px;""><img src=""images/trackIcon.gif"" border=""0"" /> </span><a href=""#""><span style=""color: grey; position: relative; top: 1px;"">Track</span></a>&nbsp; &nbsp;&nbsp;     | &nbsp; &nbsp;&nbsp;     
+
+<span style=""position: relative; left: 0px; top: 4px;""> <img src=""images/stopwatch_gs.jpg"" onClick='alert(""Sorry! The Classic scorecard for this event is currently unavailable."")' border=""0"" /> </span> 
+
+<!--  ************ EDIT HREF LINK TO OLD-STYLE SCORECARD HERE ************ --><!--                                -->
+
+<a href=""#"" onClick='alert(""Sorry! The Classic scorecard for this event is currently unavailable."")' ""> <!--                                --><!--                                --><span style=""color: grey; position: relative; top: 1px;""> Classic Scorecard</span></a> 
+
+</span></span>
+
+</span>
+</p>","0","0","0000-00-00 00:00:00","1"
+"38","Lake Placid Invitational Drill","lake-placid-invitational-drill","<p>
+	Enjoy a wonderful weekend in Lake Placid New York while watching Nothern New Yorks fastest firefighters battle it out to the end.</p>
+<p>
+	Water- 4.71</p>
+<p><!--                                --> <span class=""noprint""><span style=""position: relative; left: 0px; top: -11px;""><img src=""images/stopwatch.png"" border=""0"" /><span style=""position: relative; left: 3px; top: -4px;""><a href=""#total""> Overall Winners' Scorecard</a>&nbsp;&nbsp;&nbsp;&nbsp; |  &nbsp;&nbsp;&nbsp;&nbsp;<span style=""position: relative; left: 0px; top: 4px;""><img src=""images/print_btn_gs.jpg"" border=""0"" /> </span><a href=""javascript:void(0)"" onclick=""printSection('eventsplusscorecard');""><span style=""color: grey; position: relative; top: 1px;"">Print All</span></a>&nbsp;&nbsp;&nbsp;&nbsp; |  &nbsp;&nbsp;&nbsp;&nbsp;<span style=""position: relative; left: 0px; top: 4px;""> <img src=""images/stopwatch_gs.jpg"" onClick='alert(""Sorry! The Old-Style scorecard for this event is currently unavailable."")' border=""0"" /> </span> <!--  ************ EDIT HREF LINK TO OLD-STYLE SCORECARD HERE ************ --><!--                                --><a href=""#"" onClick='alert(""Sorry! The Old-Style scorecard for this event is currently unavailable."")' ""> <!--                                --><!--                                --><span style=""color: grey; position: relative; top: 1px;""> Old-Style Scorecard</span></a> </span></span></span></p>","0","0","0000-00-00 00:00:00","1"
+"39","Copenhagen Invitational Drill","copenhagen-invitational-drill","<p>
+<!--                                --> 
+
+<span class=""noprint"">
+
+<span style=""position: relative; left: 0px; top: -11px;"">
+<img src=""images/stopwatch.png"" border=""0"" />
+
+<span style=""position: relative; left: 3px; top: -4px;""><a href=""#total""> Overall Winners' Scorecard</a>
+ &nbsp; &nbsp;&nbsp;   |    &nbsp; &nbsp;&nbsp; 
+
+
+<span style=""position: relative; left: 0px; top: 4px;""><img src=""images/print_btn_gs.jpg"" border=""0"" /> </span><a href=""javascript:void(0)"" onclick=""printSection('eventsplusscorecard');"">
+
+
+<span style=""color: grey; position: relative; top: 1px;"">Print All</span></a>    &nbsp;&nbsp; &nbsp;&nbsp;|    &nbsp; &nbsp;&nbsp; 
+
+
+<span style=""position: relative; left: 0px; top: 4px;""><img src=""images/trackIcon.gif"" border=""0"" /> </span><a href=""#""><span style=""color: grey; position: relative; top: 1px;"">Track</span></a>&nbsp; &nbsp;&nbsp;     | &nbsp; &nbsp;&nbsp;     
+
+<span style=""position: relative; left: 0px; top: 4px;""> <img src=""images/stopwatch_gs.jpg"" onClick='alert(""Sorry! The Classic scorecard for this event is currently unavailable."")' border=""0"" /> </span> 
+
+<!--  ************ EDIT HREF LINK TO OLD-STYLE SCORECARD HERE ************ --><!--                                -->
+
+<a href=""#"" onClick='alert(""Sorry! The Classic scorecard for this event is currently unavailable."")' ""> <!--                                --><!--                                --><span style=""color: grey; position: relative; top: 1px;""> Classic Scorecard</span></a> 
+
+</span></span>
+
+</span>
+</p>","0","0","0000-00-00 00:00:00","0"
+"40","Elsmere Invitational Drill","elsmere-invitational-drill","<div style=""height:21px; padding:10px; background-color:#F1F1F1;""><span style=""color:red; font-weight: bold; font-size:14px;"">Saturday, August 3rd • Drill Time: 12pm</span></div><br />
+<!--                                --> 
+
+<span class=""noprint"">
+
+<span style=""position: relative; left: 0px; top: -11px;"">
+<img src=""images/stopwatch.png"" border=""0"" />
+
+<span style=""position: relative; left: 3px; top: -4px;""><a href=""#total""> Overall Winners' Scorecard</a>
+        |         
+
+
+<span style=""position: relative; left: 0px; top: 4px;""><img src=""images/print_btn_gs.jpg"" border=""0"" /> </span><a href=""javascript:void(0)"" onclick=""printSection('eventsplusscorecard');"">
+
+
+<span style=""color: grey; position: relative; top: 1px;"">Print All</span></a>         |         
+
+
+<span style=""position: relative; left: 0px; top: 4px;""><img src=""images/trackIcon.gif"" border=""0"" /> </span><a href=""#""><span style=""color: grey; position: relative; top: 1px;"">Track</span></a>         |          
+
+<span style=""position: relative; left: 0px; top: 4px;""> <img src=""images/stopwatch_gs.jpg"" border=""0"" /> </span> 
+
+<!--  ************ EDIT HREF LINK TO OLD-STYLE SCORECARD HERE ************ --><!--  https://docs.google.com/spreadsheet/ccc?key=0AkEOYxGY8F9TdDJ5MVdyUTdDOHpSTldtbDFGdUNtVlE#gid=0                              -->
+
+<a href=""#"" > <!--                                --><!--                                --><span style=""color: grey; position: relative; top: 1px;""> Classic Scorecard</span></a> 
+
+</span></span>
+
+</span>
+</p>","0","0","0000-00-00 00:00:00","1"
+"41","Louisville Invitational Drill","louisville-invitational-drill","<p>
+	This drill is always a good time when teams from the Northern and Western area's get together.</p>
+<p>
+<p><!--                                --> <span class=""noprint""><span style=""position: relative; left: 0px; top: -11px;""><img src=""images/stopwatch.png"" border=""0"" /><span style=""position: relative; left: 3px; top: -4px;""><a href=""#total""> Overall Winners' Scorecard</a>     |     <span style=""position: relative; left: 0px; top: 4px;""><img src=""images/print_btn_gs.jpg"" border=""0"" /> </span><a href=""javascript:void(0)"" onclick=""printSection('eventsplusscorecard');""><span style=""color: grey; position: relative; top: 1px;"">Print All</span></a>     |     <span style=""position: relative; left: 0px; top: 4px;""> <img src=""images/stopwatch_gs.jpg"" border=""0"" /> </span> <!--  ************ EDIT HREF LINK TO OLD-STYLE SCORECARD HERE ************ --><!--                                --><a href="""" target=""blank""> <!--                                --><!--                                --><span style=""color: grey; position: relative; top: 1px;""> Old-Style Scorecard</span></a> </span></span></span></p>","0","0","0000-00-00 00:00:00","1"
+"42","Norfolk Invitational Drill","norfolk-invitational-drill","<div style=""height:21px; padding:10px; background-color:#F1F1F1;""><span style=""color:red; font-weight: bold; font-size:14px;"">Saturday, August 31st • Drill Time: 12pm @Norfolk</span></div>
+
+<br /><br />
+
+<!--                                --> 
+<span class=""noprint""><span style=""position: relative; left: 0px; top: -11px;""><img src=""images/stopwatch.png"" border=""0"" /><span style=""position: relative; left: 3px; top: -4px;""><a href=""#total""> Overall Winners' Scorecard</a>
+
+&nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp;<span style=""position: relative; left: 0px; top: 4px;""><img src=""images/print_btn_gs.jpg"" border=""0"" /> </span><a href=""javascript:void(0)"" onclick=""printSection('eventsplusscorecard');"">
+<span style=""color: #3B758D; position: relative; top: 1px;"">Print All</span></a>  
+
+&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp;<span style=""position: relative; left: 0px; top: 4px;""><img src=""images/trackIcon.gif"" border=""0"" /> </span><a href=""index.php?option=com_phocamaps&view=map&id=20&Itemid=200""><span style=""color: #3B758D; position: relative; top: 1px;"">Track Location</span></a>","0","0","0000-00-00 00:00:00","0"
+"43","Lindenhurst Junior Invitational Drill","lindenhurst-junior-invitational-drill","<p>
+	Catch the islands top junior firematic drill teams compete to get the head start on the points race.</p>
+<p><!--                                --> <span class=""noprint""><span style=""position: relative; left: 0px; top: -11px;""><img src=""images/stopwatch.png"" border=""0"" /><span style=""position: relative; left: 3px; top: -4px;""><a href=""#total""> Overall Winners' Scorecard</a>&nbsp;&nbsp;&nbsp;&nbsp; |  &nbsp;&nbsp;&nbsp;&nbsp;<span style=""position: relative; left: 0px; top: 4px;""><img src=""images/print_btn_gs.jpg"" border=""0"" /> </span><a href=""javascript:void(0)"" onclick=""printSection('eventsplusscorecard');""><span style=""color: grey; position: relative; top: 1px;"">Print All</span></a>&nbsp;&nbsp;&nbsp;&nbsp; |  &nbsp;&nbsp;&nbsp;&nbsp;<span style=""position: relative; left: 0px; top: 4px;""> <img src=""images/stopwatch_gs.jpg"" onClick='alert(""Sorry! The Old-Style scorecard for this event is currently unavailable."")' border=""0"" /> </span> <!--  ************ EDIT HREF LINK TO OLD-STYLE SCORECARD HERE ************ --><!--                                --><a href=""#"" onClick='alert(""Sorry! The Old-Style scorecard for this event is currently unavailable."")' ""> <!--                                --><!--                                --><span style=""color: grey; position: relative; top: 1px;""> Old-Style Scorecard</span></a> </span></span></span></p>","0","0","0000-00-00 00:00:00","1"
+"44","Central Islip Junior Invitational Drill","central-islip-junior-invitational-drill","<p><!--                                --> <span class=""noprint""> <span style=""position: relative; left: 0px; top: -11px;""> <img src=""images/stopwatch.png"" border=""0"" /> <span style=""position: relative; left: 3px; top: -4px;""><a href=""#total""> Overall Winners' Scorecard</a> |            <span style=""position: relative; left: 0px; top: 4px;""><img src=""images/print_btn_gs.jpg"" border=""0"" /> </span><a href=""javascript:void(0)"" onclick=""printSection('eventsplusscorecard');""> <span style=""color: grey; position: relative; top: 1px;"">Print All</span></a> |            <span style=""position: relative; left: 0px; top: 4px;""><img src=""images/trackIcon.gif"" border=""0"" /> </span><a href=""#""><span style=""color: grey; position: relative; top: 1px;"">Track</span></a> |            <span style=""position: relative; left: 0px; top: 4px;""> <img src=""images/stopwatch_gs.jpg"" border=""0"" /> </span> <!--  ************ EDIT HREF LINK TO OLD-STYLE SCORECARD HERE ************ --><!--                                --> <a href=""#"" onclick=""alert(&quot;Sorry! The Classic scorecard for this event is currently unavailable.&quot;)""> <!--                                --><!--                                --><span style=""color: grey; position: relative; top: 1px;""> Classic Scorecard</span></a></span></span></span></p>
+<p> </p>
+<p>Water- 4.74</p>","0","0","0000-00-00 00:00:00","1"
+"45","Hagerman Junior Invitational Drill","hagerman-junior-invitational-drill","<p>
+<!--                                --> 
+
+<span class=""noprint"">
+
+<span style=""position: relative; left: 0px; top: -11px;"">
+<img src=""images/stopwatch.png"" border=""0"" />
+
+<span style=""position: relative; left: 3px; top: -4px;""><a href=""#total""> Overall Winners' Scorecard</a>
+ &nbsp; &nbsp;&nbsp;   |    &nbsp; &nbsp;&nbsp; 
+
+
+<span style=""position: relative; left: 0px; top: 4px;""><img src=""images/print_btn_gs.jpg"" border=""0"" /> </span><a href=""javascript:void(0)"" onclick=""printSection('eventsplusscorecard');"">
+
+
+<span style=""color: grey; position: relative; top: 1px;"">Print All</span></a>    &nbsp;&nbsp; &nbsp;&nbsp;|    &nbsp; &nbsp;&nbsp; 
+
+
+<span style=""position: relative; left: 0px; top: 4px;""><img src=""images/trackIcon.gif"" border=""0"" /> </span><a href=""#""><span style=""color: grey; position: relative; top: 1px;"">Track</span></a>&nbsp; &nbsp;&nbsp;     | &nbsp; &nbsp;&nbsp;     
+
+<span style=""position: relative; left: 0px; top: 4px;""> <img src=""images/stopwatch_gs.jpg"" onClick='alert(""Sorry! The Classic scorecard for this event is currently unavailable."")' border=""0"" /> </span> 
+
+<!--  ************ EDIT HREF LINK TO OLD-STYLE SCORECARD HERE ************ --><!--                                -->
+
+<a href=""#"" onClick='alert(""Sorry! The Classic scorecard for this event is currently unavailable."")' ""> <!--                                --><!--                                --><span style=""color: grey; position: relative; top: 1px;""> Classic Scorecard</span></a> 
+
+</span></span>
+
+</span>
+</p>","0","0","0000-00-00 00:00:00","0"
+"46","Bay Shore Junior Invitational Drill","bay-shore-invitational-junior-drill","<p>
+<!--                                --> 
+
+<span class=""noprint"">
+
+<span style=""position: relative; left: 0px; top: -11px;"">
+<img src=""images/stopwatch.png"" border=""0"" />
+
+<span style=""position: relative; left: 3px; top: -4px;""><a href=""#total""> Overall Winners' Scorecard</a>
+ &nbsp; &nbsp;&nbsp;   |    &nbsp; &nbsp;&nbsp; 
+
+
+<span style=""position: relative; left: 0px; top: 4px;""><img src=""images/print_btn_gs.jpg"" border=""0"" /> </span><a href=""javascript:void(0)"" onclick=""printSection('eventsplusscorecard');"">
+
+
+<span style=""color: grey; position: relative; top: 1px;"">Print All</span></a>    &nbsp;&nbsp; &nbsp;&nbsp;|    &nbsp; &nbsp;&nbsp; 
+
+
+<span style=""position: relative; left: 0px; top: 4px;""><img src=""images/trackIcon.gif"" border=""0"" /> </span><a href=""#""><span style=""color: grey; position: relative; top: 1px;"">Track</span></a>&nbsp; &nbsp;&nbsp;     | &nbsp; &nbsp;&nbsp;     
+
+<span style=""position: relative; left: 0px; top: 4px;""> <img src=""images/stopwatch_gs.jpg"" onClick='alert(""Sorry! The Classic scorecard for this event is currently unavailable."")' border=""0"" /> </span> 
+
+<!--  ************ EDIT HREF LINK TO OLD-STYLE SCORECARD HERE ************ --><!--                                -->
+
+<a href=""#"" onClick='alert(""Sorry! The Classic scorecard for this event is currently unavailable."")' ""> <!--                                --><!--                                --><span style=""color: grey; position: relative; top: 1px;""> Classic Scorecard</span></a> 
+
+</span></span>
+
+</span>
+</p>","0","0","0000-00-00 00:00:00","0"
+"47","West Sayville Junior Invitational Drill","west-sayville-junior-invitational-drill","<p><!--                                --> <span class=""noprint""><span style=""position: relative; left: 0px; top: -11px;""><img src=""images/stopwatch.png"" border=""0"" /><span style=""position: relative; left: 3px; top: -4px;""><a href=""#total""> Overall Winners' Scorecard</a>&nbsp;&nbsp;&nbsp;&nbsp; |  &nbsp;&nbsp;&nbsp;&nbsp;<span style=""position: relative; left: 0px; top: 4px;""><img src=""images/print_btn_gs.jpg"" border=""0"" /> </span><a href=""javascript:void(0)"" onclick=""printSection('eventsplusscorecard');""><span style=""color: grey; position: relative; top: 1px;"">Print All</span></a>&nbsp;&nbsp;&nbsp;&nbsp; |  &nbsp;&nbsp;&nbsp;&nbsp;<span style=""position: relative; left: 0px; top: 4px;""> <img src=""images/stopwatch_gs.jpg"" onClick='alert(""Sorry! The Old-Style scorecard for this event is currently unavailable."")' border=""0"" /> </span> <!--  ************ EDIT HREF LINK TO OLD-STYLE SCORECARD HERE ************ --><!--                                --><a href=""#"" onClick='alert(""Sorry! The Old-Style scorecard for this event is currently unavailable."")' ""> <!--                                --><!--                                --><span style=""color: grey; position: relative; top: 1px;""> Old-Style Scorecard</span></a> </span></span></span></p>","0","0","0000-00-00 00:00:00","0"
+"48","New York State Junior Drill","new-york-state-junior-drill","<p>
+	Come watch the Junior Firefighters compete for the title of New York State Junior Champions. &nbsp;Show your support for the future firefighters of New York.</p>","0","0","0000-00-00 00:00:00","1"
+"49","Long Island Invitational Parade ","long-island-invitational-parade-","<p><!--                                --> <span class=""noprint""><span style=""position: relative; left: 0px; top: -11px;""><img src=""images/stopwatch.png"" border=""0"" /><span style=""position: relative; left: 3px; top: -4px;""><a href=""#total""> Overall Winners' Scorecard</a>&nbsp;&nbsp;&nbsp;&nbsp; |  &nbsp;&nbsp;&nbsp;&nbsp;<span style=""position: relative; left: 0px; top: 4px;""><img src=""images/print_btn_gs.jpg"" border=""0"" /> </span><a href=""javascript:void(0)"" onclick=""printSection('eventsplusscorecard');""><span style=""color: grey; position: relative; top: 1px;"">Print All</span></a>&nbsp;&nbsp;&nbsp;&nbsp; |  &nbsp;&nbsp;&nbsp;&nbsp;<span style=""position: relative; left: 0px; top: 4px;""> <img src=""images/stopwatch_gs.jpg"" onClick='alert(""Sorry! The Old-Style scorecard for this event is currently unavailable."")' border=""0"" /> </span> <!--  ************ EDIT HREF LINK TO OLD-STYLE SCORECARD HERE ************ --><!--                                --><a href=""#"" onClick='alert(""Sorry! The Old-Style scorecard for this event is currently unavailable."")' ""> <!--                                --><!--                                --><span style=""color: grey; position: relative; top: 1px;""> Old-Style Scorecard</span></a> </span></span></span></p>","0","0","0000-00-00 00:00:00","1"
+"50","5th Battalion Parade","5th-battalion-parade","<p>
+<!--                                --> 
+
+<span class=""noprint"">
+
+<span style=""position: relative; left: 0px; top: -11px;"">
+<img src=""images/stopwatch.png"" border=""0"" />
+
+<span style=""position: relative; left: 3px; top: -4px;""><a href=""#total""> Overall Winners' Scorecard</a>
+ &nbsp; &nbsp;&nbsp;   |    &nbsp; &nbsp;&nbsp; 
+
+
+<span style=""position: relative; left: 0px; top: 4px;""><img src=""images/print_btn_gs.jpg"" border=""0"" /> </span><a href=""javascript:void(0)"" onclick=""printSection('eventsplusscorecard');"">
+
+
+<span style=""color: grey; position: relative; top: 1px;"">Print All</span></a>    &nbsp;&nbsp; &nbsp;&nbsp;|    &nbsp; &nbsp;&nbsp; 
+
+
+<span style=""position: relative; left: 0px; top: 4px;""><img src=""images/trackIcon.gif"" border=""0"" /> </span><a href=""#""><span style=""color: grey; position: relative; top: 1px;"">Track</span></a>&nbsp; &nbsp;&nbsp;     | &nbsp; &nbsp;&nbsp;     
+
+<span style=""position: relative; left: 0px; top: 4px;""> <img src=""images/stopwatch_gs.jpg"" onClick='alert(""Sorry! The Classic scorecard for this event is currently unavailable."")' border=""0"" /> </span> 
+
+<!--  ************ EDIT HREF LINK TO OLD-STYLE SCORECARD HERE ************ --><!--                                -->
+
+<a href=""#"" onClick='alert(""Sorry! The Classic scorecard for this event is currently unavailable."")' ""> <!--                                --><!--                                --><span style=""color: grey; position: relative; top: 1px;""> Classic Scorecard</span></a> 
+
+</span></span>
+
+</span>
+</p>","0","0","0000-00-00 00:00:00","0"
+"51","7th Battalion Parade","7th-battalion-parade","<p>
+<!--                                --> 
+
+<span class=""noprint"">
+
+<span style=""position: relative; left: 0px; top: -11px;"">
+<img src=""images/stopwatch.png"" border=""0"" />
+
+<span style=""position: relative; left: 3px; top: -4px;""><a href=""#total""> Overall Winners' Scorecard</a>
+ &nbsp; &nbsp;&nbsp;   |    &nbsp; &nbsp;&nbsp; 
+
+
+<span style=""position: relative; left: 0px; top: 4px;""><img src=""images/print_btn_gs.jpg"" border=""0"" /> </span><a href=""javascript:void(0)"" onclick=""printSection('eventsplusscorecard');"">
+
+
+<span style=""color: grey; position: relative; top: 1px;"">Print All</span></a>    &nbsp;&nbsp; &nbsp;&nbsp;|    &nbsp; &nbsp;&nbsp; 
+
+
+<span style=""position: relative; left: 0px; top: 4px;""><img src=""images/trackIcon.gif"" border=""0"" /> </span><a href=""#""><span style=""color: grey; position: relative; top: 1px;"">Track</span></a>&nbsp; &nbsp;&nbsp;     | &nbsp; &nbsp;&nbsp;     
+
+<span style=""position: relative; left: 0px; top: 4px;""> <img src=""images/stopwatch_gs.jpg"" onClick='alert(""Sorry! The Classic scorecard for this event is currently unavailable."")' border=""0"" /> </span> 
+
+<!--  ************ EDIT HREF LINK TO OLD-STYLE SCORECARD HERE ************ --><!--                                -->
+
+<a href=""#"" onClick='alert(""Sorry! The Classic scorecard for this event is currently unavailable."")' ""> <!--                                --><!--                                --><span style=""color: grey; position: relative; top: 1px;""> Classic Scorecard</span></a> 
+
+</span></span>
+
+</span>
+</p>","0","0","0000-00-00 00:00:00","0"
+"52","4th Battalion Parade","4th-battalion-parade","<p>
+<!--                                --> 
+
+<span class=""noprint"">
+
+<span style=""position: relative; left: 0px; top: -11px;"">
+<img src=""images/stopwatch.png"" border=""0"" />
+
+<span style=""position: relative; left: 3px; top: -4px;""><a href=""#total""> Overall Winners' Scorecard</a>
+ &nbsp; &nbsp;&nbsp;   |    &nbsp; &nbsp;&nbsp; 
+
+
+<span style=""position: relative; left: 0px; top: 4px;""><img src=""images/print_btn_gs.jpg"" border=""0"" /> </span><a href=""javascript:void(0)"" onclick=""printSection('eventsplusscorecard');"">
+
+
+<span style=""color: grey; position: relative; top: 1px;"">Print All</span></a>    &nbsp;&nbsp; &nbsp;&nbsp;|    &nbsp; &nbsp;&nbsp; 
+
+
+<span style=""position: relative; left: 0px; top: 4px;""><img src=""images/trackIcon.gif"" border=""0"" /> </span><a href=""#""><span style=""color: grey; position: relative; top: 1px;"">Track</span></a>&nbsp; &nbsp;&nbsp;     | &nbsp; &nbsp;&nbsp;     
+
+<span style=""position: relative; left: 0px; top: 4px;""> <img src=""images/stopwatch_gs.jpg"" onClick='alert(""Sorry! The Classic scorecard for this event is currently unavailable."")' border=""0"" /> </span> 
+
+<!--  ************ EDIT HREF LINK TO OLD-STYLE SCORECARD HERE ************ --><!--                                -->
+
+<a href=""#"" onClick='alert(""Sorry! The Classic scorecard for this event is currently unavailable."")' ""> <!--                                --><!--                                --><span style=""color: grey; position: relative; top: 1px;""> Classic Scorecard</span></a> 
+
+</span></span>
+
+</span>
+</p>","0","0","0000-00-00 00:00:00","0"
+"53","Nassau County Parade","nassau-county-parade","<p><!--                                --> <span class=""noprint""><span style=""position: relative; left: 0px; top: -11px;""><img src=""images/stopwatch.png"" border=""0"" /><span style=""position: relative; left: 3px; top: -4px;""><a href=""#total""> Overall Winners' Scorecard</a>&nbsp;&nbsp;&nbsp;&nbsp; |  &nbsp;&nbsp;&nbsp;&nbsp;<span style=""position: relative; left: 0px; top: 4px;""><img src=""images/print_btn_gs.jpg"" border=""0"" /> </span><a href=""javascript:void(0)"" onclick=""printSection('eventsplusscorecard');""><span style=""color: grey; position: relative; top: 1px;"">Print All</span></a>&nbsp;&nbsp;&nbsp;&nbsp; |  &nbsp;&nbsp;&nbsp;&nbsp;<span style=""position: relative; left: 0px; top: 4px;""> <img src=""images/stopwatch_gs.jpg"" onClick='alert(""Sorry! The Old-Style scorecard for this event is currently unavailable."")' border=""0"" /> </span> <!--  ************ EDIT HREF LINK TO OLD-STYLE SCORECARD HERE ************ --><!--                                --><a href=""#"" onClick='alert(""Sorry! The Old-Style scorecard for this event is currently unavailable."")' ""> <!--                                --><!--                                --><span style=""color: grey; position: relative; top: 1px;""> Old-Style Scorecard</span></a> </span></span></span></p>","0","0","0000-00-00 00:00:00","0"
+"54","Suffolk County Parade","suffolk-county-parade","<p><!--                                --> <span class=""noprint""><span style=""position: relative; left: 0px; top: -11px;""><img src=""images/stopwatch.png"" border=""0"" /><span style=""position: relative; left: 3px; top: -4px;""><a href=""#total""> Overall Winners' Scorecard</a>&nbsp;&nbsp;&nbsp;&nbsp; |  &nbsp;&nbsp;&nbsp;&nbsp;<span style=""position: relative; left: 0px; top: 4px;""><img src=""images/print_btn_gs.jpg"" border=""0"" /> </span><a href=""javascript:void(0)"" onclick=""printSection('eventsplusscorecard');""><span style=""color: grey; position: relative; top: 1px;"">Print All</span></a>&nbsp;&nbsp;&nbsp;&nbsp; |  &nbsp;&nbsp;&nbsp;&nbsp;<span style=""position: relative; left: 0px; top: 4px;""> <img src=""images/stopwatch_gs.jpg"" onClick='alert(""Sorry! The Old-Style scorecard for this event is currently unavailable."")' border=""0"" /> </span> <!--  ************ EDIT HREF LINK TO OLD-STYLE SCORECARD HERE ************ --><!--                                --><a href=""#"" onClick='alert(""Sorry! The Old-Style scorecard for this event is currently unavailable."")' ""> <!--                                --><!--                                --><span style=""color: grey; position: relative; top: 1px;""> Old-Style Scorecard</span></a> </span></span></span></p>","0","0","0000-00-00 00:00:00","0"
+"55","Town of Islip Parade","town-of-islip-parade","<p><!--                                --> <span class=""noprint""><span style=""position: relative; left: 0px; top: -11px;""><img src=""images/stopwatch.png"" border=""0"" /><span style=""position: relative; left: 3px; top: -4px;""><a href=""#total""> Overall Winners' Scorecard</a>&nbsp;&nbsp;&nbsp;&nbsp; |  &nbsp;&nbsp;&nbsp;&nbsp;<span style=""position: relative; left: 0px; top: 4px;""><img src=""images/print_btn_gs.jpg"" border=""0"" /> </span><a href=""javascript:void(0)"" onclick=""printSection('eventsplusscorecard');""><span style=""color: grey; position: relative; top: 1px;"">Print All</span></a>&nbsp;&nbsp;&nbsp;&nbsp; |  &nbsp;&nbsp;&nbsp;&nbsp;<span style=""position: relative; left: 0px; top: 4px;""> <img src=""images/stopwatch_gs.jpg"" onClick='alert(""Sorry! The Old-Style scorecard for this event is currently unavailable."")' border=""0"" /> </span> <!--  ************ EDIT HREF LINK TO OLD-STYLE SCORECARD HERE ************ --><!--                                --><a href=""#"" onClick='alert(""Sorry! The Old-Style scorecard for this event is currently unavailable."")' ""> <!--                                --><!--                                --><span style=""color: grey; position: relative; top: 1px;""> Old-Style Scorecard</span></a> </span></span></span></p>","0","0","0000-00-00 00:00:00","0"
+"56","New York State Parade","new-york-state-parade","<p>
+	Come watch and show your support for Firefighters our local heros at the New York State Parade.  </p>
+
+
+<p><!--                                --> <span class=""noprint""><span style=""position: relative; left: 0px; top: -11px;""><img src=""images/stopwatch.png"" border=""0"" /><span style=""position: relative; left: 3px; top: -4px;""><a href=""#total""> Overall Winners' Scorecard</a>&nbsp;&nbsp;&nbsp;&nbsp; |  &nbsp;&nbsp;&nbsp;&nbsp;<span style=""position: relative; left: 0px; top: 4px;""><img src=""images/print_btn_gs.jpg"" border=""0"" /> </span><a href=""javascript:void(0)"" onclick=""printSection('eventsplusscorecard');""><span style=""color: grey; position: relative; top: 1px;"">Print All</span></a>&nbsp;&nbsp;&nbsp;&nbsp; |  &nbsp;&nbsp;&nbsp;&nbsp;<span style=""position: relative; left: 0px; top: 4px;""> <img src=""images/stopwatch_gs.jpg"" onClick='alert(""Sorry! The Old-Style scorecard for this event is currently unavailable."")' border=""0"" /> </span> <!--  ************ EDIT HREF LINK TO OLD-STYLE SCORECARD HERE ************ --><!--                                --><a href=""#"" onClick='alert(""Sorry! The Old-Style scorecard for this event is currently unavailable."")' ""> <!--                                --><!--                                --><span style=""color: grey; position: relative; top: 1px;""> Old-Style Scorecard</span></a> </span></span></span></p>","0","0","0000-00-00 00:00:00","1"
+"57","Town of Babylon Parade ","town-of-babylon-parade-","<p>
+	&nbsp;</p>
+<p>
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>","0","0","0000-00-00 00:00:00","0"
+"58","3rd Battalion Parade","3rd-battalion-parade","<p>
+<!--                                --> 
+
+<span class=""noprint"">
+
+<span style=""position: relative; left: 0px; top: -11px;"">
+<img src=""images/stopwatch.png"" border=""0"" />
+
+<span style=""position: relative; left: 3px; top: -4px;""><a href=""#total""> Overall Winners' Scorecard</a>
+ &nbsp; &nbsp;&nbsp;   |    &nbsp; &nbsp;&nbsp; 
+
+
+<span style=""position: relative; left: 0px; top: 4px;""><img src=""images/print_btn_gs.jpg"" border=""0"" /> </span><a href=""javascript:void(0)"" onclick=""printSection('eventsplusscorecard');"">
+
+
+<span style=""color: grey; position: relative; top: 1px;"">Print All</span></a>    &nbsp;&nbsp; &nbsp;&nbsp;|    &nbsp; &nbsp;&nbsp; 
+
+
+<span style=""position: relative; left: 0px; top: 4px;""><img src=""images/trackIcon.gif"" border=""0"" /> </span><a href=""#""><span style=""color: grey; position: relative; top: 1px;"">Track</span></a>&nbsp; &nbsp;&nbsp;     | &nbsp; &nbsp;&nbsp;     
+
+<span style=""position: relative; left: 0px; top: 4px;""> <img src=""images/stopwatch_gs.jpg"" onClick='alert(""Sorry! The Classic scorecard for this event is currently unavailable."")' border=""0"" /> </span> 
+
+<!--  ************ EDIT HREF LINK TO OLD-STYLE SCORECARD HERE ************ --><!--                                -->
+
+<a href=""#"" onClick='alert(""Sorry! The Classic scorecard for this event is currently unavailable."")' ""> <!--                                --><!--                                --><span style=""color: grey; position: relative; top: 1px;""> Classic Scorecard</span></a> 
+
+</span></span>
+
+</span>
+</p>","0","0","0000-00-00 00:00:00","0"
+"59","NNYVF Convention Parade","nnyvf-convention-parade","<p><!--                                --> <span class=""noprint""><span style=""position: relative; left: 0px; top: -11px;""><img src=""images/stopwatch.png"" border=""0"" /><span style=""position: relative; left: 3px; top: -4px;""><a href=""#total""> Overall Winners' Scorecard</a>&nbsp;&nbsp;&nbsp;&nbsp; |  &nbsp;&nbsp;&nbsp;&nbsp;<span style=""position: relative; left: 0px; top: 4px;""><img src=""images/print_btn_gs.jpg"" border=""0"" /> </span><a href=""javascript:void(0)"" onclick=""printSection('eventsplusscorecard');""><span style=""color: grey; position: relative; top: 1px;"">Print All</span></a>&nbsp;&nbsp;&nbsp;&nbsp; |  &nbsp;&nbsp;&nbsp;&nbsp;<span style=""position: relative; left: 0px; top: 4px;""> <img src=""images/stopwatch_gs.jpg"" onClick='alert(""Sorry! The Old-Style scorecard for this event is currently unavailable."")' border=""0"" /> </span> <!--  ************ EDIT HREF LINK TO OLD-STYLE SCORECARD HERE ************ --><!--                                --><a href=""#"" onClick='alert(""Sorry! The Old-Style scorecard for this event is currently unavailable."")' ""> <!--                                --><!--                                --><span style=""color: grey; position: relative; top: 1px;""> Old-Style Scorecard</span></a> </span></span></span></p>","0","0","0000-00-00 00:00:00","1"
+"60","Nassau County Old-Fashioned (NP)","nassau-county-of-nassau-points","<p><!--                                --> <span class=""noprint""><span style=""position: relative; left: 0px; top: -11px;""><img src=""images/stopwatch.png"" border=""0"" /><span style=""position: relative; left: 3px; top: -4px;""><a href=""#total""> Overall Winners' Scorecard</a>&nbsp;&nbsp;&nbsp;&nbsp; |  &nbsp;&nbsp;&nbsp;&nbsp;<span style=""position: relative; left: 0px; top: 4px;""><img src=""images/print_btn_gs.jpg"" border=""0"" /> </span><a href=""javascript:void(0)"" onclick=""printSection('eventsplusscorecard');""><span style=""color: grey; position: relative; top: 1px;"">Print All</span></a>&nbsp;&nbsp;&nbsp;&nbsp; |  &nbsp;&nbsp;&nbsp;&nbsp;<span style=""position: relative; left: 0px; top: 4px;""> <img src=""images/stopwatch_gs.jpg"" onClick='alert(""Sorry! The Old-Style scorecard for this event is currently unavailable."")' border=""0"" /> </span> <!--  ************ EDIT HREF LINK TO OLD-STYLE SCORECARD HERE ************ --><!--                                --><a href=""#"" onClick='alert(""Sorry! The Old-Style scorecard for this event is currently unavailable."")' ""> <!--                                --><!--                                --><span style=""color: grey; position: relative; top: 1px;""> Old-Style Scorecard</span></a> </span></span></span></p>","0","0","0000-00-00 00:00:00","0"
+"62","Nassau County Old-Fashioned (SP)","nassau-county-of-suffolk-points","Friday, July 12th, Nassau County Old Fashioned Drill / Bellmore at Merrick 4-Towns, Drill Time 6:00pm.<br /><p><!--                                --> <span class=""noprint""><span style=""position: relative; left: 0px; top: -11px;""><img src=""images/stopwatch.png"" border=""0"" /><span style=""position: relative; left: 3px; top: -4px;""><a href=""#total""> Overall Winners' Scorecard</a>     |      <span style=""position: relative; left: 0px; top: 4px;""><img src=""images/print_btn_gs.jpg"" border=""0"" /> </span><a href=""javascript:void(0)"" onclick=""printSection('eventsplusscorecard');""><span style=""color: grey; position: relative; top: 1px;"">Print All</span></a>     |      <span style=""position: relative; left: 0px; top: 4px;""> <img src=""images/stopwatch_gs.jpg"" onClick='alert(""Sorry! The Old-Style scorecard for this event is currently unavailable."")' border=""0"" /> </span> <!--  ************ EDIT HREF LINK TO OLD-STYLE SCORECARD HERE ************ --><!--                                --><a href=""#"" onClick='alert(""Sorry! The Old-Style scorecard for this event is currently unavailable."")' ""> <!--                                --><!--                                --><span style=""color: grey; position: relative; top: 1px;""> Old-Style Scorecard</span></a> </span></span></span></p>","0","0","0000-00-00 00:00:00","1"
+"63","Main-Transit Invitational Drill","main-transit-invitational-drill","<p><!--                                --> <span class=""noprint""><span style=""position: relative; left: 0px; top: -11px;""><img src=""images/stopwatch.png"" border=""0"" /><span style=""position: relative; left: 3px; top: -4px;""><a href=""#total""> Overall Winners' Scorecard</a>&nbsp;&nbsp;&nbsp;&nbsp; |  &nbsp;&nbsp;&nbsp;&nbsp;<span style=""position: relative; left: 0px; top: 4px;""><img src=""images/print_btn_gs.jpg"" border=""0"" /> </span><a href=""javascript:void(0)"" onclick=""printSection('eventsplusscorecard');""><span style=""color: grey; position: relative; top: 1px;"">Print All</span></a>&nbsp;&nbsp;&nbsp;&nbsp; |  &nbsp;&nbsp;&nbsp;&nbsp;<span style=""position: relative; left: 0px; top: 4px;""> <img src=""images/stopwatch_gs.jpg"" onClick='alert(""Sorry! The Old-Style scorecard for this event is currently unavailable."")' border=""0"" /> </span> <!--  ************ EDIT HREF LINK TO OLD-STYLE SCORECARD HERE ************ --><!--                                --><a href=""#"" onClick='alert(""Sorry! The Old-Style scorecard for this event is currently unavailable."")' ""> <!--                                --><!--                                --><span style=""color: grey; position: relative; top: 1px;""> Old-Style Scorecard</span></a> </span></span></span></p>","0","0","0000-00-00 00:00:00","0"
+"64","Town of North Hempstead","town-of-north-hempstead","<p><!--                                --> <span class=""noprint""><span style=""position: relative; left: 0px; top: -11px;""><img src=""images/stopwatch.png"" border=""0"" /><span style=""position: relative; left: 3px; top: -4px;""><a href=""#total""> Overall Winners' Scorecard</a>&nbsp;&nbsp;&nbsp;&nbsp; |  &nbsp;&nbsp;&nbsp;&nbsp;<span style=""position: relative; left: 0px; top: 4px;""><img src=""images/print_btn_gs.jpg"" border=""0"" /> </span><a href=""javascript:void(0)"" onclick=""printSection('eventsplusscorecard');""><span style=""color: grey; position: relative; top: 1px;"">Print All</span></a>&nbsp;&nbsp;&nbsp;&nbsp; |  &nbsp;&nbsp;&nbsp;&nbsp;<span style=""position: relative; left: 0px; top: 4px;""> <img src=""images/stopwatch_gs.jpg"" onClick='alert(""Sorry! The Old-Style scorecard for this event is currently unavailable."")' border=""0"" /> </span> <!--  ************ EDIT HREF LINK TO OLD-STYLE SCORECARD HERE ************ --><!--                                --><a href=""#"" onClick='alert(""Sorry! The Old-Style scorecard for this event is currently unavailable."")' ""> <!--                                --><!--                                --><span style=""color: grey; position: relative; top: 1px;""> Old-Style Scorecard</span></a> </span></span></span></p>","0","0","0000-00-00 00:00:00","0"
+"65","New York State Motorized Drill","NYS motorized at main transit","<p>
+	Come watch Firefighters from all over New York State compete for the title of New York State Motorized Champions. It's one of the most exciting tournaments of the year and it all begins Saturday, August 18th starting at 8:00am at the Main-Transit Track.</p>
+<p>
+<p><!--                                --> <span class=""noprint""><span style=""position: relative; left: 0px; top: -11px;""><img src=""images/stopwatch.png"" border=""0"" /><span style=""position: relative; left: 3px; top: -4px;""><a href=""#total""> Overall Winners' Scorecard</a>     |     <span style=""position: relative; left: 0px; top: 4px;""><img src=""images/print_btn_gs.jpg"" border=""0"" /> </span><a href=""javascript:void(0)"" onclick=""printSection('eventsplusscorecard');""><span style=""color: grey; position: relative; top: 1px;"">Print All</span></a>     |     <span style=""position: relative; left: 0px; top: 4px;""><img src=""images/trackIcon.gif"" border=""0"" /> </span><a href=""index.php?option=com_phocamaps&view=map&id=2&Itemid=132""><span style=""color: grey; position: relative; top: 1px;"">Track</span></a>     |     <span style=""position: relative; left: 0px; top: 4px;""> <img src=""images/stopwatch_gs.jpg"" border=""0"" /> </span> <!--  ************ EDIT HREF LINK TO OLD-STYLE SCORECARD HERE ************ --><!--                                --><a href=""https://docs.google.com/spreadsheet/ccc?key=0AkEOYxGY8F9TdFRFZ1M2aTdfc0JQT2lLellsaXNpYmc&pli=1#gid=0"" target=""blank""> <!--                                --><!--                                --><span style=""color: grey; position: relative; top: 1px;""> Classic Scorecard</span></a> </span></span></span></p>","0","0","0000-00-00 00:00:00","1"
+"66","Town of Oyster Bay","town-of-oyster-bay",,"0","0","2012-08-26 14:56:10","0"
+"67","Town of North Hempstead","town-of-north-hempstead",,"0","0","0000-00-00 00:00:00","0"
+"68","Town of North Hempstead & Oyster Bay","town-of-north-hempstead-a-oyster-bay",,"0","0","0000-00-00 00:00:00","0"
+"69","Central Islip Invitational (NP)","central-islip-invitational-np",,"0","0","0000-00-00 00:00:00","0"
+"70","New York State Motorized Drill (NP)","new-york-state-motorized-drill-np",,"0","0","2012-08-26 23:22:05","0"
+"71","Point Pleasant Invitational (RP)","point-pleasant-invitational-rp",,"0","0","2012-08-28 14:45:33","0"
+"72","2nd Battalion Drill","2nd-battalion-drill",,"0","0","0000-00-00 00:00:00","0"
+"73","3rd Battalion Drill","3rd-battalion-drill",,"0","0","2012-08-29 14:23:16","0"
+"74","4th Battalion Drill","4th-battalion-drill",,"0","0","2012-08-29 14:23:28","0"
+"75","Town of Oyster Bay/N. Hempstead ","town-of-oyster-bayn-hempstead-",,"0","0","0000-00-00 00:00:00","1"
+"76","7th Batt. / Town of Hempstead Drill ","7th-batt--town-of-hempstead-drill-",,"0","0","2013-05-04 22:29:15","1"
+"77","Brookhaven Town Motorized Drill","brookhaven-town-motorized-drill",,"0","0","2013-05-04 22:29:31","1"
+"78","Selden Invitational Drill","selden-invitational-drill","<p><!--                                --> 
+
+<span class=""noprint"">
+<span style=""position: relative; left: 0px; top: -11px;"">
+<img src=""images/stopwatch_green.png"" border=""0"" />
+<span style="" position: relative; left: 3px; top: -4px;"">
+<a href=""#total""> <span style=""color:green;"">Total Points</span>
+</a>     |      <span style=""position: relative; left: 0px; top: 4px;""><img src=""images/print_btn_gs.jpg"" border=""0"" /> </span><a href=""javascript:void(0)"" onclick=""printSection('eventsplusscorecard');"">
+
+<span style=""color: #1a6b97; position: relative; top: 1px;"">Print All</span>
+
+
+</a>     |     <span style=""position: relative; left: 0px; top: 4px;""><img src=""images/trackIcon.gif"" border=""0"" /> </span><a href=""index.php?option=com_phocamaps&view=map&id=12&Itemid=193""><span style=""color: #1a6b97; position: relative; top: 1px;"">Track</span>
+
+
+
+</a>     |      <span style=""position: relative; left: 0px; top: 4px;""> 
+
+
+
+
+<img src=""images/stopwatch.png"" border=""0"" /> </span> 
+
+
+
+<!--  ************ EDIT HREF LINK TO OLD-STYLE SCORECARD HERE ************ -->
+<!--                                -->
+<a href=""#""> <!--                                -->
+
+<!--                                -->
+<span style=""color:#a6332c; position: relative; top: 1px;""> Classic Scorecard</span>
+</a> 
+</span>
+</span>
+</span>
+</p>","0","0","0000-00-00 00:00:00","1"
+"79","New York State Motorized Drill at Hempst","new-york-state-motorized-drill-at-hempst","<div style=""height:29px; padding:10px; background-color:#F1F1F1;"">  <a href=""http://www.ustream.tv/channel/nys-fire-dept-drill-team-racing"" target=""blank""></span><img src=""images/btn_on_demant.png""></a>       <span style=""position:relative; top:-7px; color:red; font-weight: bold; font-size:14px;"">Saturday, August 17th • Drill Time: 8am</div><br />","0","0","0000-00-00 00:00:00","0"
+"80","Hagerman Annual Labor Day Weekend Drill","hagerman-annual-labor-day-weekend-drill","<div style=""height: 21px; padding: 10px; background-color: #f1f1f1;""><span style=""color:red; font-weight: bold; font-size:14px;"">Saturday, September 5th • Drill Time: 10am / (Rain Date 9/6 at 12:00 pm)</span></div>
+<p><br /> <br /><br /></p>
+<!--                                -->
+<p><span class=""noprint""><span style=""position: relative; left: 0px; top: -11px;""><img src=""images/stopwatch.png"" border=""0"" /><span style=""position: relative; left: 3px; top: -4px;""><a href=""#total""> Overall Winners' Scorecard</a> |   <span style=""position: relative; left: 0px; top: 4px;""><img src=""images/print_btn_gs.jpg"" border=""0"" /> </span><a href=""javascript:void(0)"" onclick=""printSection('eventsplusscorecard');""> <span style=""color: #3b758d; position: relative; top: 1px;"">Print All</span></a> |    <span style=""position: relative; left: 0px; top: 4px;""><img src=""images/trackIcon.gif"" border=""0"" /> </span><a href=""index.php?option=com_phocamaps&amp;view=map&amp;id=1&amp;Itemid=32""><span style=""color: #3b758d; position: relative; top: 1px;"">Track Location</span></a></span></span></span></p>","0","0","0000-00-00 00:00:00","1"
+"81","Old Fashioned Invitational Drill","old-fashioned-invitational-drill",,"0","0","0000-00-00 00:00:00","1"
+"82","Sheridan Park/Point Invitational Drill","sheridan-parkpoint-invitational-drill",,"0","0","0000-00-00 00:00:00","0"
+"83","Selden Junior Invitational Drill","selden-junior-invitational-drill",,"0","0","2013-05-19 02:16:46","1"
+"84","Bayville Invitational Drill","bayville-invitational-drill","<div style=""height:21px; padding:10px; background-color:#F1F1F1;""><span style=""color:red; font-weight: bold; font-size:14px;"">Saturday, September 7th • Drill Time: 1pm / (Rain Date 9/21)</span></div>
+
+<br /><br />
+
+<!--                                --> 
+<span class=""noprint""><span style=""position: relative; left: 0px; top: -11px;""><img src=""images/stopwatch.png"" border=""0"" /><span style=""position: relative; left: 3px; top: -4px;""><a href=""#total""> Overall Winners' Scorecard</a>
+
+&nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp;<span style=""position: relative; left: 0px; top: 4px;""><img src=""images/print_btn_gs.jpg"" border=""0"" /> </span><a href=""javascript:void(0)"" onclick=""printSection('eventsplusscorecard');"">
+<span style=""color: #3B758D; position: relative; top: 1px;"">Print All</span></a>  
+
+&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp;<span style=""position: relative; left: 0px; top: 4px;""><img src=""images/trackIcon.gif"" border=""0"" /> </span><a href=""index.php?option=com_phocamaps&view=map&id=27&Itemid=217""><span style=""color: #3B758D; position: relative; top: 1px;"">Track Location</span></a>
+
+              
+
+</p>","0","0","0000-00-00 00:00:00","1"
+"85","Zach Bernstein Memorial Drill","zach-bernstein-memorial-drill","<p>Water Time: 4.72</p>","0","0","0000-00-00 00:00:00","1"
+"86","Town of Testgrounds","town-of-testgrounds",,"0","0","2014-04-22 15:41:48","0"
+"87","West Carthage Invitational Drill","west-carthage-invitational-drill",,"0","0","2014-04-30 01:22:07","0"
+"88","Suffolk County Motorized Drill","suffolk-county-motorized-drill","<p>Water-  4.63</p>","0","0","0000-00-00 00:00:00","0"
+"89","Riverhead Invitational Drill","riverhead-invitational-drill",,"0","0","0000-00-00 00:00:00","0"
+"90","Central Islip Invitational Drill","central-islip-invitational-drill",,"0","0","2014-05-10 10:34:41","0"
+"91","Hagerman Labor Day Drill","hagerman-labor-day-drill",,"0","0","2014-05-10 10:36:28","0"
+"92","Miller Place / Rocky Point OF Drill ","miller-place--rocky-point-of-drill-",,"0","0","2014-06-11 17:22:01","0"
+"93","Long Island Championship (OF)","long-island-championship-of",,"0","0","0000-00-00 00:00:00","0"
+"94","2nd & 4th Battalion Invitational","lynbrook-invite-a-2nd-a-4th-batt",,"0","0","0000-00-00 00:00:00","1"
+"95","Test Drill","test-drill",,"0","0","0000-00-00 00:00:00","1"
+"96","Mike Esposito Memorial Drill","mike-esposito-memorial-drill",,"0","0","2016-05-22 15:51:20","0"
+"97","Nassau County Charity Drill","nassau-county-charity-drill",,"0","0","2016-06-04 05:58:05","0"
+"98","WNY Drill","wny-drill",,"0","0","2016-06-06 14:32:59","1"

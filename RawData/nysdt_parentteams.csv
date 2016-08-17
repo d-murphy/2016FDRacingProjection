@@ -1,0 +1,111 @@
+id,club_id,name,alias,short_name,acronym,picture,picture_small,description,admin_id,checked_out,checked_out_time
+1,0,Central Islip Hoboes,Central Islip Hoboes,Hoboes,SUFF,hoboes_1332284214.gif,,,0,0,0000-00-00 00:00:00
+2,0,East Norwich Spooks,East Norwich Spooks,Spooks,NASS,,,,0,0,0000-00-00 00:00:00
+3,0,East Rockaway Cold Ducks,East Rockaway Cold Ducks,Cold Ducks,NASS,cold-ducks_1332283721.jpg,,"<p> </p>
+<p style=""margin: 0.0px 0.0px 12.0px 0.0px; line-height: 15.0px; font: 12.0px Helvetica; color: #333333;"">The East Rockaway Fire Department has provided Fire, Rescue and Emergency services for the residents and business owners in East Rockaway since 1893. We are the oldest organization within the Village. The Fire Department is made up of many of your neighbors, friends and relatives. These dedicated individuals volunteer their time 24 hours per day / 365 days a year, there are NO holidays for the Fire Service. Our Department provides Fire / Rescue, Emergency Medical and Water Rescue Services to the residents of the Village of East Rockaway, Bay Park, Angle Sea and other surrounding fire districts.</p>
+<p> </p>",0,0,0000-00-00 00:00:00
+4,0,Bellmore Ballbreakers,bellmore-ballbreakers,,NASS,bellmore2_1331803867.jpg,bellmore2_1331803867.jpg,,0,0,0000-00-00 00:00:00
+5,0,Carle Place Frogs,Carle Place Frogs,,NASS,frogs_1332284110.gif,,,0,0,0000-00-00 00:00:00
+6,0,Bay Shore Redskins,bay-shore-redskins,,SUFF,redskins_1332284242.gif,,,0,0,0000-00-00 00:00:00
+7,0,Babylon Scroungers,babylon-scroungers,,SUFF,scroungers_1332284279.jpg,,,0,0,0000-00-00 00:00:00
+8,0,Brentwood Tigers,brentwood-tigers,,SUFF,,,,0,0,0000-00-00 00:00:00
+9,0,Albion Fireflies,albion-fireflies,,WNY,albion_1332284353.jpg,,,0,0,0000-00-00 00:00:00
+10,0,North Greece Lil Squirts,north-greece-lil-squirts,,WNY,lilsquirts_1332284381.gif,,,0,0,0000-00-00 00:00:00
+11,0,Sea Breeze Indians,sea-breeze-indians,,WNY,,,,0,0,0000-00-00 00:00:00
+12,0,Main-Transit,main-transit,,WNY,mtfd_main_1331882255.jpg,,"<h4><span style=""font-weight: normal;"">The Slo-Pokes are comprised of active members of the Main-Transit Fire Department that compete in Firematic Competitions throughout the state. Events include both motorized and foot races, which utilize many facets of everyday firefighting skills. The Slo-Pokes are an integral part of Main-Transit, as the members develop unity, dedication, skill among themselves, and pride within the department. Spectators are welcome to any and all tournaments held throughout the state. To see video clips of actual races, you may want to visit the</span> <a href=""http://www.youtube.com/user/AZipp161"" target=""_blank"" title=""Slo-Pokes Youtube Page"">Slo-Pokes Youtube Page</a>.</h4>
+<h4><strong>Slo-Pokes 2013 Tournament Schedule</strong><br /> --------------------------------------------<br /><span style=""font-weight: normal;"">6/22 Sheridan Park Tournament at Point Pleasant, Saturday 1:00pm<br />6/29 North Greece Tournament, Saturday - 1:00pm<br />7/3 Joe Hunter Memorial at Hempstead, Wednesday - 6:00pm</span><br /><strong>7/19 Main-Trainsit Tournament, Friday - 6:30pm</strong><br /><span style=""font-weight: normal;"">8/3 Spencerport Tournament, Saturday - 1:00pm<br />8/10 NYS Old Fashioned Drill at Spencerport, Satuday - 12:00pm<br />8/17 NYS Drill at Hempstead, Saturday - 8:00am<br />8/24 Point Pleasant 12:00pm</span></h4>
+<h4><span style=""line-height: 1.3em;"">Keep up with our Twitter feed: @Slo_pokes<br /></span></h4>
+<h4>Or</h4>
+<h4>Our <a href=""https://www.facebook.com/groups/2205202474/"" target=""_blank"" title=""Slo-Pokes Facebook Group"">Slo-Pokes Facebook Group</a></h4>",0,0,0000-00-00 00:00:00
+13,0,Clayton Calumets,clayton-calumets,,NNY,calumets_1332284461.jpg,,,0,0,0000-00-00 00:00:00
+14,0,Delmar Boosters,delmar-boosters,,NNY,,,,0,0,0000-00-00 00:00:00
+15,0,Deerfield Hosebusters,deerfield-hosebusters,,NNY,,,,0,0,0000-00-00 00:00:00
+18,0,Islip Wolves,islip-wolves,,SUFF,,,,0,0,0000-00-00 00:00:00
+19,0,Westbury Turtles,westbury-turtles,,NASS,,,,0,0,3/12/2012 1:00
+21,0,Islip Terrace Schlagers,islip-terrace-schlagers,,SUFF,,,,0,0,0000-00-00 00:00:00
+22,0,Louisville Turtles,louisville-turtles,,NNY,,,,0,0,0000-00-00 00:00:00
+23,0,Hagerman Gamblers,hagerman-gamblers,,SUFF,,,,0,0,3/14/2012 14:50
+24,0,Baldwin Tomcats,baldwin-tomcats,,NASS,,,,0,0,0000-00-00 00:00:00
+25,0,East Meadow Meadowlarks,east-meadow-meadowlarks,,NASS,,,,0,0,3/14/2012 15:10
+26,0,Elmont Bangtails,elmont-bangtails,,NASS,,,,0,0,3/14/2012 15:11
+27,0,Floral Park Doodlebugs,floral-park-doodlebugs,,NASS,,,,0,0,3/14/2012 15:11
+29,0,Franklin Square Square Shooters,franklin-square-square-shooters,,NASS,,,,0,0,3/14/2012 15:14
+30,0,Freeport Clamdiggers,freeport-clamdiggers,,NASS,,,,0,0,3/14/2012 15:15
+31,0,Freeport Dead End Kids,freeport-dead-end-kids,,NASS,,,,0,0,3/14/2012 15:15
+32,0,Freeport Nighthawks,freeport-nighthawks,,NASS,,,,0,0,3/14/2012 15:15
+33,0,Garden City Park Mustangs,garden-city-park-mustangs,,NASS,,,,0,0,3/14/2012 15:15
+34,0,Glen Cove Wet Ears,glen-cove-wet-ears,,NASS,,,,0,0,3/14/2012 15:16
+35,0,Glenwood Greenhorns,glenwood-greenhorns,,NASS,,,,0,0,3/14/2012 15:16
+36,0,Hempstead Yellow Hornets,hempstead-yellow-hornets,,NASS,,,,0,0,0000-00-00 00:00:00
+37,0,Hicksville Hicks,hicksville-hicks,,NASS,,,,0,0,3/14/2012 15:17
+38,0,Inwood Mud Ducks,inwood-mud-ducks,,NASS,,,,0,0,3/14/2012 15:17
+39,0,Lakeview Sparks,lakeview-sparks,,NASS,,,,0,0,3/14/2012 15:18
+40,0,Levittown Rebels,levittown-rebels,,NASS,,,,0,0,3/14/2012 15:18
+41,0,Long Beach Apaches,long-beach-apaches,,NASS,,,,0,0,3/14/2012 15:18
+42,0,Lynbrook Tumblers,lynbrook-tumblers,,NASS,,,,0,0,3/14/2012 15:19
+43,0,Malverne Chipmunks,malverne-chipmunks,,NASS,,,,0,0,3/14/2012 15:19
+44,0,Manhasset-Lakeville Minute Men,manhasset-lakeville-minute-men,,NASS,,,,0,0,3/14/2012 15:19
+45,0,Meadowmere Park High Tides,meadowmere-park-high-tides,,NASS,,,,0,0,3/14/2012 15:19
+46,0,Merrick Buckeyes,merrick-buckeyes,,NASS,,,,0,0,3/14/2012 15:20
+47,0,New Hyde Park Termites,new-hyde-park-termites,,NASS,,,,0,0,3/14/2012 15:20
+48,0,North Bellmore Rinky Dinks,north-bellmore-rinky-dinks,,NASS,,,,0,0,3/14/2012 15:20
+49,0,Oyster Bay Teddy's Boys,oyster-bay-teddys-boys,,NASS,,,,0,0,3/14/2012 15:20
+50,0,Plainview Plainsmen,plainview-plainsmen,,NASS,,,,0,0,3/14/2012 15:21
+51,0,Point Lookout  Smokin Seagulls,point-lookout-smokin-seagulls,,NASS,,,,0,0,3/14/2012 15:21
+52,0,Port Washington Road Runners,port-washington-road-runners,,NASS,,,,0,0,3/14/2012 15:21
+53,0,Rockville Centre Woodlanders,rockville-centre-woodlanders,,NASS,,,,0,0,3/14/2012 15:21
+54,0,Roslyn Highlanders,roslyn-highlanders,,NASS,,,,0,0,3/14/2012 15:22
+55,0,Seaford Inmates,seaford-inmates,,NASS,,,,0,0,3/14/2012 15:22
+56,0,South Hempstead Rascals,south-hempstead-rascals,,NASS,,,,0,0,3/14/2012 15:23
+57,0,Valley Stream Misfits,valley-stream-misfits,,NASS,,,,0,0,3/14/2012 15:23
+58,0,Wantagh Knuckleheads,wantagh-knuckleheads,,NASS,,,,0,0,3/14/2012 15:23
+59,0,West Hempstead Westerners,west-hempstead-westerners,,NASS,,,,0,0,3/14/2012 15:24
+60,0,Amityville Villains,amityville-villains,,SUFF,,,,0,0,0000-00-00 00:00:00
+61,0,Copiague Yellowbirds,copiague-yellowbirds,,SUFF,,,,0,0,3/14/2012 15:27
+62,0,Coram Hellraisers,coram-hellraisers,,SUFF,,,,0,0,0000-00-00 00:00:00
+63,0,Cutchogue Panthers,cutchogue-panthers,,SUFF,,,,0,0,3/14/2012 15:28
+64,0,Deer Park Bucks,deer-park-bucks,,SUFF,,,,0,0,3/14/2012 15:34
+65,0,East Farmingdale Hares,east-farmingdale-hares,,SUFF,,,,0,0,3/14/2012 15:34
+66,0,East Islip Guzzlers,east-islip-guzzlers,,SUFF,,,,0,0,3/14/2012 15:35
+67,0,Farmingville Bandits,farmingville-bandits,,SUFF,,,,0,0,3/14/2012 15:35
+68,0,Lindenhurst Snails,lindenhurst-snails,,SUFF,,,,0,0,3/14/2012 15:35
+69,0,Medford Stump Jumpers,medford-stump-jumpers,,SUFF,,,,0,0,0000-00-00 00:00:00
+70,0,Miller Place Extinguishers,miller-place-extinguishers,,SUFF,,,,0,0,3/14/2012 15:36
+71,0,North Babylon Tail Draggers,north-babylon-tail-draggers,,SUFF,,,,0,0,3/14/2012 15:36
+72,0,North Lindenhurst Piston Knockers,north-lindenhurst-piston-knockers,,SUFF,,,,0,0,3/14/2012 15:37
+73,0,Patchogue Replacements,patchogue-replacements,,SUFF,,,,0,0,3/14/2012 15:37
+74,0,Riverhead Ironmen,riverhead-ironmen,,SUFF,,,,0,0,3/14/2012 15:37
+75,0,Saint James Wildcats,saint-james-wildcats,,SUFF,,,,0,0,3/14/2012 15:38
+76,0,Sayville Blue Jays,sayville-blue-jays,,SUFF,,,,0,0,3/14/2012 15:38
+77,0,Selden Slowpokes,selden-slowpokes,,SUFF,,,,0,0,3/14/2012 15:38
+78,0,West Islip Raiders,west-islip-raiders,,SUFF,,,,0,0,3/14/2012 15:38
+80,0,Wyandanch Indians,wyandanch-indians,,SUFF,,,,0,0,3/14/2012 15:39
+81,0,Henrietta Ol' Henries,henrietta-ol-henries,,WNY,,,,0,0,0000-00-00 00:00:00
+82,0,Point Pleasant Pea Pickers,point-pleasant-pea-pickers,,WNY,,,,0,0,0000-00-00 00:00:00
+83,0,Sheridan Park All Thumbs,sheridan-park-all-thumbs,,WNY,,,,0,0,0000-00-00 00:00:00
+84,0,Spencerport Red Onions,spencerport-red-onions,,WNY,,,,0,0,0000-00-00 00:00:00
+85,0,Copenhagen Cubs,copenhagen-cubs,,NNY,,,,0,0,0000-00-00 00:00:00
+86,0,Elsmere Wanderers,elsmere-wanderers,,NNY,,,,0,0,0000-00-00 00:00:00
+87,0,Great Bend Cobras,great-bend-cobras,,NNY,,,,0,0,0000-00-00 00:00:00
+88,0,Lake Placid Panthers,lake-placid-panthers,,NNY,,,,0,0,0000-00-00 00:00:00
+89,0,Norfolk Snails,norfolk-snails,,NNY,,,,0,0,0000-00-00 00:00:00
+90,0,West Carthage Hornets,west-carthage-hornets,,NNY,,,,0,0,0000-00-00 00:00:00
+91,0,Bayport-Blue Point,bayport-blue-point,,SUFF,,,,0,0,3/14/2012 15:50
+92,0,West Sayville Flying Dutchmen,west-sayville-flying-dutchmen,,SUFF,,,,0,0,3/14/2012 16:45
+93,0,North Massapequa,north-massapequa,,NASS,,NULL,,0,0,3/16/2012 12:03
+94,0,Merrick,merrick,,NASS,,NULL,,0,0,3/16/2012 12:04
+96,0,Rocky Point Rum Runners,rocky-point-rum-runners,,SUFF,,NULL,,0,0,0000-00-00 00:00:00
+97,0,Bayville Oak Neckers,bayville-oak-neckers,,NASS,,NULL,,0,0,7/15/2012 4:46
+98,0,Locust Valley,locust-valley,,NASS,,NULL,,0,0,0000-00-00 00:00:00
+100,0,Sea Cliff Indians,sea-cliff-indians,,NASS,,NULL,,0,0,7/29/2013 16:19
+101,0,Jericho Bachelors,jericho-bachelors,,NASS,,NULL,,0,0,5/31/2014 3:25
+102,0,Carthage Nighthawks,carthage-nighthawks,,NNY,,NULL,,0,0,6/7/2014 12:20
+103,0,Atlantic Steamers,atlantic-steamers,,NASS,,NULL,,0,0,0000-00-00 00:00:00
+104,0,Syosset Night Raiders,syosset-night-raiders,,NASS,,NULL,,0,0,6/20/2014 16:23
+106,0,Roslyn Rescue,roslyn-rescue,,NASS,,NULL,,0,0,6/20/2014 16:27
+107,0,Freeport Wide Awakes,freeport-wide-awakes,,NASS,,NULL,,0,0,7/8/2014 0:06
+108,0,Huntington Manor Bulldogs,huntington-manor-bulldogs,,SUFF,,NULL,,0,0,5/29/2015 19:49
+109,0,Massapequa,massapequa,,NASS,,NULL,,0,0,8/19/2015 17:16
+110,0,Oyster Bay Rough Riders,oyster-bay-rough-riders,,NASS,,NULL,,0,0,6/9/2016 14:23
+111,0,North Patchogue Nite Caps,North Patchogue Nite Caps,,SUFF,,NULL,,0,0,0000-00-00 00:00:00
+112,0,North Merrick,north-merrick,,SUFF,,NULL,,0,0,7/14/2016 15:32
