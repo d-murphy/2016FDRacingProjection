@@ -7,7 +7,19 @@ output: github_document
 
 ## Overview
 
-In this document, the data results from the year are summarized which is used to simulate future resuts.  Finially, the results of the simulation are summarized to provide the basis for the projection.  
+In this document, the runs from the year are first adjusted for track location, and then summarized which is used to simulate future results.  Finially, the results of the simulation are summarized to provide the basis for the projection.  
+
+### Adjusting for Track Location
+
+The track location can have an impact on times.  Because all teams do not have an equal number of appearances at each track, an adjustment is made to times from popular tracks to properly weight the times.  The adjustment has been calculated in an earlier project and is uploaded here.  
+
+```{r}
+TrackAdj  <- read.csv("C:/Users/murph/Desktop/R/2016FDRacingPrediction/RawData/TrackAdj.csv")
+
+# First need to ID locations for each drill.  Then need to join two data frames.  
+
+
+```
 
 ### Summarizing Date
 
