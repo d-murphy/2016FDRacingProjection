@@ -86,7 +86,8 @@ Next, we'll look at the contest breakdown for each team with a chance for first.
 ggplot(Results %>% filter(Team == "Central Islip Hoboes" & ContestTop5 != "Overall"),
        aes(x=ContestTop5,y=Top5Pct)) + geom_bar(stat = "identity") + 
        theme_economist() + scale_colour_economist()  + ggtitle("Central Islip Hoboes Top 5 Projections") +
-       labs(x="Contest", y="Percentage") + theme(axis.text.x = element_text(angle = 90, hjust = 1))
+       labs(x="Contest", y="Percentage") + theme(axis.text.x = element_text(angle = 90, hjust = 1)) + 
+       scale_y_continuous(limits=c(0, 100))
 ```
 
 ![](DataViz_files/figure-markdown_github/unnamed-chunk-8-1.png)<!-- -->
@@ -96,7 +97,8 @@ ggplot(Results %>% filter(Team == "West Sayville Flying Dutchmen" & ContestTop5 
        aes(x=ContestTop5,y=Top5Pct)) + geom_bar(stat = "identity") + 
        theme_economist() + scale_colour_economist()  + 
        ggtitle("West Sayville Flying Dutchmen Top 5 Projections") +
-       labs(x="Contest", y="Percentage") + theme(axis.text.x = element_text(angle = 90, hjust = 1))
+       labs(x="Contest", y="Percentage") + theme(axis.text.x = element_text(angle = 90, hjust = 1)) + 
+       scale_y_continuous(limits=c(0, 100))
 ```
 
 ![](DataViz_files/figure-markdown_github/unnamed-chunk-9-1.png)<!-- -->
@@ -106,7 +108,8 @@ ggplot(Results %>% filter(Team == "North Lindenhurst Piston Knockers" & ContestT
        aes(x=ContestTop5,y=Top5Pct)) + geom_bar(stat = "identity") + 
        theme_economist() + scale_colour_economist()  + 
        ggtitle("North Lindenhurst Piston Knockers Top 5 Projections") +
-       labs(x="Contest", y="Percentage") + theme(axis.text.x = element_text(angle = 90, hjust = 1))
+       labs(x="Contest", y="Percentage") + theme(axis.text.x = element_text(angle = 90, hjust = 1)) + 
+       scale_y_continuous(limits=c(0, 100))
 ```
 
 ![](DataViz_files/figure-markdown_github/unnamed-chunk-10-1.png)<!-- -->
@@ -116,7 +119,8 @@ ggplot(Results %>% filter(Team == "Islip Wolves" & ContestTop5 != "Overall"),
        aes(x=ContestTop5,y=Top5Pct)) + geom_bar(stat = "identity") + 
        theme_economist() + scale_colour_economist()  + 
        ggtitle("Islip Wolves Top 5 Projections") +
-       labs(x="Contest", y="Percentage") + theme(axis.text.x = element_text(angle = 90, hjust = 1))
+       labs(x="Contest", y="Percentage") + theme(axis.text.x = element_text(angle = 90, hjust = 1)) + 
+       scale_y_continuous(limits=c(0, 100))
 ```
 
 ![](DataViz_files/figure-markdown_github/unnamed-chunk-11-1.png)<!-- -->
@@ -126,7 +130,8 @@ ggplot(Results %>% filter(Team == "West Hempstead Westerners" & ContestTop5 != "
        aes(x=ContestTop5,y=Top5Pct)) + geom_bar(stat = "identity") + 
        theme_economist() + scale_colour_economist()  + 
        ggtitle("West Hempstead Westerners Top 5 Projections") +
-       labs(x="Contest", y="Percentage") + theme(axis.text.x = element_text(angle = 90, hjust = 1))
+       labs(x="Contest", y="Percentage") + theme(axis.text.x = element_text(angle = 90, hjust = 1)) + 
+       scale_y_continuous(limits=c(0, 100))
 ```
 
 ![](DataViz_files/figure-markdown_github/unnamed-chunk-12-1.png)<!-- -->
@@ -136,7 +141,8 @@ ggplot(Results %>% filter(Team == "Port Washington Road Runners" & ContestTop5 !
        aes(x=ContestTop5,y=Top5Pct)) + geom_bar(stat = "identity") + 
        theme_economist() + scale_colour_economist()  + 
        ggtitle("Port Washington Road Runners Top 5 Projections") +
-       labs(x="Contest", y="Percentage") + theme(axis.text.x = element_text(angle = 90, hjust = 1))
+       labs(x="Contest", y="Percentage") + theme(axis.text.x = element_text(angle = 90, hjust = 1)) + 
+       scale_y_continuous(limits=c(0, 100))
 ```
 
 ![](DataViz_files/figure-markdown_github/unnamed-chunk-13-1.png)<!-- -->
@@ -146,7 +152,8 @@ ggplot(Results %>% filter(Team == "Bay Shore Redskins" & ContestTop5 != "Overall
        aes(x=ContestTop5,y=Top5Pct)) + geom_bar(stat = "identity") + 
        theme_economist() + scale_colour_economist()  + 
        ggtitle("Bay Shore Redskins Top 5 Projections") +
-       labs(x="Contest", y="Percentage") + theme(axis.text.x = element_text(angle = 90, hjust = 1))
+       labs(x="Contest", y="Percentage") + theme(axis.text.x = element_text(angle = 90, hjust = 1)) + 
+       scale_y_continuous(limits=c(0, 100))
 ```
 
 ![](DataViz_files/figure-markdown_github/unnamed-chunk-14-1.png)<!-- -->
@@ -156,7 +163,8 @@ ggplot(Results %>% filter(Team == "Copiague Yellowbirds" & ContestTop5 != "Overa
        aes(x=ContestTop5,y=Top5Pct)) + geom_bar(stat = "identity") + 
        theme_economist() + scale_colour_economist()  + 
        ggtitle("Copiague Yellowbirds Top 5 Projections") +
-       labs(x="Contest", y="Percentage") + theme(axis.text.x = element_text(angle = 90, hjust = 1))
+       labs(x="Contest", y="Percentage") + theme(axis.text.x = element_text(angle = 90, hjust = 1)) + 
+       scale_y_continuous(limits=c(0, 100))
 ```
 
 ![](DataViz_files/figure-markdown_github/unnamed-chunk-15-1.png)<!-- -->
