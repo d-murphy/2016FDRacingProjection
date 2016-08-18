@@ -5,7 +5,7 @@ date: "August 17, 2016"
 output: github_document
 ---
 
-Shown below is the code and resulting data vizualizations used in communicating the 2016 projections.  The images were published [here](https://patindex.wordpress.com/2016-odds/)
+Shown below is the code and resulting data vizualizations used in communicating the 2016 projections.  The images were published [here](https://patindex.wordpress.com/2016-projections/)
 
 ```{r,echo=FALSE, message=FALSE, warning=FALSE}
 library(dplyr)

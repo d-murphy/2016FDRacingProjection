@@ -27,7 +27,7 @@ body {
 
 <h1 id="dataviz">DataViz</h1>
 <p>Dan Murphy<br />August 17, 2016</p>
-<p>Shown below is the code and resulting data vizualizations used in communicating the 2016 projections. The images were published <a href="https://patindex.wordpress.com/2016-odds/">here</a></p>
+<p>Shown below is the code and resulting data vizualizations used in communicating the 2016 projections. The images were published <a href="https://patindex.wordpress.com/2016-projections/">here</a></p>
 <p>First, the dataset is manipulated to vectorize the results.</p>
 <pre class="sourceCode r"><code class="sourceCode r">SimTally.LongFirst &lt;-<span class="st"> </span><span class="kw">gather</span>(SimTally,ContestFirst,FirstPct,<span class="kw">c</span>(<span class="dv">4</span>,<span class="dv">7</span>,<span class="dv">10</span>,<span class="dv">13</span>,<span class="dv">16</span>,<span class="dv">19</span>,<span class="dv">22</span>,<span class="dv">26</span>,<span class="dv">28</span>))
 SimTally.LongTop5 &lt;-<span class="st"> </span><span class="kw">gather</span>(SimTally,ContestTop5,Top5Pct,<span class="kw">c</span>(<span class="dv">5</span>,<span class="dv">8</span>,<span class="dv">11</span>,<span class="dv">14</span>,<span class="dv">17</span>,<span class="dv">20</span>,<span class="dv">23</span>,<span class="dv">27</span>,<span class="dv">29</span>))

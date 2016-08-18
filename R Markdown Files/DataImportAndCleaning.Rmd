@@ -68,7 +68,5 @@ AllData$TimeContest <- ifelse(AllData$TimeContest=="3 Man Ladder","Three Man Lad
 
 ```
 
-From the summary statistics gathered in StateSimParams, results are next simulated and then again another summary is taken.  
-
 
 

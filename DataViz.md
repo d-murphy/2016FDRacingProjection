@@ -3,7 +3,7 @@ DataViz
 Dan Murphy
 August 17, 2016
 
-Shown below is the code and resulting data vizualizations used in communicating the 2016 projections. The images were published [here](https://patindex.wordpress.com/2016-odds/)
+Shown below is the code and resulting data vizualizations used in communicating the 2016 projections. The images were published [here](https://patindex.wordpress.com/2016-projections/)
 
 First, the dataset is manipulated to vectorize the results.
 
