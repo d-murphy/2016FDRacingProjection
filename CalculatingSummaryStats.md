@@ -1,21 +1,20 @@
----
-title: "SimulationModel"
-author: "Dan Murphy"
-date: "August 17, 2016"
-output: github_document
----
+CalculatingSummaryStats
+================
+Dan Murphy
+August 17, 2016
 
-## Overview
+Overview
+--------
 
-In this document, the runs from the year are first adjusted for track location, and then summarized which is used to simulate future results.  Finially, the results of the simulation are summarized to provide the basis for the projection.  
+In this document, the runs from the year are first adjusted for track location, and then summarized which is used to simulate future results. Finially, the results of the simulation are summarized to provide the basis for the projection.
 
 ### Adjusting for Track Location
 
-The track location can have an impact on times.  Because all teams do not have an equal number of appearances at each track, an adjustment is made to times from popular tracks to properly weight the times.  The adjustment has been calculated in an earlier project and is uploaded here.  
+The track location can have an impact on times. Because all teams do not have an equal number of appearances at each track, an adjustment is made to times from popular tracks to properly weight the times. The adjustment has been calculated in an earlier project and is uploaded here.
 
-A location column is created and used to join the Track Adjustment CSV file.  Then the Adjusted Time column is created.  
+A location column is created and used to join the Track Adjustment CSV file. Then the Adjusted Time column is created.
 
-```{r, eval=FALSE}
+``` r
 TrackAdj  <- read.csv("C:/Users/murph/Desktop/R/2016FDRacingPrediction/RawData/TrackAdj.csv",
                       stringsAsFactors = FALSE)
 
@@ -43,11 +42,11 @@ remove(TrackAdj,TrackAdjJoin)
 
 ### Summarizing Date
 
-Below summary statistics are calculated for each team's run in each contest during the year.  The statistics are the number of runs, the number of successful runs (or hits), the average of the successful runs and the standard deviation of the successful runs.  
+Below summary statistics are calculated for each team's run in each contest during the year. The statistics are the number of runs, the number of successful runs (or hits), the average of the successful runs and the standard deviation of the successful runs.
 
-First a dataframe is created to contain the results.  
+First a dataframe is created to contain the results.
 
-```{r, eval=FALSE}
+``` r
 # Create a dataframe to store summary stats
 
 StateSimParams <- AllData %>% select(Team) %>% distinct()
@@ -70,9 +69,9 @@ AllData$Year <- 2016
 StateSimParams$Year <- 2016
 ```
 
-Next, appearances, hits, averages, and SD is calculated by stepping through the StateSimParams dataframe and then filtering the AllData data frame based on the team and contest indicated in the StateSimParams row.  
+Next, appearances, hits, averages, and SD is calculated by stepping through the StateSimParams dataframe and then filtering the AllData data frame based on the team and contest indicated in the StateSimParams row.
 
-```{r,eval = FALSE}
+``` r
 TimeNumMin <- as.numeric(4)
 
 
@@ -140,13 +139,12 @@ for(i in 1:dim(StateSimParams)[1]){
 }
 ```
 
-Here, adjustments are made to summary statistics where data is insufficient.  
-* If a team only appears 1 time, the number is adjusted to 2.  
-* If the SD is 0, this is adjusted to .075.  
-* Last, if a large SD is observed with few hits recorded, this value is reduced.  
+Here, adjustments are made to summary statistics where data is insufficient.
+\* If a team only appears 1 time, the number is adjusted to 2.
+\* If the SD is 0, this is adjusted to .075.
+\* Last, if a large SD is observed with few hits recorded, this value is reduced.
 
-```{r, eval = FALSE}
-
+``` r
 StateSimParams$Hits <- unlist(StateSimParams$Hits)
 StateSimParams$Misses <- unlist(StateSimParams$Misses)
 StateSimParams$Appear <- unlist(StateSimParams$Appear)
@@ -162,6 +160,4 @@ StateSimParams$HitsSD <- ifelse(StateSimParams$HitsSD>.3&StateSimParams$Hits<=3,
                                 StateSimParams$HitsSD*.6,
                                 ifelse(StateSimParams$HitsSD>.2&StateSimParams$Hits<=4,
                                        StateSimParams$HitsSD*.8,StateSimParams$HitsSD))
-
 ```
-
