@@ -1,21 +1,20 @@
----
-title: "SimulationModel"
-author: "Dan Murphy"
-date: "August 17, 2016"
-output: github_document
----
+SimulationModel
+================
+Dan Murphy
+August 17, 2016
 
-## Overview
+Overview
+--------
 
-In this document, the runs from the year are first adjusted for track location, and then summarized which is used to simulate future results.  Finially, the results of the simulation are summarized to provide the basis for the projection.  
+In this document, the runs from the year are first adjusted for track location, and then summarized which is used to simulate future results. Finially, the results of the simulation are summarized to provide the basis for the projection.
 
 ### Adjusting for Track Location
 
-The track location can have an impact on times.  Because all teams do not have an equal number of appearances at each track, an adjustment is made to times from popular tracks to properly weight the times.  The adjustment has been calculated in an earlier project and is uploaded here.  
+The track location can have an impact on times. Because all teams do not have an equal number of appearances at each track, an adjustment is made to times from popular tracks to properly weight the times. The adjustment has been calculated in an earlier project and is uploaded here.
 
-A location column is created and used to join the Track Adjustment CSV file.  Then the Adjusted Time column is created.  
+A location column is created and used to join the Track Adjustment CSV file. Then the Adjusted Time column is created.
 
-```{r, eval=FALSE}
+``` r
 TrackAdj  <- read.csv("C:/Users/murph/Desktop/R/2016FDRacingPrediction/RawData/TrackAdj.csv",
                       stringsAsFactors = FALSE)
 
@@ -41,11 +40,11 @@ df2$AdjustedTime <- ifelse(is.na(df2$TrackAdj),df2$Time,df2$Time+df2$TrackAdj)
 
 ### Summarizing Date
 
-Below summary statistics are calculated for each team's run in each contest during the year.  The statistics are the number of runs, the number of successful runs (or hits), the average of the successful runs and the standard deviation of the successful runs.  
+Below summary statistics are calculated for each team's run in each contest during the year. The statistics are the number of runs, the number of successful runs (or hits), the average of the successful runs and the standard deviation of the successful runs.
 
-First a dataframe is created to contain the results.  
+First a dataframe is created to contain the results.
 
-```{r, eval=FALSE}
+``` r
 # Create a dataframe to store summary stats
 
 StateSimParams <- df2 %>% select(TeamName) %>% distinct()
@@ -64,9 +63,9 @@ StateSimParams$key <- NULL
 colnames(StateSimParams) <- c("Team","TimeContest")
 ```
 
-Next, appearances, hits, averages, and SD is calculated.  
+Next, appearances, hits, averages, and SD is calculated.
 
-```{r,eval = FALSE}
+``` r
 TimeNumMin <- as.numeric(4)
 
 
@@ -151,6 +150,4 @@ StateSimParams$HitsSD <- ifelse(StateSimParams$HitsSD>.3&StateSimParams$Hits<=3,
                                 StateSimParams$HitsSD*.6,
                                 ifelse(StateSimParams$HitsSD>.2&StateSimParams$Hits<=4,
                                        StateSimParams$HitsSD*.8,StateSimParams$HitsSD))
-
-
-
+```

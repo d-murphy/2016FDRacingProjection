@@ -63,4 +63,7 @@ df2 <- df2 %>% filter((Contest != "Individual Ladder")&
                       (Contest != "Combination Hose & Pump")& 
                       (Contest != "Efficiency Replacement")& 
                       (Contest != "Two into One"))
+
+df2$Contest <- ifelse(df2$Contest=="3 Man Ladder","Three Man Ladder",df2$Contest)
+
 ```

@@ -1,78 +1,87 @@
-"","Location","TimeContest","TrackContAvg","ContestAvg","TrackAdj","key"
-"1","Central Islip","B Hose",7.99342105263158,7.92123794212219,-0.0721831105093926,"Central Islip B Hose"
-"2","Central Islip","B Ladder",5.11735042735043,5.16645732689211,0.0491068995416821,"Central Islip B Ladder"
-"3","Central Islip","Buckets",21.3410434782609,21.4054796747967,0.0644361965358797,"Central Islip Buckets"
-"4","Central Islip","C Hose",12.599224137931,12.5783548387097,-0.0208692992213582,"Central Islip C Hose"
-"5","Central Islip","C Ladder",8.93771929824561,8.98197411003236,0.0442548117867485,"Central Islip C Ladder"
-"6","Central Islip","Combination Hose & Pump ",17.2529411764706,17.2529411764706,0,"Central Islip Combination Hose & Pump "
-"7","Central Islip","Efficiency",9.20966386554622,9.10309061488673,-0.106573250659487,"Central Islip Efficiency"
-"8","Central Islip","Efficiency Replacement ",29.8435294117647,29.8435294117647,0,"Central Islip Efficiency Replacement "
-"9","Central Islip","Individual Ladder",5.07476190476191,5.07476190476191,0,"Central Islip Individual Ladder"
-"10","Central Islip","Motor H&L Dummy ",21.71,21.71,0,"Central Islip Motor H&L Dummy "
-"11","Central Islip","Motor Hose Replacement ",20.5705263157895,20.5705263157895,0,"Central Islip Motor Hose Replacement "
-"12","Central Islip","Motor Pump",5.985,6.16758064516129,0.18258064516129,"Central Islip Motor Pump"
-"13","Central Islip","Three Man Ladder",6.29398305084746,6.36221153846154,0.0682284876140811,"Central Islip Three Man Ladder"
-"14","Denton Avenue","B Hose",7.9025,7.92123794212219,0.0187379421221863,"Denton Avenue B Hose"
-"15","Denton Avenue","B Ladder",5.18142857142857,5.16645732689211,-0.0149712445364623,"Denton Avenue B Ladder"
-"16","Denton Avenue","Buckets",22.2355,21.4054796747967,-0.830020325203254,"Denton Avenue Buckets"
-"17","Denton Avenue","C Hose",12.62,12.5783548387097,-0.0416451612903224,"Denton Avenue C Hose"
-"18","Denton Avenue","C Ladder",9.0355,8.98197411003236,-0.0535258899676379,"Denton Avenue C Ladder"
-"19","Denton Avenue","Efficiency",8.892,9.10309061488673,0.211090614886732,"Denton Avenue Efficiency"
-"20","Denton Avenue","Motor Pump",6.40285714285714,6.16758064516129,-0.235276497695852,"Denton Avenue Motor Pump"
-"21","Denton Avenue","Three Man Ladder",6.487,6.36221153846154,-0.124788461538461,"Denton Avenue Three Man Ladder"
-"22","Hagerman","B Hose",7.85181818181818,7.92123794212219,0.0694197603040045,"Hagerman B Hose"
-"23","Hagerman","B Ladder",5.17967741935484,5.16645732689211,-0.0132200924627295,"Hagerman B Ladder"
-"24","Hagerman","Buckets",21.2611475409836,21.4054796747967,0.14433213381314,"Hagerman Buckets"
-"25","Hagerman","C Hose",12.5761290322581,12.5783548387097,0.0022258064516123,"Hagerman C Hose"
-"26","Hagerman","C Ladder",8.96177419354839,8.98197411003236,0.0201999164839766,"Hagerman C Ladder"
-"27","Hagerman","Efficiency",9.22032786885246,9.10309061488673,-0.117237253965728,"Hagerman Efficiency"
-"28","Hagerman","Motor Pump",6.01412698412698,6.16758064516129,0.153453661034306,"Hagerman Motor Pump"
-"29","Hagerman","Three Man Ladder",6.31950819672131,6.36221153846154,0.0427033417402276,"Hagerman Three Man Ladder"
-"30","Hempstead","B Hose",7.81662162162162,7.92123794212219,0.104616320500565,"Hempstead B Hose"
-"31","Hempstead","B Ladder",5.16797297297297,5.16645732689211,-0.00151564608086385,"Hempstead B Ladder"
-"32","Hempstead","Buckets",21.1184353741497,21.4054796747967,0.287044300647089,"Hempstead Buckets"
-"33","Hempstead","C Hose",12.4175,12.5783548387097,0.160854838709676,"Hempstead C Hose"
-"34","Hempstead","C Ladder",8.97417218543046,8.98197411003236,0.00780192460189966,"Hempstead C Ladder"
-"35","Hempstead","Efficiency",8.86844594594595,9.10309061488673,0.234644668940787,"Hempstead Efficiency"
-"36","Hempstead","Motor Pump",6.49939597315436,6.16758064516129,-0.331815327993072,"Hempstead Motor Pump"
-"37","Hempstead","Three Man Ladder",6.36155405405405,6.36221153846154,0.000657484407484255,"Hempstead Three Man Ladder"
-"38","Hicksville","B Hose",7.97869565217391,7.92123794212219,-0.0574577100517271,"Hicksville B Hose"
-"39","Hicksville","B Ladder",5.21260869565217,5.16645732689211,-0.0461513687600643,"Hicksville B Ladder"
-"40","Hicksville","Buckets",22.1521739130435,21.4054796747967,-0.746694238246729,"Hicksville Buckets"
-"41","Hicksville","C Hose",12.64375,12.5783548387097,-0.0653951612903239,"Hicksville C Hose"
-"42","Hicksville","C Ladder",9.1604347826087,8.98197411003236,-0.178460672576334,"Hicksville C Ladder"
-"43","Hicksville","Efficiency",9.00478260869565,9.10309061488673,0.098308006191079,"Hicksville Efficiency"
-"44","Hicksville","Motor Pump",6.28913043478261,6.16758064516129,-0.121549789621318,"Hicksville Motor Pump"
-"45","Hicksville","Three Man Ladder",6.42260869565217,6.36221153846154,-0.0603971571906348,"Hicksville Three Man Ladder"
-"46","Lindenhurst","B Hose",8.132,7.92123794212219,-0.210762057877814,"Lindenhurst B Hose"
-"47","Lindenhurst","B Ladder",5.23058823529412,5.16645732689211,-0.0641309084020083,"Lindenhurst B Ladder"
-"48","Lindenhurst","Buckets",21.7272463768116,21.4054796747967,-0.321766702014845,"Lindenhurst Buckets"
-"49","Lindenhurst","C Hose",12.838,12.5783548387097,-0.259645161290324,"Lindenhurst C Hose"
-"50","Lindenhurst","C Ladder",9.09367647058824,8.98197411003236,-0.111702360555872,"Lindenhurst C Ladder"
-"51","Lindenhurst","Efficiency",9.41941176470588,9.10309061488673,-0.316321149819151,"Lindenhurst Efficiency"
-"52","Lindenhurst","Motor Pump",6.01808823529412,6.16758064516129,0.149492409867173,"Lindenhurst Motor Pump"
-"53","Lindenhurst","Three Man Ladder",6.4343661971831,6.36221153846154,-0.0721546587215602,"Lindenhurst Three Man Ladder"
-"54","Merrick","B Hose",7.91085106382979,7.92123794212219,0.0103868782923993,"Merrick B Hose"
-"55","Merrick","B Ladder",5.199375,5.16645732689211,-0.0329176731078906,"Merrick B Ladder"
-"56","Merrick","Buckets",21.396875,21.4054796747967,0.00860467479674654,"Merrick Buckets"
-"57","Merrick","C Hose",12.5151063829787,12.5783548387097,0.0632484557309532,"Merrick C Hose"
-"58","Merrick","C Ladder",8.95255319148936,8.98197411003236,0.0294209185430017,"Merrick C Ladder"
-"59","Merrick","Efficiency",8.94446808510638,9.10309061488673,0.158622529780349,"Merrick Efficiency"
-"60","Merrick","Motor Pump",6.28787234042553,6.16758064516129,-0.120291695264242,"Merrick Motor Pump"
-"61","Merrick","Three Man Ladder",6.41395833333333,6.36221153846154,-0.0517467948717947,"Merrick Three Man Ladder"
-"62","Ridge","B Hose",7.89924731182796,7.92123794212219,0.021990630294229,"Ridge B Hose"
-"63","Ridge","B Ladder",5.16752688172043,5.16645732689211,-0.00106955482832127,"Ridge B Ladder"
-"64","Ridge","Buckets",21.5449450549451,21.4054796747967,-0.139465380148305,"Ridge Buckets"
-"65","Ridge","C Hose",12.6045054945055,12.5783548387097,-0.0261506557958171,"Ridge C Hose"
-"66","Ridge","C Ladder",8.95406593406593,8.98197411003236,0.027908175966429,"Ridge C Ladder"
-"67","Ridge","Efficiency",9.16296703296703,9.10309061488673,-0.059876418080302,"Ridge Efficiency"
-"68","Ridge","Motor Pump",6.02652173913043,6.16758064516129,0.141058906030856,"Ridge Motor Pump"
-"69","Ridge","Three Man Ladder",6.39152173913044,6.36221153846154,-0.0293102006688963,"Ridge Three Man Ladder"
-"70","Riverhead","B Hose",7.88878048780488,7.92123794212219,0.0324574543173082,"Riverhead B Hose"
-"71","Riverhead","B Ladder",5.10024390243902,5.16645732689211,0.0662134244530845,"Riverhead B Ladder"
-"72","Riverhead","Buckets",21.1653658536585,21.4054796747967,0.240113821138213,"Riverhead Buckets"
-"73","Riverhead","C Hose",12.615,12.5783548387097,-0.0366451612903234,"Riverhead C Hose"
-"74","Riverhead","C Ladder",8.94928571428571,8.98197411003236,0.0326883957466482,"Riverhead C Ladder"
-"75","Riverhead","Efficiency",9.14878048780488,9.10309061488673,-0.0456898729181461,"Riverhead Efficiency"
-"76","Riverhead","Motor Pump",5.9519512195122,6.16758064516129,0.215629425649095,"Riverhead Motor Pump"
-"77","Riverhead","Three Man Ladder",6.28232558139535,6.36221153846154,0.0798859570661898,"Riverhead Three Man Ladder"
+,Location,TimeContest,TrackContAvg,ContestAvg,TrackAdj,key
+1,Central Islip,B Hose,7.993421053,7.921237942,-0.072183111,Central Islip B Hose
+2,Central Islip,B Ladder,5.117350427,5.166457327,0.0491069,Central Islip B Ladder
+3,Central Islip,Buckets,21.34104348,21.40547967,0.064436197,Central Islip Buckets
+4,Central Islip,C Hose,12.59922414,12.57835484,-0.020869299,Central Islip C Hose
+5,Central Islip,C Ladder,8.937719298,8.98197411,0.044254812,Central Islip C Ladder
+6,Central Islip,Combination Hose & Pump ,17.25294118,17.25294118,0,Central Islip Combination Hose & Pump 
+7,Central Islip,Efficiency,9.209663866,9.103090615,-0.106573251,Central Islip Efficiency
+8,Central Islip,Efficiency Replacement ,29.84352941,29.84352941,0,Central Islip Efficiency Replacement 
+9,Central Islip,Individual Ladder,5.074761905,5.074761905,0,Central Islip Individual Ladder
+10,Central Islip,Motor H&L Dummy ,21.71,21.71,0,Central Islip Motor H&L Dummy 
+11,Central Islip,Motor Hose Replacement ,20.57052632,20.57052632,0,Central Islip Motor Hose Replacement 
+12,Central Islip,Motor Pump,5.985,6.167580645,0.182580645,Central Islip Motor Pump
+13,Central Islip,Three Man Ladder,6.293983051,6.362211538,0.068228488,Central Islip Three Man Ladder
+14,Denton Avenue,B Hose,7.9025,7.921237942,0.018737942,Denton Avenue B Hose
+15,Denton Avenue,B Ladder,5.181428571,5.166457327,-0.014971245,Denton Avenue B Ladder
+16,Denton Avenue,Buckets,22.2355,21.40547967,-0.830020325,Denton Avenue Buckets
+17,Denton Avenue,C Hose,12.62,12.57835484,-0.041645161,Denton Avenue C Hose
+18,Denton Avenue,C Ladder,9.0355,8.98197411,-0.05352589,Denton Avenue C Ladder
+19,Denton Avenue,Efficiency,8.892,9.103090615,0.211090615,Denton Avenue Efficiency
+20,Denton Avenue,Motor Pump,6.402857143,6.167580645,-0.235276498,Denton Avenue Motor Pump
+21,Denton Avenue,Three Man Ladder,6.487,6.362211538,-0.124788462,Denton Avenue Three Man Ladder
+22,Hagerman,B Hose,7.851818182,7.921237942,0.06941976,Hagerman B Hose
+23,Hagerman,B Ladder,5.179677419,5.166457327,-0.013220092,Hagerman B Ladder
+24,Hagerman,Buckets,21.26114754,21.40547967,0.144332134,Hagerman Buckets
+25,Hagerman,C Hose,12.57612903,12.57835484,0.002225806,Hagerman C Hose
+26,Hagerman,C Ladder,8.961774194,8.98197411,0.020199916,Hagerman C Ladder
+27,Hagerman,Efficiency,9.220327869,9.103090615,-0.117237254,Hagerman Efficiency
+28,Hagerman,Motor Pump,6.014126984,6.167580645,0.153453661,Hagerman Motor Pump
+29,Hagerman,Three Man Ladder,6.319508197,6.362211538,0.042703342,Hagerman Three Man Ladder
+30,Hempstead,B Hose,7.816621622,7.921237942,0.104616321,Hempstead B Hose
+31,Hempstead,B Ladder,5.167972973,5.166457327,-0.001515646,Hempstead B Ladder
+32,Hempstead,Buckets,21.11843537,21.40547967,0.287044301,Hempstead Buckets
+33,Hempstead,C Hose,12.4175,12.57835484,0.160854839,Hempstead C Hose
+34,Hempstead,C Ladder,8.974172185,8.98197411,0.007801925,Hempstead C Ladder
+35,Hempstead,Efficiency,8.868445946,9.103090615,0.234644669,Hempstead Efficiency
+36,Hempstead,Motor Pump,6.499395973,6.167580645,-0.331815328,Hempstead Motor Pump
+37,Hempstead,Three Man Ladder,6.361554054,6.362211538,0.000657484,Hempstead Three Man Ladder
+38,Hicksville,B Hose,7.978695652,7.921237942,-0.05745771,Hicksville B Hose
+39,Hicksville,B Ladder,5.212608696,5.166457327,-0.046151369,Hicksville B Ladder
+40,Hicksville,Buckets,22.15217391,21.40547967,-0.746694238,Hicksville Buckets
+41,Hicksville,C Hose,12.64375,12.57835484,-0.065395161,Hicksville C Hose
+42,Hicksville,C Ladder,9.160434783,8.98197411,-0.178460673,Hicksville C Ladder
+43,Hicksville,Efficiency,9.004782609,9.103090615,0.098308006,Hicksville Efficiency
+44,Hicksville,Motor Pump,6.289130435,6.167580645,-0.12154979,Hicksville Motor Pump
+45,Hicksville,Three Man Ladder,6.422608696,6.362211538,-0.060397157,Hicksville Three Man Ladder
+46,Lindenhurst,B Hose,8.132,7.921237942,-0.210762058,Lindenhurst B Hose
+47,Lindenhurst,B Ladder,5.230588235,5.166457327,-0.064130908,Lindenhurst B Ladder
+48,Lindenhurst,Buckets,21.72724638,21.40547967,-0.321766702,Lindenhurst Buckets
+49,Lindenhurst,C Hose,12.838,12.57835484,-0.259645161,Lindenhurst C Hose
+50,Lindenhurst,C Ladder,9.093676471,8.98197411,-0.111702361,Lindenhurst C Ladder
+51,Lindenhurst,Efficiency,9.419411765,9.103090615,-0.31632115,Lindenhurst Efficiency
+52,Lindenhurst,Motor Pump,6.018088235,6.167580645,0.14949241,Lindenhurst Motor Pump
+53,Lindenhurst,Three Man Ladder,6.434366197,6.362211538,-0.072154659,Lindenhurst Three Man Ladder
+54,Merrick,B Hose,7.910851064,7.921237942,0.010386878,Merrick B Hose
+55,Merrick,B Ladder,5.199375,5.166457327,-0.032917673,Merrick B Ladder
+56,Merrick,Buckets,21.396875,21.40547967,0.008604675,Merrick Buckets
+57,Merrick,C Hose,12.51510638,12.57835484,0.063248456,Merrick C Hose
+58,Merrick,C Ladder,8.952553191,8.98197411,0.029420919,Merrick C Ladder
+59,Merrick,Efficiency,8.944468085,9.103090615,0.15862253,Merrick Efficiency
+60,Merrick,Motor Pump,6.28787234,6.167580645,-0.120291695,Merrick Motor Pump
+61,Merrick,Three Man Ladder,6.413958333,6.362211538,-0.051746795,Merrick Three Man Ladder
+62,Ridge,B Hose,7.899247312,7.921237942,0.02199063,Ridge B Hose
+63,Ridge,B Ladder,5.167526882,5.166457327,-0.001069555,Ridge B Ladder
+64,Ridge,Buckets,21.54494505,21.40547967,-0.13946538,Ridge Buckets
+65,Ridge,C Hose,12.60450549,12.57835484,-0.026150656,Ridge C Hose
+66,Ridge,C Ladder,8.954065934,8.98197411,0.027908176,Ridge C Ladder
+67,Ridge,Efficiency,9.162967033,9.103090615,-0.059876418,Ridge Efficiency
+68,Ridge,Motor Pump,6.026521739,6.167580645,0.141058906,Ridge Motor Pump
+69,Ridge,Three Man Ladder,6.391521739,6.362211538,-0.029310201,Ridge Three Man Ladder
+70,Riverhead,B Hose,7.888780488,7.921237942,0.032457454,Riverhead B Hose
+71,Riverhead,B Ladder,5.100243902,5.166457327,0.066213424,Riverhead B Ladder
+72,Riverhead,Buckets,21.16536585,21.40547967,0.240113821,Riverhead Buckets
+73,Riverhead,C Hose,12.615,12.57835484,-0.036645161,Riverhead C Hose
+74,Riverhead,C Ladder,8.949285714,8.98197411,0.032688396,Riverhead C Ladder
+75,Riverhead,Efficiency,9.148780488,9.103090615,-0.045689873,Riverhead Efficiency
+76,Riverhead,Motor Pump,5.95195122,6.167580645,0.215629426,Riverhead Motor Pump
+77,Riverhead,Three Man Ladder,6.282325581,6.362211538,0.079885957,Riverhead Three Man Ladder
+78,,Three Man Ladder,,,0,Three Man Ladder
+79,,B Hose,,,0,B Hose
+80,,B Ladder,,,0,B Ladder
+81,,Buckets,,,0,Buckets
+82,,C Hose,,,0,C Hose
+83,,C Ladder,,,0,C Ladder
+84,,Efficiency,,,0,Efficiency
+85,,Motor Pump,,,0,Motor Pump
+86,,Three Man Ladder,,,0,Three Man Ladder

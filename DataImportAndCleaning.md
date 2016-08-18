@@ -31,7 +31,7 @@ remove(df2,df3,df4,df5,df6)
 The dataframe is next trimmed to omit extraneous columns Then, names and data types are corrected. Last, the dataset is filtered to only include runs from motorized teams in 2016.
 
 ``` r
-df2 <- data.frame(df$id, df$team_name, df$event_name, df$name, df$start_date.y, df$rank,df$performance,    
+df2 <- data.frame(df$id, df$team_name, df$name.x, df$name.y, df$start_date.y, df$rank,df$performance,    
                   df$division)
 colnames(df2) <- c("WebsiteID","TeamName","Contest","TournName","TournDate","Rank","Time","Division")
 
@@ -49,4 +49,12 @@ df2 <- df2 %>% filter((Contest != " *********** LINEUP ***********") &
 
 df2 <- separate(df2, Contest, c("Contest","discard"), sep = " - ")
 df2$discard <- NULL
+
+df2 <- df2 %>% filter((Contest != "Individual Ladder")& 
+                      (Contest != "Motor Hose Replacement")& 
+                      (Contest != "Combination Hose & Pump")& 
+                      (Contest != "Efficiency Replacement")& 
+                      (Contest != "Two into One"))
+
+df2$Contest <- ifelse(df2$Contest=="3 Man Ladder","Three Man Ladder",df2$Contest)
 ```

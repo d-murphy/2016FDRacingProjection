@@ -25,56 +25,138 @@ body {
 
 <body>
 
-<h1 id="dataimportandcleaning">DataImportAndCleaning</h1>
-<p>Dan Murphy<br />August 16, 2016</p>
-<p>The normalized data was exported from <a href="http://www.nysdrillteams.com">NYSDrillTeams</a>. The code below loads the CSV files, updates certain column names in order to complete the joins, and executes the joins.</p>
-<pre class="sourceCode r"><code class="sourceCode r">df  &lt;-<span class="st"> </span><span class="kw">read.csv</span>(<span class="st">&quot;C:/Users/murph/Desktop/R/2016FDRacingPrediction/RawData/nysdt_events_results.csv&quot;</span>)
-df2 &lt;-<span class="st"> </span><span class="kw">read.csv</span>(<span class="st">&quot;C:/Users/murph/Desktop/R/2016FDRacingPrediction/RawData/nysdt_teams.csv&quot;</span>)
-df3 &lt;-<span class="st"> </span><span class="kw">read.csv</span>(<span class="st">&quot;C:/Users/murph/Desktop/R/2016FDRacingPrediction/RawData/nysdt_eventtypes.csv&quot;</span>)
-df4 &lt;-<span class="st"> </span><span class="kw">read.csv</span>(<span class="st">&quot;C:/Users/murph/Desktop/R/2016FDRacingPrediction/RawData/nysdt_drills.csv&quot;</span>)
-df5 &lt;-<span class="st"> </span><span class="kw">read.csv</span>(<span class="st">&quot;C:/Users/murph/Desktop/R/2016FDRacingPrediction/RawData/nysdt_seasons_drills.csv&quot;</span>)
-df6 &lt;-<span class="st"> </span><span class="kw">read.csv</span>(<span class="st">&quot;C:/Users/murph/Desktop/R/2016FDRacingPrediction/RawData/nysdt_seasons_events.csv&quot;</span>)
+<h1 id="simulationmodel">SimulationModel</h1>
+<p>Dan Murphy<br />August 17, 2016</p>
+<h2 id="overview">Overview</h2>
+<p>In this document, the runs from the year are first adjusted for track location, and then summarized which is used to simulate future results. Finially, the results of the simulation are summarized to provide the basis for the projection.</p>
+<h3 id="adjusting-for-track-location">Adjusting for Track Location</h3>
+<p>The track location can have an impact on times. Because all teams do not have an equal number of appearances at each track, an adjustment is made to times from popular tracks to properly weight the times. The adjustment has been calculated in an earlier project and is uploaded here.</p>
+<p>A location column is created and used to join the Track Adjustment CSV file. Then the Adjusted Time column is created.</p>
+<pre class="sourceCode r"><code class="sourceCode r">TrackAdj  &lt;-<span class="st"> </span><span class="kw">read.csv</span>(<span class="st">&quot;C:/Users/murph/Desktop/R/2016FDRacingPrediction/RawData/TrackAdj.csv&quot;</span>,
+                      <span class="dt">stringsAsFactors =</span> <span class="ot">FALSE</span>)
 
-<span class="kw">colnames</span>(df2)[<span class="dv">1</span>] &lt;-<span class="st"> &quot;team_id&quot;</span>
-<span class="kw">colnames</span>(df6)[<span class="dv">1</span>] &lt;-<span class="st"> &quot;event_id&quot;</span>
-<span class="kw">colnames</span>(df5)[<span class="dv">1</span>] &lt;-<span class="st"> &quot;seasondrill_id&quot;</span>
-<span class="kw">colnames</span>(df3)[<span class="dv">1</span>] &lt;-<span class="st"> &quot;type&quot;</span>
-<span class="kw">colnames</span>(df4)[<span class="dv">1</span>] &lt;-<span class="st"> &quot;drill_id&quot;</span>
+df2$Location &lt;-<span class="st"> &quot;&quot;</span>
+df2$Location &lt;-<span class="st"> </span><span class="kw">ifelse</span>(df2$TournName==<span class="st">&quot;Central Islip Invitational&quot;</span>,<span class="st">&quot;Central Islip&quot;</span>,df2$Location)
+df2$Location &lt;-<span class="st"> </span><span class="kw">ifelse</span>(df2$TournName==<span class="st">&quot;Hempstead Invitational Drill&quot;</span>,<span class="st">&quot;Hempstead&quot;</span>,df2$Location)
+df2$Location &lt;-<span class="st"> </span><span class="kw">ifelse</span>(df2$TournName==<span class="st">&quot;Joe Hunter Memorial Drill&quot;</span>,<span class="st">&quot;Hempstead&quot;</span>,df2$Location)
+df2$Location &lt;-<span class="st"> </span><span class="kw">ifelse</span>(df2$TournName==<span class="st">&quot;Lindenhurst Invitational Drill&quot;</span>,<span class="st">&quot;Lindenhurst&quot;</span>,df2$Location)
+df2$Location &lt;-<span class="st"> </span><span class="kw">ifelse</span>(df2$TournName==<span class="st">&quot;Nassau County Charity Drill&quot;</span>,<span class="st">&quot;Hempstead&quot;</span>,df2$Location)
+df2$Location &lt;-<span class="st"> </span><span class="kw">ifelse</span>(df2$TournName==<span class="st">&quot;Nassau County Motorized Drill&quot;</span>,<span class="st">&quot;Merrick&quot;</span>,df2$Location)
+df2$Location &lt;-<span class="st"> </span><span class="kw">ifelse</span>(df2$TournName==<span class="st">&quot;Riverhead Invitational Drill&quot;</span>,<span class="st">&quot;Riverhead&quot;</span>,df2$Location)
+df2$Location &lt;-<span class="st"> </span><span class="kw">ifelse</span>(df2$TournName==<span class="st">&quot;Selden Invitational Drill&quot;</span>,<span class="st">&quot;Ridge&quot;</span>,df2$Location)
+df2$Location &lt;-<span class="st"> </span><span class="kw">ifelse</span>(df2$TournName==<span class="st">&quot;Suffolk County Drill&quot;</span>,<span class="st">&quot;Central Islip&quot;</span>,df2$Location)
+df2$Location &lt;-<span class="st"> </span><span class="kw">ifelse</span>(df2$TournName==<span class="st">&quot;Town of Brookhaven&quot;</span>,<span class="st">&quot;Ridge&quot;</span>,df2$Location)
 
-df &lt;-<span class="st"> </span><span class="kw">left_join</span>(df, df2, <span class="dt">by =</span> <span class="st">&quot;team_id&quot;</span>)
-df &lt;-<span class="st"> </span><span class="kw">left_join</span>(df, df6, <span class="dt">by =</span> <span class="st">&quot;event_id&quot;</span>)
-df &lt;-<span class="st"> </span><span class="kw">left_join</span>(df, df5, <span class="dt">by =</span> <span class="st">&quot;seasondrill_id&quot;</span>)
-df &lt;-<span class="st"> </span><span class="kw">left_join</span>(df, df3, <span class="dt">by =</span> <span class="st">&quot;type&quot;</span>)
-df &lt;-<span class="st"> </span><span class="kw">left_join</span>(df, df4, <span class="dt">by =</span> <span class="st">&quot;drill_id&quot;</span>)
+df2$key &lt;-<span class="st"> </span><span class="kw">paste</span>(df2$Location, df2$Contest, <span class="dt">sep =</span> <span class="st">&quot; &quot;</span>)
+TrackAdjJoin &lt;-<span class="st"> </span>TrackAdj[<span class="dv">6</span>:<span class="dv">7</span>]
 
-<span class="kw">remove</span>(df2,df3,df4,df5,df6)</code></pre>
-<p>The dataframe is next trimmed to omit extraneous columns Then, names and data types are corrected. Last, the dataset is filtered to only include runs from motorized teams in 2016.</p>
-<pre class="sourceCode r"><code class="sourceCode r">df2 &lt;-<span class="st"> </span><span class="kw">data.frame</span>(df$id, df$team_name, df$name.x, df$name.y, df$start_date.y, df$rank,df$performance,    
-                  df$division)
-<span class="kw">colnames</span>(df2) &lt;-<span class="st"> </span><span class="kw">c</span>(<span class="st">&quot;WebsiteID&quot;</span>,<span class="st">&quot;TeamName&quot;</span>,<span class="st">&quot;Contest&quot;</span>,<span class="st">&quot;TournName&quot;</span>,<span class="st">&quot;TournDate&quot;</span>,<span class="st">&quot;Rank&quot;</span>,<span class="st">&quot;Time&quot;</span>,<span class="st">&quot;Division&quot;</span>)
+df2 &lt;-<span class="st">  </span><span class="kw">left_join</span>(df2, TrackAdjJoin, <span class="dt">by =</span> <span class="st">&quot;key&quot;</span>)
 
-df2$TournDate &lt;-<span class="st"> </span><span class="kw">mdy_hm</span>(df2$TournDate)
-df2$Time &lt;-<span class="st"> </span><span class="kw">as.numeric</span>(<span class="kw">levels</span>(df2$Time))[df2$Time]
+df2$AdjustedTime &lt;-<span class="st"> </span><span class="kw">ifelse</span>(<span class="kw">is.na</span>(df2$TrackAdj),df2$Time,df2$Time+df2$TrackAdj)</code></pre>
+<h3 id="summarizing-date">Summarizing Date</h3>
+<p>Below summary statistics are calculated for each team's run in each contest during the year. The statistics are the number of runs, the number of successful runs (or hits), the average of the successful runs and the standard deviation of the successful runs.</p>
+<p>First a dataframe is created to contain the results.</p>
+<pre class="sourceCode r"><code class="sourceCode r"><span class="co"># Create a dataframe to store summary stats</span>
 
-df2 &lt;-<span class="st"> </span>df2 %&gt;%<span class="st"> </span><span class="kw">filter</span>((Division %in%<span class="st"> </span><span class="kw">c</span>(<span class="st">&quot;Exhbition&quot;</span>,<span class="st">&quot;Motorized&quot;</span>)) &amp;<span class="st"> </span>(TournDate &gt;<span class="st"> </span><span class="kw">ymd</span>(<span class="st">&quot;2016/01/01&quot;</span>))) 
-df2 &lt;-<span class="st"> </span>df2 %&gt;%<span class="st"> </span><span class="kw">filter</span>((TournName !=<span class="st"> &quot;Nassau County Old-Fashioned&quot;</span>) &amp;<span class="st"> </span>
-<span class="st">                      </span>(TournName !=<span class="st"> &quot;Long Island Championship (OF)&quot;</span>) &amp;<span class="st"> </span>
-<span class="st">                      </span>(TournName !=<span class="st"> &quot;New York State Old Fashioned Drill&quot;</span>)&amp;<span class="st"> </span>
-<span class="st">                      </span>(TournName !=<span class="st"> &quot;Mike Esposito Memorial Drill&quot;</span>))
-df2 &lt;-<span class="st"> </span>df2 %&gt;%<span class="st"> </span><span class="kw">filter</span>((Contest !=<span class="st"> &quot; *********** LINEUP ***********&quot;</span>) &amp;<span class="st"> </span>
-<span class="st">                      </span>(Contest !=<span class="st"> &quot;B Hose - CANCELED (RAIN)&quot;</span>) &amp;<span class="st"> </span>
-<span class="st">                      </span>(Contest !=<span class="st"> &quot;Individual Ladder - SCHEDULED&quot;</span>))
+StateSimParams &lt;-<span class="st"> </span>df2 %&gt;%<span class="st"> </span><span class="kw">select</span>(TeamName) %&gt;%<span class="st"> </span><span class="kw">distinct</span>()
+StateSimParamsAll &lt;-<span class="st"> </span><span class="kw">data.frame</span>()
+for(i in <span class="dv">1</span>:<span class="dv">8</span>){
+  StateSimParams$key &lt;-<span class="st"> </span>i
+  StateSimParamsAll &lt;-<span class="st"> </span><span class="kw">bind_rows</span>(StateSimParamsAll,StateSimParams)
+}
+Contests&lt;-<span class="st"> </span>df2 %&gt;%<span class="st"> </span><span class="kw">select</span>(Contest) %&gt;%<span class="st"> </span><span class="kw">distinct</span>()
+Contests$key &lt;-<span class="st"> </span><span class="kw">c</span>(<span class="dv">1</span>,<span class="dv">2</span>,<span class="dv">3</span>,<span class="dv">4</span>,<span class="dv">5</span>,<span class="dv">6</span>,<span class="dv">7</span>,<span class="dv">8</span>)
 
-df2 &lt;-<span class="st"> </span><span class="kw">separate</span>(df2, Contest, <span class="kw">c</span>(<span class="st">&quot;Contest&quot;</span>,<span class="st">&quot;discard&quot;</span>), <span class="dt">sep =</span> <span class="st">&quot; - &quot;</span>)
-df2$discard &lt;-<span class="st"> </span><span class="ot">NULL</span>
+StateSimParams &lt;-<span class="st"> </span><span class="kw">left_join</span>(StateSimParamsAll,Contests)
+<span class="kw">remove</span>(Contests, StateSimParamsAll)
+StateSimParams$key &lt;-<span class="st"> </span><span class="ot">NULL</span>
 
-df2 &lt;-<span class="st"> </span>df2 %&gt;%<span class="st"> </span><span class="kw">filter</span>((Contest !=<span class="st"> &quot;Individual Ladder&quot;</span>)&amp;<span class="st"> </span>
-<span class="st">                      </span>(Contest !=<span class="st"> &quot;Motor Hose Replacement&quot;</span>)&amp;<span class="st"> </span>
-<span class="st">                      </span>(Contest !=<span class="st"> &quot;Combination Hose &amp; Pump&quot;</span>)&amp;<span class="st"> </span>
-<span class="st">                      </span>(Contest !=<span class="st"> &quot;Efficiency Replacement&quot;</span>)&amp;<span class="st"> </span>
-<span class="st">                      </span>(Contest !=<span class="st"> &quot;Two into One&quot;</span>))
+<span class="kw">colnames</span>(StateSimParams) &lt;-<span class="st"> </span><span class="kw">c</span>(<span class="st">&quot;Team&quot;</span>,<span class="st">&quot;TimeContest&quot;</span>)</code></pre>
+<p>Next, appearances, hits, averages, and SD is calculated.</p>
+<pre class="sourceCode r"><code class="sourceCode r">TimeNumMin &lt;-<span class="st"> </span><span class="kw">as.numeric</span>(<span class="dv">4</span>)
 
-df2$Contest &lt;-<span class="st"> </span><span class="kw">ifelse</span>(df2$Contest==<span class="st">&quot;3 Man Ladder&quot;</span>,<span class="st">&quot;Three Man Ladder&quot;</span>,df2$Contest)</code></pre>
+
+<span class="co"># Count the number of Hits</span>
+
+TimeNumHitCutoff &lt;-<span class="st"> </span><span class="kw">as.numeric</span>(<span class="kw">c</span>(<span class="fl">6.8</span>,<span class="fl">5.6</span>,<span class="fl">9.6</span>,<span class="fl">13.4</span>,<span class="fl">8.6</span>,<span class="fl">9.8</span>,<span class="fl">6.7</span>,<span class="dv">23</span>))
+<span class="kw">names</span>(TimeNumHitCutoff) &lt;-<span class="st"> </span><span class="kw">c</span>(<span class="st">&quot;Three Man Ladder&quot;</span>, <span class="st">&quot;B Ladder&quot;</span>, <span class="st">&quot;C Ladder&quot;</span>, <span class="st">&quot;C Hose&quot;</span>, 
+                             <span class="st">&quot;B Hose&quot;</span>,<span class="st">&quot;Efficiency&quot;</span>, <span class="st">&quot;Motor Pump&quot;</span>, <span class="st">&quot;Buckets&quot;</span>)
+StateSimParams$Hits &lt;-<span class="st"> </span><span class="dv">0</span>
+i&lt;-<span class="dv">1</span>
+for(i in <span class="dv">1</span>:<span class="kw">dim</span>(StateSimParams)[<span class="dv">1</span>]){
+  StateSimParams$Hits[i] &lt;-<span class="st"> </span><span class="kw">count</span>(df2 %&gt;%<span class="st"> </span><span class="kw">filter</span>(Team==StateSimParams$Team[i],
+                                                     Year==StateSimParams$Year[i],
+                                                     <span class="st">`</span><span class="dt">Before State?</span><span class="st">`</span>==<span class="st">&quot;Yes&quot;</span>,
+                                                     TimeContest==StateSimParams$TimeContest[i],
+                                                     AdjustedTime &gt;<span class="st"> </span>TimeNumMin,
+                                                     AdjustedTime &lt;=<span class="st"> </span>TimeNumHitCutoff[StateSimParams$TimeContest[i]]
+                                                     ))
+}
+
+<span class="co"># Count the number of misses</span>
+TimeNumOTCutoff &lt;-<span class="st"> </span><span class="kw">as.numeric</span>(<span class="kw">c</span>(<span class="dv">10</span>,<span class="dv">10</span>,<span class="dv">15</span>,<span class="dv">18</span>,<span class="dv">13</span>,<span class="dv">14</span>,<span class="dv">10</span>,<span class="dv">35</span>))
+<span class="kw">names</span>(TimeNumOTCutoff) &lt;-<span class="st"> </span><span class="kw">c</span>(<span class="st">&quot;Three Man Ladder&quot;</span>, <span class="st">&quot;B Ladder&quot;</span>, <span class="st">&quot;C Ladder&quot;</span>, <span class="st">&quot;C Hose&quot;</span>, 
+                             <span class="st">&quot;B Hose&quot;</span>,<span class="st">&quot;Efficiency&quot;</span>, <span class="st">&quot;Motor Pump&quot;</span>, <span class="st">&quot;Buckets&quot;</span>)
+StateSimParams$Misses &lt;-<span class="st"> </span><span class="dv">0</span>
+i&lt;-<span class="dv">1</span>
+for(i in <span class="dv">1</span>:<span class="kw">dim</span>(StateSimParams)[<span class="dv">1</span>]){
+  StateSimParams$Misses[i] &lt;-<span class="st"> </span><span class="kw">count</span>(AllData %&gt;%<span class="st"> </span><span class="kw">filter</span>(Team==StateSimParams$Team[i],
+                                                     Year==StateSimParams$Year[i],
+                                                     <span class="st">`</span><span class="dt">Before State?</span><span class="st">`</span>==<span class="st">&quot;Yes&quot;</span>,
+                                                     TimeContest==StateSimParams$TimeContest[i],
+                                                     AdjustedTime &gt;<span class="st"> </span>TimeNumHitCutoff[StateSimParams$TimeContest[i]],
+                                                     AdjustedTime &lt;=<span class="st"> </span>TimeNumOTCutoff[StateSimParams$TimeContest[i]] 
+  ))
+}
+
+<span class="co">#Count Number of Appearances </span>
+
+StateSimParams$Appear &lt;-<span class="st"> </span><span class="dv">0</span>
+i&lt;-<span class="dv">1</span>
+for(i in <span class="dv">1</span>:<span class="kw">dim</span>(StateSimParams)[<span class="dv">1</span>]){
+  StateSimParams$Appear[i] &lt;-<span class="st"> </span><span class="kw">count</span>(AllData %&gt;%<span class="st"> </span><span class="kw">filter</span>(Team==StateSimParams$Team[i],
+                                                       Year==StateSimParams$Year[i],
+                                                       <span class="st">`</span><span class="dt">Before State?</span><span class="st">`</span>==<span class="st">&quot;Yes&quot;</span>,
+                                                       TimeContest==StateSimParams$TimeContest[i] 
+  ))
+}
+
+<span class="co">#Count the Avg of Hits</span>
+
+StateSimParams$HitsAvg &lt;-<span class="st"> </span><span class="dv">0</span>
+StateSimParams$HitsSD &lt;-<span class="st"> </span><span class="dv">0</span>
+i&lt;-<span class="dv">1</span>
+for(i in <span class="dv">1</span>:<span class="kw">dim</span>(StateSimParams)[<span class="dv">1</span>]){
+      result &lt;-<span class="st">  </span>AllData %&gt;%<span class="st"> </span><span class="kw">filter</span>(Team==StateSimParams$Team[i],
+                                                     Year==StateSimParams$Year[i],
+                                                     <span class="st">`</span><span class="dt">Before State?</span><span class="st">`</span>==<span class="st">&quot;Yes&quot;</span>,
+                                                     TimeContest==StateSimParams$TimeContest[i],
+                                                     AdjustedTime &gt;<span class="st"> </span>TimeNumMin,
+                                                     AdjustedTime &lt;=<span class="st"> </span>TimeNumHitCutoff[StateSimParams$TimeContest[i]]
+                                                  ) %&gt;%<span class="st"> </span>
+<span class="st">                                                </span><span class="kw">group_by</span>(Team) %&gt;%<span class="st"> </span><span class="kw">summarise</span>(<span class="kw">mean</span>(AdjustedTime),<span class="kw">sd</span>(AdjustedTime))
+      StateSimParams$HitsAvg[i] &lt;-<span class="st"> </span><span class="kw">as.numeric</span>(result[<span class="dv">2</span>])
+      StateSimParams$HitsSD[i]  &lt;-<span class="st"> </span><span class="kw">as.numeric</span>(result[<span class="dv">3</span>])
+}
+
+<span class="co">#Make Adjustments for Model</span>
+
+
+StateSimParams$Hits &lt;-<span class="st"> </span><span class="kw">unlist</span>(StateSimParams$Hits)
+StateSimParams$Misses &lt;-<span class="st"> </span><span class="kw">unlist</span>(StateSimParams$Misses)
+StateSimParams$Appear &lt;-<span class="st"> </span><span class="kw">unlist</span>(StateSimParams$Appear)
+
+<span class="co">#Update Appearances so that 1 times are not 100% successful</span>
+StateSimParams$Appear &lt;-<span class="st"> </span><span class="kw">ifelse</span>(StateSimParams$Appear==<span class="dv">1</span>,<span class="dv">2</span>,StateSimParams$Appear)
+StateSimParams$HitsSD &lt;-<span class="st"> </span><span class="kw">ifelse</span>(StateSimParams$HitsSD==<span class="dv">0</span>,.<span class="dv">075</span>,StateSimParams$HitsSD)
+StateSimParams$HitsSD &lt;-<span class="st"> </span><span class="kw">ifelse</span>(StateSimParams$Hits&gt;=<span class="dv">1</span> &amp;<span class="st"> </span><span class="kw">is.na</span>(StateSimParams$HitsSD),.<span class="dv">075</span>,StateSimParams$HitsSD)
+
+<span class="co">#Reduce SD for large variance teams with 3 or less hits</span>
+
+StateSimParams$HitsSD &lt;-<span class="st"> </span><span class="kw">ifelse</span>(StateSimParams$HitsSD&gt;.<span class="dv">3</span>&amp;StateSimParams$Hits&lt;=<span class="dv">3</span>,
+                                StateSimParams$HitsSD*.<span class="dv">6</span>,
+                                <span class="kw">ifelse</span>(StateSimParams$HitsSD&gt;.<span class="dv">2</span>&amp;StateSimParams$Hits&lt;=<span class="dv">4</span>,
+                                       StateSimParams$HitsSD*.<span class="dv">8</span>,StateSimParams$HitsSD))</code></pre>
 
 </body>
 </html>
