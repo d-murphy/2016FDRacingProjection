@@ -35,44 +35,50 @@ body {
 <pre class="sourceCode r"><code class="sourceCode r">TrackAdj  &lt;-<span class="st"> </span><span class="kw">read.csv</span>(<span class="st">&quot;C:/Users/murph/Desktop/R/2016FDRacingPrediction/RawData/TrackAdj.csv&quot;</span>,
                       <span class="dt">stringsAsFactors =</span> <span class="ot">FALSE</span>)
 
-df2$Location &lt;-<span class="st"> &quot;&quot;</span>
-df2$Location &lt;-<span class="st"> </span><span class="kw">ifelse</span>(df2$TournName==<span class="st">&quot;Central Islip Invitational&quot;</span>,<span class="st">&quot;Central Islip&quot;</span>,df2$Location)
-df2$Location &lt;-<span class="st"> </span><span class="kw">ifelse</span>(df2$TournName==<span class="st">&quot;Hempstead Invitational Drill&quot;</span>,<span class="st">&quot;Hempstead&quot;</span>,df2$Location)
-df2$Location &lt;-<span class="st"> </span><span class="kw">ifelse</span>(df2$TournName==<span class="st">&quot;Joe Hunter Memorial Drill&quot;</span>,<span class="st">&quot;Hempstead&quot;</span>,df2$Location)
-df2$Location &lt;-<span class="st"> </span><span class="kw">ifelse</span>(df2$TournName==<span class="st">&quot;Lindenhurst Invitational Drill&quot;</span>,<span class="st">&quot;Lindenhurst&quot;</span>,df2$Location)
-df2$Location &lt;-<span class="st"> </span><span class="kw">ifelse</span>(df2$TournName==<span class="st">&quot;Nassau County Charity Drill&quot;</span>,<span class="st">&quot;Hempstead&quot;</span>,df2$Location)
-df2$Location &lt;-<span class="st"> </span><span class="kw">ifelse</span>(df2$TournName==<span class="st">&quot;Nassau County Motorized Drill&quot;</span>,<span class="st">&quot;Merrick&quot;</span>,df2$Location)
-df2$Location &lt;-<span class="st"> </span><span class="kw">ifelse</span>(df2$TournName==<span class="st">&quot;Riverhead Invitational Drill&quot;</span>,<span class="st">&quot;Riverhead&quot;</span>,df2$Location)
-df2$Location &lt;-<span class="st"> </span><span class="kw">ifelse</span>(df2$TournName==<span class="st">&quot;Selden Invitational Drill&quot;</span>,<span class="st">&quot;Ridge&quot;</span>,df2$Location)
-df2$Location &lt;-<span class="st"> </span><span class="kw">ifelse</span>(df2$TournName==<span class="st">&quot;Suffolk County Drill&quot;</span>,<span class="st">&quot;Central Islip&quot;</span>,df2$Location)
-df2$Location &lt;-<span class="st"> </span><span class="kw">ifelse</span>(df2$TournName==<span class="st">&quot;Town of Brookhaven&quot;</span>,<span class="st">&quot;Ridge&quot;</span>,df2$Location)
+AllData$Location &lt;-<span class="st"> &quot;&quot;</span>
+AllData$Location &lt;-<span class="st"> </span><span class="kw">ifelse</span>(AllData$TournName==<span class="st">&quot;Central Islip Invitational&quot;</span>,<span class="st">&quot;Central Islip&quot;</span>,AllData$Location)
+AllData$Location &lt;-<span class="st"> </span><span class="kw">ifelse</span>(AllData$TournName==<span class="st">&quot;Hempstead Invitational Drill&quot;</span>,<span class="st">&quot;Hempstead&quot;</span>,AllData$Location)
+AllData$Location &lt;-<span class="st"> </span><span class="kw">ifelse</span>(AllData$TournName==<span class="st">&quot;Joe Hunter Memorial Drill&quot;</span>,<span class="st">&quot;Hempstead&quot;</span>,AllData$Location)
+AllData$Location &lt;-<span class="st"> </span><span class="kw">ifelse</span>(AllData$TournName==<span class="st">&quot;Lindenhurst Invitational Drill&quot;</span>,<span class="st">&quot;Lindenhurst&quot;</span>,AllData$Location)
+AllData$Location &lt;-<span class="st"> </span><span class="kw">ifelse</span>(AllData$TournName==<span class="st">&quot;Nassau County Charity Drill&quot;</span>,<span class="st">&quot;Hempstead&quot;</span>,AllData$Location)
+AllData$Location &lt;-<span class="st"> </span><span class="kw">ifelse</span>(AllData$TournName==<span class="st">&quot;Nassau County Motorized Drill&quot;</span>,<span class="st">&quot;Merrick&quot;</span>,AllData$Location)
+AllData$Location &lt;-<span class="st"> </span><span class="kw">ifelse</span>(AllData$TournName==<span class="st">&quot;Riverhead Invitational Drill&quot;</span>,<span class="st">&quot;Riverhead&quot;</span>,AllData$Location)
+AllData$Location &lt;-<span class="st"> </span><span class="kw">ifelse</span>(AllData$TournName==<span class="st">&quot;Selden Invitational Drill&quot;</span>,<span class="st">&quot;Ridge&quot;</span>,AllData$Location)
+AllData$Location &lt;-<span class="st"> </span><span class="kw">ifelse</span>(AllData$TournName==<span class="st">&quot;Suffolk County Drill&quot;</span>,<span class="st">&quot;Central Islip&quot;</span>,AllData$Location)
+AllData$Location &lt;-<span class="st"> </span><span class="kw">ifelse</span>(AllData$TournName==<span class="st">&quot;Town of Brookhaven&quot;</span>,<span class="st">&quot;Ridge&quot;</span>,AllData$Location)
 
-df2$key &lt;-<span class="st"> </span><span class="kw">paste</span>(df2$Location, df2$Contest, <span class="dt">sep =</span> <span class="st">&quot; &quot;</span>)
+AllData$key &lt;-<span class="st"> </span><span class="kw">paste</span>(AllData$Location, AllData$TimeContest, <span class="dt">sep =</span> <span class="st">&quot; &quot;</span>)
 TrackAdjJoin &lt;-<span class="st"> </span>TrackAdj[<span class="dv">6</span>:<span class="dv">7</span>]
 
-df2 &lt;-<span class="st">  </span><span class="kw">left_join</span>(df2, TrackAdjJoin, <span class="dt">by =</span> <span class="st">&quot;key&quot;</span>)
+AllData &lt;-<span class="st">  </span><span class="kw">left_join</span>(AllData, TrackAdjJoin, <span class="dt">by =</span> <span class="st">&quot;key&quot;</span>)
 
-df2$AdjustedTime &lt;-<span class="st"> </span><span class="kw">ifelse</span>(<span class="kw">is.na</span>(df2$TrackAdj),df2$Time,df2$Time+df2$TrackAdj)</code></pre>
+AllData$AdjustedTime &lt;-<span class="st"> </span><span class="kw">ifelse</span>(<span class="kw">is.na</span>(AllData$TrackAdj),AllData$Time,AllData$Time+AllData$TrackAdj)
+
+<span class="kw">remove</span>(TrackAdj,TrackAdjJoin)</code></pre>
 <h3 id="summarizing-date">Summarizing Date</h3>
 <p>Below summary statistics are calculated for each team's run in each contest during the year. The statistics are the number of runs, the number of successful runs (or hits), the average of the successful runs and the standard deviation of the successful runs.</p>
 <p>First a dataframe is created to contain the results.</p>
 <pre class="sourceCode r"><code class="sourceCode r"><span class="co"># Create a dataframe to store summary stats</span>
 
-StateSimParams &lt;-<span class="st"> </span>df2 %&gt;%<span class="st"> </span><span class="kw">select</span>(TeamName) %&gt;%<span class="st"> </span><span class="kw">distinct</span>()
+StateSimParams &lt;-<span class="st"> </span>AllData %&gt;%<span class="st"> </span><span class="kw">select</span>(Team) %&gt;%<span class="st"> </span><span class="kw">distinct</span>()
 StateSimParamsAll &lt;-<span class="st"> </span><span class="kw">data.frame</span>()
 for(i in <span class="dv">1</span>:<span class="dv">8</span>){
   StateSimParams$key &lt;-<span class="st"> </span>i
   StateSimParamsAll &lt;-<span class="st"> </span><span class="kw">bind_rows</span>(StateSimParamsAll,StateSimParams)
 }
-Contests&lt;-<span class="st"> </span>df2 %&gt;%<span class="st"> </span><span class="kw">select</span>(Contest) %&gt;%<span class="st"> </span><span class="kw">distinct</span>()
+Contests&lt;-<span class="st"> </span>AllData %&gt;%<span class="st"> </span><span class="kw">select</span>(TimeContest) %&gt;%<span class="st"> </span><span class="kw">distinct</span>()
 Contests$key &lt;-<span class="st"> </span><span class="kw">c</span>(<span class="dv">1</span>,<span class="dv">2</span>,<span class="dv">3</span>,<span class="dv">4</span>,<span class="dv">5</span>,<span class="dv">6</span>,<span class="dv">7</span>,<span class="dv">8</span>)
 
 StateSimParams &lt;-<span class="st"> </span><span class="kw">left_join</span>(StateSimParamsAll,Contests)
 <span class="kw">remove</span>(Contests, StateSimParamsAll)
 StateSimParams$key &lt;-<span class="st"> </span><span class="ot">NULL</span>
 
-<span class="kw">colnames</span>(StateSimParams) &lt;-<span class="st"> </span><span class="kw">c</span>(<span class="st">&quot;Team&quot;</span>,<span class="st">&quot;TimeContest&quot;</span>)</code></pre>
-<p>Next, appearances, hits, averages, and SD is calculated.</p>
+
+<span class="co">#Added to use a script developed earlier on a data set that included multiple years</span>
+AllData$<span class="st">'Before State?'</span> &lt;-<span class="st"> &quot;Yes&quot;</span>
+AllData$Year &lt;-<span class="st"> </span><span class="dv">2016</span>
+StateSimParams$Year &lt;-<span class="st"> </span><span class="dv">2016</span></code></pre>
+<p>Next, appearances, hits, averages, and SD is calculated by stepping through the StateSimParams dataframe and then filtering the AllData data frame based on the team and contest indicated in the StateSimParams row.</p>
 <pre class="sourceCode r"><code class="sourceCode r">TimeNumMin &lt;-<span class="st"> </span><span class="kw">as.numeric</span>(<span class="dv">4</span>)
 
 
@@ -84,7 +90,7 @@ TimeNumHitCutoff &lt;-<span class="st"> </span><span class="kw">as.numeric</span
 StateSimParams$Hits &lt;-<span class="st"> </span><span class="dv">0</span>
 i&lt;-<span class="dv">1</span>
 for(i in <span class="dv">1</span>:<span class="kw">dim</span>(StateSimParams)[<span class="dv">1</span>]){
-  StateSimParams$Hits[i] &lt;-<span class="st"> </span><span class="kw">count</span>(df2 %&gt;%<span class="st"> </span><span class="kw">filter</span>(Team==StateSimParams$Team[i],
+  StateSimParams$Hits[i] &lt;-<span class="st"> </span><span class="kw">count</span>(AllData %&gt;%<span class="st"> </span><span class="kw">filter</span>(Team==StateSimParams$Team[i],
                                                      Year==StateSimParams$Year[i],
                                                      <span class="st">`</span><span class="dt">Before State?</span><span class="st">`</span>==<span class="st">&quot;Yes&quot;</span>,
                                                      TimeContest==StateSimParams$TimeContest[i],
@@ -121,7 +127,7 @@ for(i in <span class="dv">1</span>:<span class="kw">dim</span>(StateSimParams)[<
   ))
 }
 
-<span class="co">#Count the Avg of Hits</span>
+<span class="co">#Count the Avg and SD of Hits</span>
 
 StateSimParams$HitsAvg &lt;-<span class="st"> </span><span class="dv">0</span>
 StateSimParams$HitsSD &lt;-<span class="st"> </span><span class="dv">0</span>
@@ -137,12 +143,9 @@ for(i in <span class="dv">1</span>:<span class="kw">dim</span>(StateSimParams)[<
 <span class="st">                                                </span><span class="kw">group_by</span>(Team) %&gt;%<span class="st"> </span><span class="kw">summarise</span>(<span class="kw">mean</span>(AdjustedTime),<span class="kw">sd</span>(AdjustedTime))
       StateSimParams$HitsAvg[i] &lt;-<span class="st"> </span><span class="kw">as.numeric</span>(result[<span class="dv">2</span>])
       StateSimParams$HitsSD[i]  &lt;-<span class="st"> </span><span class="kw">as.numeric</span>(result[<span class="dv">3</span>])
-}
-
-<span class="co">#Make Adjustments for Model</span>
-
-
-StateSimParams$Hits &lt;-<span class="st"> </span><span class="kw">unlist</span>(StateSimParams$Hits)
+}</code></pre>
+<p>Here, adjustments are made to summary statistics where data is insufficient.<br />* If a team only appears 1 time, the number is adjusted to 2.<br />* If the SD is 0, this is adjusted to .075.<br />* Last, if a large SD is observed with few hits recorded, this value is reduced.</p>
+<pre class="sourceCode r"><code class="sourceCode r">StateSimParams$Hits &lt;-<span class="st"> </span><span class="kw">unlist</span>(StateSimParams$Hits)
 StateSimParams$Misses &lt;-<span class="st"> </span><span class="kw">unlist</span>(StateSimParams$Misses)
 StateSimParams$Appear &lt;-<span class="st"> </span><span class="kw">unlist</span>(StateSimParams$Appear)
 

@@ -31,30 +31,30 @@ remove(df2,df3,df4,df5,df6)
 The dataframe is next trimmed to omit extraneous columns Then, names and data types are corrected. Last, the dataset is filtered to only include runs from motorized teams in 2016.
 
 ``` r
-df2 <- data.frame(df$id, df$team_name, df$name.x, df$name.y, df$start_date.y, df$rank,df$performance,    
+AllData <- data.frame(df$id, df$team_name, df$name.x, df$name.y, df$start_date.y, df$rank,df$performance,    
                   df$division)
-colnames(df2) <- c("WebsiteID","TeamName","Contest","TournName","TournDate","Rank","Time","Division")
+colnames(AllData) <- c("WebsiteID","Team","TimeContest","TournName","TournDate","Rank","Time","Division")
 
-df2$TournDate <- mdy_hm(df2$TournDate)
-df2$Time <- as.numeric(levels(df2$Time))[df2$Time]
+AllData$TournDate <- mdy_hm(AllData$TournDate)
+AllData$Time <- as.numeric(levels(AllData$Time))[AllData$Time]
 
-df2 <- df2 %>% filter((Division %in% c("Exhbition","Motorized")) & (TournDate > ymd("2016/01/01"))) 
-df2 <- df2 %>% filter((TournName != "Nassau County Old-Fashioned") & 
+AllData <- AllData %>% filter((Division %in% c("Exhbition","Motorized")) & (TournDate > ymd("2016/01/01"))) 
+AllData <- AllData %>% filter((TournName != "Nassau County Old-Fashioned") & 
                       (TournName != "Long Island Championship (OF)") & 
                       (TournName != "New York State Old Fashioned Drill")& 
                       (TournName != "Mike Esposito Memorial Drill"))
-df2 <- df2 %>% filter((Contest != " *********** LINEUP ***********") & 
-                      (Contest != "B Hose - CANCELED (RAIN)") & 
-                      (Contest != "Individual Ladder - SCHEDULED"))
+AllData <- AllData %>% filter((TimeContest != " *********** LINEUP ***********") & 
+                      (TimeContest != "B Hose - CANCELED (RAIN)") & 
+                      (TimeContest != "Individual Ladder - SCHEDULED"))
 
-df2 <- separate(df2, Contest, c("Contest","discard"), sep = " - ")
-df2$discard <- NULL
+AllData <- separate(AllData, TimeContest, c("TimeContest","discard"), sep = " - ")
+AllData$discard <- NULL
 
-df2 <- df2 %>% filter((Contest != "Individual Ladder")& 
-                      (Contest != "Motor Hose Replacement")& 
-                      (Contest != "Combination Hose & Pump")& 
-                      (Contest != "Efficiency Replacement")& 
-                      (Contest != "Two into One"))
+AllData <- AllData %>% filter((TimeContest != "Individual Ladder")& 
+                              (TimeContest != "Motor Hose Replacement")& 
+                              (TimeContest != "Combination Hose & Pump")& 
+                              (TimeContest != "Efficiency Replacement")& 
+                              (TimeContest != "Two into One"))
 
-df2$Contest <- ifelse(df2$Contest=="3 Man Ladder","Three Man Ladder",df2$Contest)
+AllData$TimeContest <- ifelse(AllData$TimeContest=="3 Man Ladder","Three Man Ladder",AllData$TimeContest)
 ```

@@ -19,24 +19,26 @@ A location column is created and used to join the Track Adjustment CSV file.  Th
 TrackAdj  <- read.csv("C:/Users/murph/Desktop/R/2016FDRacingPrediction/RawData/TrackAdj.csv",
                       stringsAsFactors = FALSE)
 
-df2$Location <- ""
-df2$Location <- ifelse(df2$TournName=="Central Islip Invitational","Central Islip",df2$Location)
-df2$Location <- ifelse(df2$TournName=="Hempstead Invitational Drill","Hempstead",df2$Location)
-df2$Location <- ifelse(df2$TournName=="Joe Hunter Memorial Drill","Hempstead",df2$Location)
-df2$Location <- ifelse(df2$TournName=="Lindenhurst Invitational Drill","Lindenhurst",df2$Location)
-df2$Location <- ifelse(df2$TournName=="Nassau County Charity Drill","Hempstead",df2$Location)
-df2$Location <- ifelse(df2$TournName=="Nassau County Motorized Drill","Merrick",df2$Location)
-df2$Location <- ifelse(df2$TournName=="Riverhead Invitational Drill","Riverhead",df2$Location)
-df2$Location <- ifelse(df2$TournName=="Selden Invitational Drill","Ridge",df2$Location)
-df2$Location <- ifelse(df2$TournName=="Suffolk County Drill","Central Islip",df2$Location)
-df2$Location <- ifelse(df2$TournName=="Town of Brookhaven","Ridge",df2$Location)
+AllData$Location <- ""
+AllData$Location <- ifelse(AllData$TournName=="Central Islip Invitational","Central Islip",AllData$Location)
+AllData$Location <- ifelse(AllData$TournName=="Hempstead Invitational Drill","Hempstead",AllData$Location)
+AllData$Location <- ifelse(AllData$TournName=="Joe Hunter Memorial Drill","Hempstead",AllData$Location)
+AllData$Location <- ifelse(AllData$TournName=="Lindenhurst Invitational Drill","Lindenhurst",AllData$Location)
+AllData$Location <- ifelse(AllData$TournName=="Nassau County Charity Drill","Hempstead",AllData$Location)
+AllData$Location <- ifelse(AllData$TournName=="Nassau County Motorized Drill","Merrick",AllData$Location)
+AllData$Location <- ifelse(AllData$TournName=="Riverhead Invitational Drill","Riverhead",AllData$Location)
+AllData$Location <- ifelse(AllData$TournName=="Selden Invitational Drill","Ridge",AllData$Location)
+AllData$Location <- ifelse(AllData$TournName=="Suffolk County Drill","Central Islip",AllData$Location)
+AllData$Location <- ifelse(AllData$TournName=="Town of Brookhaven","Ridge",AllData$Location)
 
-df2$key <- paste(df2$Location, df2$Contest, sep = " ")
+AllData$key <- paste(AllData$Location, AllData$TimeContest, sep = " ")
 TrackAdjJoin <- TrackAdj[6:7]
 
-df2 <-  left_join(df2, TrackAdjJoin, by = "key")
+AllData <-  left_join(AllData, TrackAdjJoin, by = "key")
 
-df2$AdjustedTime <- ifelse(is.na(df2$TrackAdj),df2$Time,df2$Time+df2$TrackAdj)
+AllData$AdjustedTime <- ifelse(is.na(AllData$TrackAdj),AllData$Time,AllData$Time+AllData$TrackAdj)
+
+remove(TrackAdj,TrackAdjJoin)
 ```
 
 ### Summarizing Date
@@ -48,23 +50,27 @@ First a dataframe is created to contain the results.
 ```{r, eval=FALSE}
 # Create a dataframe to store summary stats
 
-StateSimParams <- df2 %>% select(TeamName) %>% distinct()
+StateSimParams <- AllData %>% select(Team) %>% distinct()
 StateSimParamsAll <- data.frame()
 for(i in 1:8){
   StateSimParams$key <- i
   StateSimParamsAll <- bind_rows(StateSimParamsAll,StateSimParams)
 }
-Contests<- df2 %>% select(Contest) %>% distinct()
+Contests<- AllData %>% select(TimeContest) %>% distinct()
 Contests$key <- c(1,2,3,4,5,6,7,8)
 
 StateSimParams <- left_join(StateSimParamsAll,Contests)
 remove(Contests, StateSimParamsAll)
 StateSimParams$key <- NULL
 
-colnames(StateSimParams) <- c("Team","TimeContest")
+
+#Added to use a script developed earlier on a data set that included multiple years
+AllData$'Before State?' <- "Yes"
+AllData$Year <- 2016
+StateSimParams$Year <- 2016
 ```
 
-Next, appearances, hits, averages, and SD is calculated.  
+Next, appearances, hits, averages, and SD is calculated by stepping through the StateSimParams dataframe and then filtering the AllData data frame based on the team and contest indicated in the StateSimParams row.  
 
 ```{r,eval = FALSE}
 TimeNumMin <- as.numeric(4)
@@ -78,7 +84,7 @@ names(TimeNumHitCutoff) <- c("Three Man Ladder", "B Ladder", "C Ladder", "C Hose
 StateSimParams$Hits <- 0
 i<-1
 for(i in 1:dim(StateSimParams)[1]){
-  StateSimParams$Hits[i] <- count(df2 %>% filter(Team==StateSimParams$Team[i],
+  StateSimParams$Hits[i] <- count(AllData %>% filter(Team==StateSimParams$Team[i],
                                                      Year==StateSimParams$Year[i],
                                                      `Before State?`=="Yes",
                                                      TimeContest==StateSimParams$TimeContest[i],
@@ -115,7 +121,7 @@ for(i in 1:dim(StateSimParams)[1]){
   ))
 }
 
-#Count the Avg of Hits
+#Count the Avg and SD of Hits
 
 StateSimParams$HitsAvg <- 0
 StateSimParams$HitsSD <- 0
@@ -132,9 +138,14 @@ for(i in 1:dim(StateSimParams)[1]){
       StateSimParams$HitsAvg[i] <- as.numeric(result[2])
       StateSimParams$HitsSD[i]  <- as.numeric(result[3])
 }
+```
 
-#Make Adjustments for Model
+Here, adjustments are made to summary statistics where data is insufficient.  
+* If a team only appears 1 time, the number is adjusted to 2.  
+* If the SD is 0, this is adjusted to .075.  
+* Last, if a large SD is observed with few hits recorded, this value is reduced.  
 
+```{r, eval = FALSE}
 
 StateSimParams$Hits <- unlist(StateSimParams$Hits)
 StateSimParams$Misses <- unlist(StateSimParams$Misses)
@@ -152,5 +163,5 @@ StateSimParams$HitsSD <- ifelse(StateSimParams$HitsSD>.3&StateSimParams$Hits<=3,
                                 ifelse(StateSimParams$HitsSD>.2&StateSimParams$Hits<=4,
                                        StateSimParams$HitsSD*.8,StateSimParams$HitsSD))
 
-
+```
 
